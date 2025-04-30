@@ -6,14 +6,14 @@ This repository contains the code, data, and evaluation framework described in t
 
 We define a taxonomy of linguistic ambiguity (polysemy, homonymy, idiomatic, syntactic, figurative) and propose a three-stage pipeline leveraging Chain-of-Thought prompting and ReAct-based external validation to generate and evaluate puzzles.
 
-## 📌 Features
+## Features
 
 - Taxonomy of ambiguity types
 - Puzzle generation pipeline (Least-to-Most → ReAct → Reverse CoT)
 - Automatic ambiguity metrics (sense count, ambiguous word ratio, stagewise growth)
 - Prompt engineering for controlled ambiguity injection
 
-## 🛠️ Code Structure
+## Code Structure
 
 - `pipeline/` – Puzzle generation and validation pipeline (Python scripts)
 - `data/` – Sample puzzles, ambiguity logs, WordNet outputs
@@ -21,11 +21,11 @@ We define a taxonomy of linguistic ambiguity (polysemy, homonymy, idiomatic, syn
 - `metrics/` – Evaluation scripts and metric computation
 - `notebooks/` – Jupyter notebooks for analysis and visualization
 
-## 📊 Example Output
+## Example Output
 
 - Puzzle with 4 groups, each with ambiguity annotations
 - Chain of Thought trace with external validation log
 
-## 🧠 Citation
+## Citation
 
 Coming soon (ACL submission)
