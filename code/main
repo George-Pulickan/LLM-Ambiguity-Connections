@@ -1,0 +1,280 @@
+import json
+import time
+import nltk
+from nltk.corpus import wordnet as wn
+import re
+import ast
+from openai import OpenAI
+
+# Initialize OpenAI client
+client = OpenAI(api_key="")  # 🔒 Replace with your actual API key
+
+# --- Stage 1: Puzzle Generation with Least-to-Most Reasoning and Taxonomy ---
+
+def build_prompt(level: int) -> str:
+    """
+    Builds a prompt for generating a word group, incorporating the full ambiguity taxonomy.
+    Emphasizes clear Python list output.
+    """
+    base = "You are creating a Connections-style puzzle. Each group must contain exactly 4 related words or phrases.\n"
+    if level == 1:
+        task = "Group 1: Choose 4 words that belong to a clearly defined semantic category (e.g., colors: red, blue, green, yellow)."
+    elif level == 2:
+        task = "Group 2: Choose 4 words with slightly overlapping or flexible meanings (e.g., tools: hammer, saw, drill, wrench)."
+    elif level == 3:
+        task = "Group 3: Choose 4 words that exhibit polysemy (multiple related senses, e.g., 'bank' as riverbank or financial institution) or homonymy (same spelling/pronunciation, distinct meanings, e.g., 'bat' as animal or sports equipment)."
+    else:
+        task = ("Group 4: Choose 4 words or phrases that exhibit idiomatic ambiguity (phrases with non-literal meanings, e.g., 'break the ice'), "
+                "syntactic ambiguity (words that create ambiguous sentence structures, e.g., 'saw' in 'he saw the man with a telescope'), "
+                "or figurative ambiguity (metaphorical meanings, e.g., 'light' as brightness or metaphorical hope).")
+    reasoning = ("\nExplain your reasoning step by step, specifying the ambiguity type (polysemy, homonymy, idiomatic, syntactic, figurative) "
+                "for each word or phrase. At the end, provide the 4 final words/phrases as a Python list in the format: ['word1', 'word2', 'word3', 'word4']. "
+                "Ensure the list is complete and correctly formatted.")
+    return base + task + reasoning
+
+def get_response(prompt: str, model: str = "gpt-4o") -> str:
+    """
+    Sends a prompt to the OpenAI API and retrieves the response.
+    Uses higher max_tokens to prevent truncation.
+    """
+    print("Sending prompt to model...")
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": "You are an expert puzzle designer specializing in linguistic ambiguity. Always provide a complete Python list as requested."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.7,
+            max_tokens=800  # Increased to accommodate detailed responses
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        print(f"Error in API call: {e}")
+        return ""
+
+def generate_stage1_groups(puzzle_id: int) -> list:
+    """
+    Generates 4 groups for a single puzzle, each with increasing ambiguity.
+    """
+    results = []
+    for level in range(1, 5):
+        print(f"\n=== Generating Group {level} for Puzzle {puzzle_id} ===")
+        prompt = build_prompt(level)
+        reply = get_response(prompt)
+        if reply:
+            ambiguity_types = extract_ambiguity_types(reply)
+            results.append({
+                "group_number": level,
+                "prompt": prompt,
+                "response": reply,
+                "ambiguity_types": ambiguity_types
+            })
+        time.sleep(2)  # Increased delay for rate limits
+    return results
+
+def extract_ambiguity_types(response: str) -> dict:
+    """
+    Extracts ambiguity types from CoT reasoning using a more flexible heuristic.
+    """
+    types = {}
+    words = extract_word_list_from_response(response)
+    response_lower = response.lower()
+    for word in words:
+        word_lower = word.lower()
+        if any(f"{t} for {word_lower}" in response_lower or f"{word_lower} is {t}" in response_lower or f"{word_lower} ({t}" in response_lower for t in ["polysemy", "homonymy"]):
+            types[word] = "polysemy" if "polysemy" in response_lower else "homonymy"
+        elif any(f"{t} for {word_lower}" in response_lower or f"{word_lower} is {t}" in response_lower or f"{word_lower} ({t}" in response_lower for t in ["idiomatic", "syntactic", "figurative"]):
+            types[word] = next(t for t in ["idiomatic", "syntactic", "figurative"] if t in response_lower)
+        else:
+            types[word] = "unknown"
+    return types
+
+# --- Stage 2: WordNet Validation with Taxonomy ---
+
+def get_wordnet_info(word: str) -> dict:
+    """
+    Retrieves WordNet information with taxonomy-based checks.
+    """
+    is_phrase = len(word.split()) > 1
+    if is_phrase:
+        return {
+            "word": word,
+            "sense_count": 0,
+            "definitions": ["Idiomatic phrase, non-literal meaning"],
+            "ambiguity_type": "idiomatic"
+        }
+    
+    synsets = wn.synsets(word)
+    senses = [syn.definition() for syn in synsets]
+    ambiguity_type = "polysemy"
+    if any("metaphor" in defn.lower() or "figurative" in defn.lower() for defn in senses):
+        ambiguity_type = "figurative"
+    elif len(synsets) > 1 and len(set(syn.pos() for syn in synsets)) > 1:
+        ambiguity_type = "homonymy"
+    
+    return {
+        "word": word,
+        "sense_count": len(senses),
+        "definitions": senses[:5],
+        "ambiguity_type": ambiguity_type
+    }
+
+def extract_word_list_from_response(response_text: str) -> list:
+    """
+    Extracts the word list from a response, with fallback to extract words from reasoning.
+    """
+    # Try regex for Python list
+    match = re.search(r"\['.*?'\]", response_text, re.DOTALL)
+    if match:
+        try:
+            return ast.literal_eval(match.group())
+        except:
+            print(f"Failed to parse word list from: {match.group()}")
+    
+    # Fallback: extract words mentioned in reasoning
+    words = []
+    lines = response_text.split('\n')
+    for line in lines:
+        # Look for lines with numbered items (e.g., "1. Bark")
+        match = re.match(r'\d+\.\s*([^\s].*?)(?=\s*\-|\s*$)', line.strip())
+        if match:
+            word = match.group(1).strip().strip('"\'').replace('**', '')
+            if word and len(word.split()) <= 3:  # Limit phrase length
+                words.append(word)
+    return words[:4]  # Ensure exactly 4 words
+
+def verify_group_with_wordnet(group: dict) -> dict:
+    """
+    Validates a group's words using WordNet.
+    """
+    word_list = extract_word_list_from_response(group["response"])
+    group_verification = []
+    for word in word_list:
+        info = get_wordnet_info(word)
+        group_verification.append(info)
+    return {
+        "group_number": group["group_number"],
+        "words": word_list,
+        "verification": group_verification
+    }
+
+def run_stage2_on_groups(stage1_groups: list, puzzle_id: int) -> list:
+    """
+    Runs WordNet validation on all groups.
+    """
+    stage2_results = []
+    for group in stage1_groups:
+        result = verify_group_with_wordnet(group)
+        stage2_results.append(result)
+    return stage2_results
+
+# --- Stage 3: Reverse Chain-of-Thought (RCoT) Verification ---
+
+def build_rcot_prompt(word_list: list) -> str:
+    """
+    Builds an RCoT prompt for taxonomy verification.
+    """
+    intro = ("You are verifying a word puzzle group. The group contains the following words or phrases:\n")
+    group_line = f"{word_list}\n\n"
+    task = ("For each word or phrase, explain why it belongs in the group, focusing on its ambiguity type "
+            "(polysemy, homonymy, idiomatic, syntactic, figurative). Describe how its multiple meanings or interpretations "
+            "relate to the theme of ambiguity.")
+    return intro + group_line + task
+
+def ask_rcot(prompt: str, model: str = "gpt-4o") -> str:
+    """
+    Sends an RCoT prompt to the OpenAI API.
+    """
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": "You are a puzzle auditor verifying semantic ambiguity per a defined taxonomy."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.5,
+            max_tokens=800
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        print(f"Error in RCoT API call: {e}")
+        return ""
+
+def run_rcot_on_stage2(stage2_groups: list, puzzle_id: int) -> list:
+    """
+    Runs RCoT verification on all groups.
+    """
+    results = []
+    for group in stage2_groups:
+        words = group["words"]
+        if not words:
+            print(f"Skipping empty word list for group {group['group_number']}")
+            continue
+        prompt = build_rcot_prompt(words)
+        print(f"Verifying group {group['group_number']} with RCoT for Puzzle {puzzle_id}...")
+        reply = ask_rcot(prompt)
+        if reply:
+            results.append({
+                "group_number": group["group_number"],
+                "words": words,
+                "prompt": prompt,
+                "rcot_response": reply
+            })
+        time.sleep(2)
+    return results
+
+# --- Main Pipeline: Generate Puzzles ---
+
+def save_to_file(data: list, filename: str):
+    """
+    Saves data to a JSON file.
+    """
+    with open(filename, "w") as f:
+        json.dump(data, f, indent=2)
+    print(f"Saved results to {filename}")
+
+def generate_puzzles(num_puzzles: int):
+    """
+    Generates a specified number of puzzles with full ambiguity taxonomy.
+    """
+    all_puzzles = []
+    for puzzle_id in range(1, num_puzzles + 1):
+        print(f"\n=== Processing Puzzle {puzzle_id} ===")
+        
+        # Stage 1
+        stage1_groups = generate_stage1_groups(puzzle_id)
+        stage1_file = f"puzzle_{puzzle_id}_stage1_output.json"
+        save_to_file(stage1_groups, stage1_file)
+        
+        # Stage 2
+        stage2_groups = run_stage2_on_groups(stage1_groups, puzzle_id)
+        stage2_file = f"puzzle_{puzzle_id}_stage2_react_output.json"
+        save_to_file(stage2_groups, stage2_file)
+        
+        # Stage 3
+        stage3_groups = run_rcot_on_stage2(stage2_groups, puzzle_id)
+        stage3_file = f"puzzle_{puzzle_id}_stage3_rcot_output.json"
+        save_to_file(stage3_groups, stage3_file)
+        
+        all_puzzles.append({
+            "puzzle_id": puzzle_id,
+            "stage1_file": stage1_file,
+            "stage2_file": stage2_file,
+            "stage3_file": stage3_file
+        })
+    
+    save_to_file(all_puzzles, "all_puzzles_summary.json")
+
+# --- Execution ---
+
+if __name__ == "__main__":
+    nltk.download('wordnet', quiet=True)
+    try:
+        num_puzzles = int(input("생성할 퍼즐 수를 입력하세요 (예: 10): "))
+        if num_puzzles <= 0:
+            raise ValueError("퍼즐 수는 1 이상이어야 합니다.")
+        generate_puzzles(num_puzzles)
+    except ValueError as e:
+        print(f"입력 오류: {e}. 기본값 10으로 설정합니다.")
+        generate_puzzles(10)
