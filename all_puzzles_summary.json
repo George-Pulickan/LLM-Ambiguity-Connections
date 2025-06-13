@@ -1,0 +1,8 @@
+[
+  {
+    "puzzle_id": 1,
+    "stage1_file": "puzzle_1_stage1_output.json",
+    "stage2_file": "puzzle_1_stage2_react_output.json",
+    "stage3_file": "puzzle_1_stage3_rcot_output.json"
+  }
+]

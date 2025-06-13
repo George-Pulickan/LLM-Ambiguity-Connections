@@ -29,3 +29,25 @@ We define a taxonomy of linguistic ambiguity (polysemy, homonymy, idiomatic, syn
 ## Citation
 
 Coming soon (ACL submission)
+
+## Running `code/main`
+
+The primary script for generating puzzles is `code/main`. To run it:
+
+1.  **Set your OpenAI API Key**: This script requires an OpenAI API key to function. Set it as an environment variable:
+    ```bash
+    export OPENAI_API_KEY='your_actual_api_key_here'
+    ```
+    Replace `'your_actual_api_key_here'` with your valid OpenAI API key.
+
+2.  **Run the script**:
+    ```bash
+    python code/main
+    ```
+    The script will prompt you to enter the number of puzzles you wish to generate.
+
+3.  **Dependencies**: Ensure you have `nltk` and `openai` installed in your Python environment. If not, you can typically install them using pip:
+    ```bash
+    pip install nltk openai
+    ```
+    The script will attempt to download the `wordnet` corpus from NLTK automatically upon first run.

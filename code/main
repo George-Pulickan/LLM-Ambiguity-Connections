@@ -4,10 +4,13 @@ import nltk
 from nltk.corpus import wordnet as wn
 import re
 import ast
+import os
 from openai import OpenAI
 
 # Initialize OpenAI client
-client = OpenAI(api_key="")  # 🔒 Replace with your actual API key
+# Ensure the OPENAI_API_KEY environment variable is set before running the script.
+# For example, in your terminal: export OPENAI_API_KEY='your_api_key_here'
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))  # 🔒 Replace with your actual API key
 
 # --- Stage 1: Puzzle Generation with Least-to-Most Reasoning and Taxonomy ---
 
