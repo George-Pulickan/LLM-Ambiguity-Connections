@@ -28,7 +28,14 @@ from pathlib import Path
 from openai import OpenAI
 
 PROMPTS_DIR = Path(__file__).resolve().parent.parent / "prompts"
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+_client = None
+
+
+def client() -> OpenAI:
+    global _client
+    if _client is None:
+        _client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+    return _client
 
 
 def load_real(words_file, answers_file, limit=None):
@@ -71,16 +78,43 @@ def parse_solution(text):
     return []
 
 
+REASONING_PREFIXES = ("o1", "o3", "o4", "gpt-5")
+
+
+def is_reasoning_model(model: str) -> bool:
+    return model.lower().startswith(REASONING_PREFIXES)
+
+
 def solve(puzzle, model, strategy, temperature):
     template = (PROMPTS_DIR / f"solver_{strategy}.txt").read_text()
     prompt = template.format(words=", ".join(str(w) for w in puzzle["words"]))
-    response = client.chat.completions.create(
-        model=model,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=temperature,
-        max_tokens=2000,
-    )
+    if is_reasoning_model(model):
+        # Reasoning models reject `temperature` and use `max_completion_tokens`;
+        # the budget includes hidden reasoning tokens, so it is set much higher.
+        response = client().chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            max_completion_tokens=16000,
+        )
+    else:
+        response = client().chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=temperature,
+            max_tokens=2000,
+        )
     return response.choices[0].message.content
+
+
+def wilson_ci(k: int, n: int, z: float = 1.96):
+    """95% Wilson score interval for a binomial proportion."""
+    if n == 0:
+        return (float("nan"), float("nan"))
+    p = k / n
+    denom = 1 + z * z / n
+    center = (p + z * z / (2 * n)) / denom
+    half = z * ((p * (1 - p) / n + z * z / (4 * n * n)) ** 0.5) / denom
+    return (max(0.0, center - half), min(1.0, center + half))
 
 
 def main():
@@ -129,7 +163,7 @@ def main():
         group_correct += n_correct
         group_total += len(gold)
         for gset, level in gold.items():
-            if level is None:
+            if level not in (0, 1, 2, 3):  # None (generated) or -1 (unlabeled archive entries)
                 continue
             level_total[level] = level_total.get(level, 0) + 1
             if gset in predicted:
@@ -151,10 +185,12 @@ def main():
         "model": args.model,
         "strategy": args.strategy,
         "dataset": args.dataset if args.dataset == "real" else args.file,
-        "temperature": args.temperature,
+        "temperature": None if is_reasoning_model(args.model) else args.temperature,
         "n_puzzles": n,
         "solve_rate": solved / n if n else None,
+        "solve_rate_ci95": wilson_ci(solved, n),
         "group_accuracy": group_correct / group_total if group_total else None,
+        "group_accuracy_ci95": wilson_ci(group_correct, group_total),
         "per_level_accuracy": {
             str(lv): level_correct.get(lv, 0) / level_total[lv] for lv in sorted(level_total)
         },
