@@ -60,39 +60,46 @@
   },
   "real_nyt_by_level": {
     "level_0": {
-      "mean_senses": 7.502369668246446,
-      "ambiguous_ratio": 0.8595971563981043,
-      "highly_ambiguous_ratio": 0.5485781990521327,
-      "phrase_ratio": 0.008886255924170616,
-      "n_groups": 422
+      "mean_senses": 7.905421686746988,
+      "ambiguous_ratio": 0.8799196787148594,
+      "highly_ambiguous_ratio": 0.5866465863453816,
+      "phrase_ratio": 0.017448856799037304,
+      "n_groups": 831
     },
     "level_1": {
-      "mean_senses": 8.10347551342812,
-      "ambiguous_ratio": 0.879739336492891,
-      "highly_ambiguous_ratio": 0.6204581358609795,
-      "phrase_ratio": 0.007701421800947867,
-      "n_groups": 422
+      "mean_senses": 8.251306795335747,
+      "ambiguous_ratio": 0.8859067149175714,
+      "highly_ambiguous_ratio": 0.614193807800563,
+      "phrase_ratio": 0.019253910950661854,
+      "n_groups": 831
     },
     "level_2": {
-      "mean_senses": 7.801464766429136,
-      "ambiguous_ratio": 0.8509501187648456,
-      "highly_ambiguous_ratio": 0.5603721298495645,
-      "phrase_ratio": 0.013033175355450236,
-      "n_groups": 422
+      "mean_senses": 7.404171704957679,
+      "ambiguous_ratio": 0.8339379282547359,
+      "highly_ambiguous_ratio": 0.5348649738008868,
+      "phrase_ratio": 0.026173285198555957,
+      "n_groups": 831
     },
     "level_3": {
-      "mean_senses": 6.352685624012637,
-      "ambiguous_ratio": 0.8191153238546602,
-      "highly_ambiguous_ratio": 0.49111374407582936,
-      "phrase_ratio": 0.007701421800947867,
-      "n_groups": 422
+      "mean_senses": 6.053413654618473,
+      "ambiguous_ratio": 0.7839357429718875,
+      "highly_ambiguous_ratio": 0.46566265060240963,
+      "phrase_ratio": 0.021961492178098677,
+      "n_groups": 831
+    },
+    "level_unlabeled": {
+      "mean_senses": 6.708825310323948,
+      "ambiguous_ratio": 0.7898879806236755,
+      "highly_ambiguous_ratio": 0.48380260369361194,
+      "phrase_ratio": 0.0978356890459364,
+      "n_groups": 1132
     }
   },
   "real_nyt_overall": {
-    "mean_senses": 7.439784627543965,
-    "ambiguous_ratio": 0.8523513139695711,
-    "highly_ambiguous_ratio": 0.555127445168939,
-    "phrase_ratio": 0.009330568720379146,
-    "n_groups": 1688
+    "mean_senses": 7.2302090408271065,
+    "ambiguous_ratio": 0.8319560787865067,
+    "highly_ambiguous_ratio": 0.5337521696475737,
+    "phrase_ratio": 0.040675493716337524,
+    "n_groups": 4456
   }
 }

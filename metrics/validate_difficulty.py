@@ -40,12 +40,20 @@ def main():
     args = parser.parse_args()
 
     answers = json.load(open(args.answers))
+    # The archive stopped recording official levels on 2025-09-20; those
+    # groups carry level -1 and must be excluded from level-based validation.
     groups, levels, puzzle_ids = [], [], []
+    skipped = 0
     for puzzle in answers:
+        if any(ans["level"] not in (0, 1, 2, 3) for ans in puzzle["answers"]):
+            skipped += 1
+            continue
         for ans in puzzle["answers"]:
             groups.append(ans["members"])
             levels.append(ans["level"])
             puzzle_ids.append(puzzle["id"])
+    if skipped:
+        print(f"Excluded {skipped} puzzles without official difficulty labels")
 
     print(f"Scoring {len(groups)} groups from {len(answers)} puzzles with {args.model}...")
     sims = batch_group_similarity(groups, args.model)

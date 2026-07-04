@@ -6,3 +6,4 @@ sentence-transformers>=2.6
 matplotlib>=3.7
 # fine-tuning notebooks additionally require:
 # transformers, datasets, torch, scikit-learn
+certifi>=2024.0

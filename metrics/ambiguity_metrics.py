@@ -94,8 +94,11 @@ def main():
     real_by_level = defaultdict(list)
     for puzzle in answers:
         for ans in puzzle["answers"]:
-            real_by_level[ans["level"]].append(word_stats(ans["members"]))
-    real = {f"level_{lv}": aggregate(real_by_level[lv]) for lv in sorted(real_by_level)}
+            # level -1 marks archive entries without official difficulty labels;
+            # keep them in the overall stats but out of the per-level breakdown
+            key = ans["level"] if ans["level"] in (0, 1, 2, 3) else "unlabeled"
+            real_by_level[key].append(word_stats(ans["members"]))
+    real = {f"level_{lv}": aggregate(real_by_level[lv]) for lv in sorted(real_by_level, key=str)}
 
     all_gen = [r for recs in by_level.values() for r in recs]
     all_real = [r for recs in real_by_level.values() for r in recs]
@@ -117,7 +120,7 @@ def main():
         print(f"  group {lv}: mean senses {a['mean_senses']:.2f}, ambiguous ratio {a['ambiguous_ratio']:.2f}, "
               f"phrase ratio {a['phrase_ratio']:.2f} (n={a['n_groups']})")
     print("Real NYT groups:")
-    for lv in sorted(real_by_level):
+    for lv in sorted(real_by_level, key=str):
         a = aggregate(real_by_level[lv])
         print(f"  level {lv}: mean senses {a['mean_senses']:.2f}, ambiguous ratio {a['ambiguous_ratio']:.2f} "
               f"(n={a['n_groups']})")

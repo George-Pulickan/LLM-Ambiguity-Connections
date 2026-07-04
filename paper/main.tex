@@ -22,7 +22,7 @@
 \maketitle
 
 \begin{abstract}
-The New York Times' \emph{Connections} puzzle asks players to partition sixteen words into four themed groups, and derives much of its difficulty from linguistic ambiguity: words that could plausibly belong to several groups. We present a framework for \emph{generating} Connections-style puzzles with controlled, amplified ambiguity. We (i) define a taxonomy of five ambiguity types (polysemy, homonymy, idiomatic, syntactic, and figurative); (ii) propose a three-stage generation pipeline that combines least-to-most Chain-of-Thought prompting, ReAct-style external validation against WordNet, and Reverse Chain-of-Thought auditing; and (iii) \emph{validate} the embedding-based difficulty metric used to evaluate generated puzzles against ground truth, rather than assuming it. On 422 official NYT puzzles (1,688 groups), intra-group embedding similarity correlates significantly with the official difficulty levels (Spearman $\rho = -0.449$, $p < 10^{-83}$) and orders group pairs within a puzzle correctly 70\% of the time. Groups produced by our pipeline are measurably harder under this validated metric than both real NYT groups and single-prompt GPT-4o groups ($p < 10^{-4}$), and exhibit a clear ambiguity ladder: mean WordNet sense counts rise from 6.1 to 25.0 across the pipeline's four difficulty tiers, while idiomatic multi-word phrases rise from 0\% to 50\%. All prompts, code, data, and every reported number are released for full reproducibility.
+The New York Times' \emph{Connections} puzzle asks players to partition sixteen words into four themed groups, and derives much of its difficulty from linguistic ambiguity: words that could plausibly belong to several groups. We present a framework for \emph{generating} Connections-style puzzles with controlled, amplified ambiguity. We (i) define a taxonomy of five ambiguity types (polysemy, homonymy, idiomatic, syntactic, and figurative); (ii) propose a three-stage generation pipeline that combines least-to-most Chain-of-Thought prompting, ReAct-style external validation against WordNet, and Reverse Chain-of-Thought auditing; and (iii) \emph{validate} the embedding-based difficulty metric used to evaluate generated puzzles against ground truth, rather than assuming it. On 830 official NYT puzzles with ground-truth difficulty labels (3,320 groups), intra-group embedding similarity correlates significantly with the official difficulty levels (Spearman $\rho = -0.441$, $p < 10^{-157}$) and orders group pairs within a puzzle correctly 70\% of the time. Groups produced by our pipeline are measurably harder under this validated metric than both real NYT groups ($p = 1.5\times10^{-3}$) and single-prompt GPT-4o groups ($p = 2.7\times10^{-4}$), and exhibit a clear ambiguity ladder: mean WordNet sense counts rise from 6.1 to 25.0 across the pipeline's four difficulty tiers, while idiomatic multi-word phrases rise from 0\% to 50\%. All prompts, code, data, and every reported number are released for full reproducibility.
 \end{abstract}
 
 \section{Introduction}
@@ -36,7 +36,7 @@ We address both gaps. Our contributions are:
 \begin{itemize}[leftmargin=*, itemsep=1pt, topsep=2pt]
     \item \textbf{A taxonomy of linguistic ambiguity for word puzzles} (\S\ref{sec:taxonomy}) covering polysemy, homonymy, idiomatic, syntactic, and figurative ambiguity, with an operationalization in WordNet \citep{miller1995wordnet}.
     \item \textbf{A three-stage generation pipeline} (\S\ref{sec:pipeline}) that amplifies ambiguity by construction: least-to-most Chain-of-Thought generation of four groups with escalating ambiguity \citep{zhou2023least, wei2022chain}, ReAct-style external validation against WordNet \citep{yao2023react}, and Reverse Chain-of-Thought auditing \citep{xue2023rcot}. All prompts are given verbatim in Appendix~\ref{app:prompts}.
-    \item \textbf{A validation of the difficulty metric itself} (\S\ref{sec:validation}): on 422 official NYT puzzles with ground-truth difficulty levels, mean intra-group embedding similarity correlates with official difficulty at $\rho=-0.449$ ($p<10^{-83}$) and achieves 70\% pairwise ordering accuracy within puzzles---validating the metric as a coarse difficulty signal while quantifying its limits.
+    \item \textbf{A validation of the difficulty metric itself} (\S\ref{sec:validation}): on 830 official NYT puzzles with ground-truth difficulty levels, mean intra-group embedding similarity correlates with official difficulty at $\rho=-0.441$ ($p<10^{-157}$) and achieves 70\% pairwise ordering accuracy within puzzles---validating the metric as a coarse difficulty signal while quantifying its limits.
     \item \textbf{A corpus-level analysis} (\S\ref{sec:results}) showing that the pipeline realizes the intended ambiguity ladder (mean sense counts 6.1$\rightarrow$25.0; idiomatic phrase ratio 0$\rightarrow$0.5 across tiers) and produces groups that are harder under the validated metric than real NYT groups and single-prompt GPT-4o baselines.
     \item \textbf{A complete, released experimental stack}: generation pipeline, metrics, figures, datasets, and a documented solver-evaluation harness, so that every number in this paper can be regenerated from a single repository.
 \end{itemize}
@@ -73,7 +73,7 @@ We distinguish five ambiguity types, chosen because each corresponds to a distin
 \section{Puzzle Constraints}
 \label{sec:constraints}
 
-The NYT publishes no official construction rules. From an analysis of 422 published puzzles (\S\ref{sec:data}) and the constraints identified by \citet{merino2024making}, we adopt the following necessary conditions for a valid puzzle:
+The NYT publishes no official construction rules. From an analysis of 1,114 published puzzles (\S\ref{sec:data}) and the constraints identified by \citet{merino2024making}, we adopt the following necessary conditions for a valid puzzle:
 
 \begin{enumerate}[leftmargin=*, itemsep=1pt, topsep=2pt]
     \item The puzzle contains exactly 16 unique words, partitioned into 4 groups of 4; each word is used exactly once.
@@ -133,12 +133,12 @@ where $e(\cdot)$ is a sentence-embedding function (all-mpnet-base-v2; \citealp{r
 
 \subsection{Ground-truth validation}
 \label{sec:data}
-An automatic generator evaluated only by an automatic metric is circular unless the metric is itself validated. We therefore test $D$ against ground truth: the NYT assigns every published group a difficulty level 0--3 (yellow, green, blue, purple). Our evaluation corpus contains 422 official puzzles (June 2023 onward; 1,688 groups), obtained from the community-maintained NYT-Connections-Answers archive\footnote{\url{https://github.com/Eyefyre/NYT-Connections-Answers}} and redistributed in the repository as \texttt{Real\_Data.json} / \texttt{Real\_Data\_Ans.json}; puzzle words and solutions are facts about the published games, used here for non-commercial research.
+An automatic generator evaluated only by an automatic metric is circular unless the metric is itself validated. We therefore test $D$ against ground truth: the NYT assigns every published group a difficulty level 0--3 (yellow, green, blue, purple). Our corpus contains all 1,114 puzzles published from 2023-06-12 through 2026-07-04, obtained from the community-maintained NYT-Connections-Answers archive\footnote{\url{https://github.com/Eyefyre/NYT-Connections-Answers}; refreshed reproducibly by \texttt{data/update\_real\_data.py}.} and redistributed in the repository as \texttt{Real\_Data.json} / \texttt{Real\_Data\_Ans.json}; puzzle words and solutions are facts about the published games, used here for non-commercial research. The archive records official difficulty labels for the 830 puzzles through 2025-09-19; these 3,320 labeled groups form the validation set, while all 4,452 groups enter the level-free analyses of \S\ref{sec:results}.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{figures/metric_validation.pdf}
-\caption{Intra-group embedding similarity (Eq.~\ref{eq:difficulty}) against official NYT difficulty levels for 1,688 groups from 422 puzzles. Similarity decreases monotonically with official difficulty.}
+\caption{Intra-group embedding similarity (Eq.~\ref{eq:difficulty}) against official NYT difficulty levels for 3,320 groups from 830 puzzles. Similarity decreases monotonically with official difficulty.}
 \label{fig:validation}
 \end{figure}
 
@@ -148,20 +148,20 @@ An automatic generator evaluated only by an automatic metric is circular unless 
 \toprule
 \textbf{Official level} & \textbf{Mean $D(G)$} & $n$ \\
 \midrule
-0 (yellow, easiest) & $0.349 \pm 0.102$ & 422 \\
-1 (green)           & $0.324 \pm 0.089$ & 422 \\
-2 (blue)            & $0.292 \pm 0.081$ & 422 \\
-3 (purple, hardest) & $0.251 \pm 0.067$ & 422 \\
+0 (yellow, easiest) & $0.337 \pm 0.091$ & 830 \\
+1 (green)           & $0.311 \pm 0.079$ & 830 \\
+2 (blue)            & $0.284 \pm 0.073$ & 830 \\
+3 (purple, hardest) & $0.245 \pm 0.061$ & 830 \\
 \midrule
-Spearman $\rho$ (level, $D$) & \multicolumn{2}{c}{$-0.449$ ($p < 10^{-83}$)} \\
-Pairwise ordering acc. & \multicolumn{2}{c}{$0.700$ (1{,}769/2{,}526)} \\
+Spearman $\rho$ (level, $D$) & \multicolumn{2}{c}{$-0.441$ ($p < 10^{-157}$)} \\
+Pairwise ordering acc. & \multicolumn{2}{c}{$0.701$ (3{,}485/4{,}974)} \\
 \bottomrule
 \end{tabular}
 \caption{Validation of the difficulty metric against ground-truth NYT levels. Ordering accuracy: fraction of within-puzzle group pairs with distinct official levels that the metric ranks in the official order (chance $=0.5$).}
 \label{tab:validation}
 \end{table}
 
-Table~\ref{tab:validation} and Figure~\ref{fig:validation} show the result. Mean similarity decreases monotonically across all four official levels; the group-level Spearman correlation is $\rho=-0.449$ ($p<10^{-83}$), and within puzzles the metric orders 70.0\% of comparable group pairs in agreement with the NYT's own ordering (chance 50\%).
+Table~\ref{tab:validation} and Figure~\ref{fig:validation} show the result. Mean similarity decreases monotonically across all four official levels; the group-level Spearman correlation is $\rho=-0.441$ ($p<10^{-157}$), and within puzzles the metric orders 70.1\% of comparable group pairs in agreement with the NYT's own ordering (chance 50\%).
 
 \paragraph{Interpretation.} The metric is a real but \emph{coarse} difficulty signal: it reliably separates the easiest from the hardest tiers yet misorders 30\% of adjacent pairs. Inspection of failures shows they concentrate in wordplay categories (e.g., ``\_\_\_ + fish'' completions or palindromes) whose difficulty is orthogonal to semantic diversity. We therefore treat $D$ as evidence of relative hardness at corpus level, not as a per-puzzle oracle, and we complement it with the ambiguity measures of \S\ref{sec:results}. This addresses directly the circularity concern raised against automatic-generation-plus-automatic-evaluation designs.
 
@@ -189,16 +189,16 @@ Table~\ref{tab:validation} and Figure~\ref{fig:validation} show the result. Mean
 3 & 14.9 & 1.00 & 0.98 & 0.00 \\
 4 & 25.0 & 0.92 & 0.92 & 0.50 \\
 \midrule
-NYT & 7.4 & 0.85 & 0.56 & 0.01 \\
+NYT & 7.2 & 0.83 & 0.53 & 0.04 \\
 \bottomrule
 \end{tabular}
-\caption{Ambiguity metrics by pipeline tier (50 groups per tier) vs.\ all real NYT groups (1,688). \emph{Senses}: mean WordNet sense count of single-word members. \emph{Ambig.\ ratio}: fraction with $\geq 2$ senses. \emph{Phrases}: fraction of multi-word members.}
+\caption{Ambiguity metrics by pipeline tier (50 groups per tier) vs.\ all real NYT groups (4,456). \emph{Senses}: mean WordNet sense count of single-word members. \emph{Ambig.\ ratio}: fraction with $\geq 2$ senses. \emph{Phrases}: fraction of multi-word members.}
 \label{tab:ladder}
 \end{table}
 
-Table~\ref{tab:ladder} and Figure~\ref{fig:ladder} track ambiguity across the four tiers of the 50-puzzle corpus. The intended ladder is realized: tier-1 groups look like real NYT groups (6.1 vs.\ 7.4 mean senses), while tiers 2--4 are far more lexically ambiguous than anything typical of the official game---tier-4 items average 25.0 senses among single words, and half of tier-4 items are multi-word idiomatic expressions, matching that tier's idiomatic/figurative target. The Stage-2 typology shifts accordingly, from homonymy/polysemy-dominated tiers 2--3 to an idiom-heavy tier 4. Tiers 2 and 3 are statistically indistinguishable in sense count, an honest signal that ``flexible category'' and ``polysemy/homonymy'' prompts recruit similar vocabulary; collapsing them is a candidate simplification.
+Table~\ref{tab:ladder} and Figure~\ref{fig:ladder} track ambiguity across the four tiers of the 50-puzzle corpus. The intended ladder is realized: tier-1 groups look like real NYT groups (6.1 vs.\ 7.2 mean senses), while tiers 2--4 are far more lexically ambiguous than anything typical of the official game---tier-4 items average 25.0 senses among single words, and half of tier-4 items are multi-word idiomatic expressions, matching that tier's idiomatic/figurative target. The Stage-2 typology shifts accordingly, from homonymy/polysemy-dominated tiers 2--3 to an idiom-heavy tier 4. Tiers 2 and 3 are statistically indistinguishable in sense count, an honest signal that ``flexible category'' and ``polysemy/homonymy'' prompts recruit similar vocabulary; collapsing them is a candidate simplification.
 
-Notably, in the \emph{real} game, mean sense counts are flat across official levels (7.5, 8.1, 7.8, 6.3 for levels 0--3): NYT difficulty is driven by cross-group interaction and wordplay rather than lexical ambiguity of members. Lexical ambiguity is thus a \emph{new} difficulty axis that generated puzzles can push far beyond the official distribution.
+Notably, in the \emph{real} game, mean sense counts do not increase with official difficulty (7.9, 8.3, 7.4, 6.1 for levels 0--3---if anything, the hardest tier uses the \emph{least} ambiguous single words): NYT difficulty is driven by cross-group interaction and wordplay rather than lexical ambiguity of members. Lexical ambiguity is thus a \emph{new} difficulty axis that generated puzzles can push far beyond the official distribution.
 
 \subsection{Are pipeline groups harder under the validated metric?}
 
@@ -215,16 +215,18 @@ Notably, in the \emph{real} game, mean sense counts are flat across official lev
 \toprule
 \textbf{Source} & $n$ & \textbf{Mean $D(G)$} & $p$ vs.\ real \\
 \midrule
-Real NYT groups        & 1{,}688 & $0.304 \pm 0.093$ & --- \\
-GPT-4o single-prompt   & 6{,}016 & $0.299 \pm 0.097$ & $6.0\times10^{-3}$ \\
-Ambiguity pipeline     & 200     & $0.275 \pm 0.126$ & $1.0\times10^{-5}$ \\
+Real NYT groups        & 4{,}452 & $0.289 \pm 0.081$ & --- \\
+GPT-4o single-prompt   & 6{,}016 & $0.299 \pm 0.097$ & $4.9\times10^{-3}$ \\
+Ambiguity pipeline     & 200     & $0.275 \pm 0.126$ & $1.5\times10^{-3}$ \\
 \bottomrule
 \end{tabular}
 \caption{Intra-group similarity by source (Mann--Whitney $U$ vs.\ real NYT groups). The single-prompt baseline is the 2,000-puzzle GPT-4o synthetic set generated without the ambiguity pipeline.}
 \label{tab:comparison}
 \end{table}
 
-Table~\ref{tab:comparison} and Figure~\ref{fig:comparison} compare three sources under Eq.~\ref{eq:difficulty}. Single-prompt GPT-4o puzzles are only marginally more diverse than real ones ($0.299$ vs.\ $0.304$), whereas pipeline groups shift substantially ($0.275$, $p=1.0\times10^{-5}$), with a heavier low-similarity tail (Figure~\ref{fig:comparison}). Combined with Table~\ref{tab:ladder}, this supports the central claim: \emph{explicitly targeting the ambiguity taxonomy, with external validation, produces measurably harder groups than either human construction or naive LLM generation}---as measured by a metric whose relationship to ground-truth difficulty we quantified rather than assumed.
+Table~\ref{tab:comparison} and Figure~\ref{fig:comparison} compare three sources under Eq.~\ref{eq:difficulty}. Pipeline groups are the most semantically diverse of the three sources, significantly harder than both real NYT groups ($0.275$ vs.\ $0.289$, $p=1.5\times10^{-3}$) and single-prompt GPT-4o groups ($0.275$ vs.\ $0.299$, $p=2.7\times10^{-4}$), with a heavier low-similarity tail (Figure~\ref{fig:comparison}); single-prompt generation, by contrast, is slightly \emph{easier} than the current official game. Combined with Table~\ref{tab:ladder}, this supports the central claim: \emph{explicitly targeting the ambiguity taxonomy, with external validation, produces measurably harder groups than either human construction or naive LLM generation}---as measured by a metric whose relationship to ground-truth difficulty we quantified rather than assumed.
+
+\paragraph{The official game is drifting harder.} Splitting the real corpus at the archive's labeling horizon reveals that NYT groups published after September 2025 are substantially more diverse ($0.275 \pm 0.070$, $n{=}1{,}132$) than earlier ones ($0.294 \pm 0.084$, $n{=}3{,}320$; Mann--Whitney $p=1.6\times10^{-9}$)---the editors are converging toward exactly the semantic-diversity regime our pipeline targets. Difficulty comparisons against ``the'' NYT distribution are therefore time-dependent, which is one more reason to anchor evaluation in a validated metric and versioned data snapshots rather than a fixed human reference.
 
 \section{Solver Evaluation Protocol}
 \label{sec:solver}
@@ -233,13 +235,13 @@ Difficulty for \emph{machine} solvers is the natural third axis. The repository 
 
 \section{Conclusion}
 
-We reframed Connections puzzle generation around its core difficulty mechanism---linguistic ambiguity---via a five-type taxonomy, a generate-validate-audit pipeline that amplifies ambiguity by construction, and, critically, a ground-truth validation of the embedding-based difficulty metric that generation studies in this space rely on. The validated metric ($\rho=-0.449$; 70\% pairwise ordering accuracy on 422 official puzzles) shows pipeline-generated groups to be harder than both real and naively generated ones, and WordNet-based measures confirm the pipeline's ambiguity ladder is realized in the output. Beyond Connections, the pattern---\emph{taxonomize the difficulty mechanism, generate against it, validate the evaluator}---applies to procedural generation of word games generally.
+We reframed Connections puzzle generation around its core difficulty mechanism---linguistic ambiguity---via a five-type taxonomy, a generate-validate-audit pipeline that amplifies ambiguity by construction, and, critically, a ground-truth validation of the embedding-based difficulty metric that generation studies in this space rely on. The validated metric ($\rho=-0.441$; 70\% pairwise ordering accuracy on 830 official puzzles) shows pipeline-generated groups to be harder than both real and naively generated ones, and WordNet-based measures confirm the pipeline's ambiguity ladder is realized in the output. Beyond Connections, the pattern---\emph{taxonomize the difficulty mechanism, generate against it, validate the evaluator}---applies to procedural generation of word games generally.
 
 \section{Limitations}
 \label{sec:limitations}
 
 \textbf{No human evaluation yet.} All evaluation is automatic. The difficulty metric is validated against NYT editorial levels, which encode the editors' intent rather than measured human solve behavior, and no property akin to ``fun'' or ``fairness'' is measured; a group can be diverse yet unsolvable. Appendix~\ref{app:human} specifies the human study this work requires before any claim about player experience.
-\textbf{Metric coarseness.} The validated correlation is moderate ($\rho=-0.449$); 30\% of within-puzzle orderings disagree with ground truth, concentrated in wordplay categories. Corpus-level comparisons are supported; per-puzzle difficulty certification is not.
+\textbf{Metric coarseness.} The validated correlation is moderate ($\rho=-0.441$); 30\% of within-puzzle orderings disagree with ground truth, concentrated in wordplay categories. Corpus-level comparisons are supported; per-puzzle difficulty certification is not.
 \textbf{WordNet as ambiguity oracle.} Sense counts conflate polysemy with homonymy, under-represent idioms, and miss proper-noun senses (e.g., \emph{Jordan} as country vs.\ athlete), and the homonymy/figurative heuristics of Stage 2 are simple. \textbf{Pipeline scope.} Stage 3 audits groups independently; cross-group decoy structure---a hallmark of expert NYT construction---is not yet explicitly optimized. \textbf{Single generator family.} Generation used GPT-4o; generality across model families is untested. \textbf{Puzzle-type coverage.} Purely orthographic categories (palindromes, hidden words) fall outside a semantic-ambiguity taxonomy and are correspondingly outside the pipeline's current reach.
 
 \section*{Ethics Statement}
@@ -293,7 +295,7 @@ The direct, CoT, and ToT solver prompts used by the released harness are in \tex
 \section{Dataset details}
 \label{app:data}
 
-\textbf{Real puzzles.} 422 official puzzles (2023-06-12 onward), 1,688 groups, with per-group official difficulty levels 0--3, from the public NYT-Connections-Answers archive (see \S\ref{sec:data}). \textbf{Single-prompt synthetic set.} 2,000 training / 400 test puzzles generated with GPT-4o from a single prompt without the ambiguity pipeline (6,016 unique parsed groups after deduplication and cleaning). \textbf{Pipeline corpus.} 50 puzzles $\times$ 4 tiers with all stage-wise artifacts. Exact file formats and regeneration commands are documented in the repository README.
+\textbf{Real puzzles.} 1,114 official puzzles (2023-06-12 through 2026-07-04; 4,456 groups) from the public NYT-Connections-Answers archive, refreshed reproducibly by \texttt{data/update\_real\_data.py}; the 830 puzzles through 2025-09-19 carry per-group official difficulty levels 0--3 and form the metric-validation set (see \S\ref{sec:data}). \textbf{Single-prompt synthetic set.} 2,000 training / 400 test puzzles generated with GPT-4o from a single prompt without the ambiguity pipeline (6,016 unique parsed groups after deduplication and cleaning). \textbf{Pipeline corpus.} 50 puzzles $\times$ 4 tiers with all stage-wise artifacts. Exact file formats and regeneration commands are documented in the repository README.
 
 \section{Human evaluation protocol (designed, not yet run)}
 \label{app:human}

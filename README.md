@@ -6,19 +6,22 @@ difficulty metric used to evaluate them against ground truth** instead of assumi
 
 Every number, table, and figure in the paper regenerates from this repository.
 
-## Headline results (all reproducible below)
+## Headline results (all reproducible below; data current through 2026-07-04)
 
-- **Difficulty-metric validation** — on 422 official NYT puzzles (1,688 groups with
+- **Difficulty-metric validation** — on 830 official NYT puzzles (3,320 groups with
   ground-truth difficulty levels 0–3), intra-group embedding similarity correlates with
-  official difficulty at **Spearman ρ = −0.449** (p < 1e−83), decreases monotonically
-  per level (0.349 → 0.324 → 0.292 → 0.251), and orders within-puzzle group pairs
+  official difficulty at **Spearman ρ = −0.441** (p < 1e−157), decreases monotonically
+  per level (0.337 → 0.311 → 0.284 → 0.245), and orders within-puzzle group pairs
   correctly **70%** of the time (chance 50%).
 - **Ambiguity ladder realized** — across the pipeline's four tiers, mean WordNet sense
   counts rise 6.1 → 16.4 → 14.9 → 25.0 and idiomatic multi-word phrases rise 0% → 50%,
-  while real NYT groups sit at 7.4 senses regardless of official level.
+  while real NYT groups sit at ~7.2 senses regardless of official level.
 - **Harder groups** — pipeline groups score 0.275 ± 0.126 mean intra-group similarity
-  vs 0.304 ± 0.093 for real NYT groups (Mann-Whitney p = 1e−5) and 0.299 ± 0.097 for
-  single-prompt GPT-4o generation.
+  vs 0.289 ± 0.081 for real NYT groups (Mann-Whitney p = 1.5e−3) and 0.299 ± 0.097 for
+  single-prompt GPT-4o generation (p = 2.7e−4).
+- **The official game is drifting harder** — NYT groups published after Sept 2025
+  average 0.275 similarity vs 0.294 before (p = 1.6e−9), converging toward the
+  semantic-diversity regime the pipeline targets.
 
 ## Repository layout
 
@@ -48,8 +51,9 @@ Every number, table, and figure in the paper regenerates from this repository.
 │   ├── dataset_comparison.json
 │   └── figures/                  # PNG previews
 ├── data/gpt4o/json_files/        # 50-puzzle pipeline corpus (all stage-wise artifacts)
-├── Real_Data.json                # 422 official NYT boards (16 words each)
-├── Real_Data_Ans.json            # official solutions with per-group difficulty levels
+├── data/update_real_data.py      # refreshes the real dataset from the public archive
+├── Real_Data.json                # 1,114 official NYT boards (16 words each, seeded shuffle)
+├── Real_Data_Ans.json            # official solutions; levels 0-3 recorded through 2025-09-19
 ├── Training_Data.json            # 2,000 single-prompt GPT-4o synthetic puzzles (baseline)
 ├── Testing_Data.json             # 400 held-out synthetic puzzles
 ├── Llama_Model_*.ipynb           # Llama fine-tuning notebooks (real / synthetic / mixed)
@@ -58,7 +62,9 @@ Every number, table, and figure in the paper regenerates from this repository.
 
 **Dataset provenance:** real puzzles come from the community-maintained
 [NYT-Connections-Answers](https://github.com/Eyefyre/NYT-Connections-Answers) archive
-(puzzles from 2023-06-12 onward), used for non-commercial research.
+(puzzles from 2023-06-12 onward; the archive stops recording official difficulty labels
+after 2025-09-19), used for non-commercial research. Refresh with
+`python data/update_real_data.py`, then re-run the metrics below.
 
 ## Reproduce every number in the paper
 
