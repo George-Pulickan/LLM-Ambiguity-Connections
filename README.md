@@ -1,10 +1,11 @@
 # LLM Ambiguity & Connections Puzzles
 
-> **Project direction (July 2026):** this work is evolving into
-> **"Mind the Gap: Adversarial Synthesis of Human-Easy, Machine-Hard Word Puzzles"** —
-> see [PROPOSAL.md](PROPOSAL.md). Everything below (validated difficulty metric, datasets,
-> solver harness, generation pipeline) carries over as infrastructure and baselines for
-> that project.
+> **Status: PARKED (July 2026).** Development is paused. The repository is left in a
+> fully reproducible state: the revised paper compiles (`paper/main.pdf`), every reported
+> number regenerates from committed code and data, and `REVIEWER_RESPONSE.md` records the
+> revision history. To resume, the cheapest path is the solver-run plan in
+> [`experiments/README.md`](experiments/README.md) (one weekend + API key → workshop
+> submission); the larger successor design is in [PROPOSAL.md](PROPOSAL.md).
 
 ## Tracking and Amplifying Linguistic Ambiguity in LLM-Generated Connections Puzzles
 
