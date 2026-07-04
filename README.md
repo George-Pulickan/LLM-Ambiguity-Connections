@@ -1,4 +1,12 @@
-# Tracking and Amplifying Linguistic Ambiguity in LLM-Generated Connections Puzzles
+# LLM Ambiguity & Connections Puzzles
+
+> **Project direction (July 2026):** this work is evolving into
+> **"Mind the Gap: Adversarial Synthesis of Human-Easy, Machine-Hard Word Puzzles"** —
+> see [PROPOSAL.md](PROPOSAL.md). Everything below (validated difficulty metric, datasets,
+> solver harness, generation pipeline) carries over as infrastructure and baselines for
+> that project.
+
+## Tracking and Amplifying Linguistic Ambiguity in LLM-Generated Connections Puzzles
 
 Code, data, and paper for a framework that generates NYT *Connections*-style puzzles
 with controlled, amplified linguistic ambiguity — and, critically, **validates the
