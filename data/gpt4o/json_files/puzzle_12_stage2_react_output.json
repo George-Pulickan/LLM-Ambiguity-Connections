@@ -1,0 +1,225 @@
+[
+  {
+    "group_number": 1,
+    "words": [
+      "Bass",
+      "Harp",
+      "Cello",
+      "Flute"
+    ],
+    "verification": [
+      {
+        "word": "Bass",
+        "sense_count": 9,
+        "definitions": [
+          "the lowest part of the musical range",
+          "the lowest part in polyphonic music",
+          "an adult male singer with the lowest voice",
+          "the lean flesh of a saltwater fish of the family Serranidae",
+          "any of various North American freshwater fish with lean flesh (especially of the genus Micropterus)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Harp",
+        "sense_count": 5,
+        "definitions": [
+          "a chordophone that has a triangular frame consisting of a sounding board and a pillar and a curved neck; the strings stretched between the neck and the soundbox are plucked with the fingers",
+          "a pair of curved vertical supports for a lampshade",
+          "a small rectangular free-reed instrument having a row of free reeds set back in air holes and played by blowing into the desired hole",
+          "come back to",
+          "play the harp"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Cello",
+        "sense_count": 1,
+        "definitions": [
+          "a large stringed instrument; seated player holds it upright while playing"
+        ],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "Flute",
+        "sense_count": 4,
+        "definitions": [
+          "a high-pitched woodwind instrument; a slender tube closed at one end with finger holes on one end and an opening near the closed end across which the breath is blown",
+          "a tall narrow wineglass",
+          "a groove or furrow in cloth etc (particularly a shallow concave groove on the shaft of a column)",
+          "form flutes in"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 2,
+    "words": [
+      "Light",
+      "Shade",
+      "Glow",
+      "Flash"
+    ],
+    "verification": [
+      {
+        "word": "Light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Shade",
+        "sense_count": 13,
+        "definitions": [
+          "relative darkness caused by light rays being intercepted by an opaque body",
+          "a quality of a given color that differs slightly from another color",
+          "protective covering that protects something from direct sunlight",
+          "a subtle difference in meaning or opinion or attitude",
+          "a position of relative inferiority"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Glow",
+        "sense_count": 12,
+        "definitions": [
+          "an alert and refreshed state",
+          "light from nonthermal sources",
+          "the phenomenon of light emission by a body as its temperature is raised",
+          "a feeling of considerable warmth",
+          "a steady even light without flames"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Flash",
+        "sense_count": 19,
+        "definitions": [
+          "a sudden intense burst of radiant energy",
+          "a momentary brightness",
+          "a short vivid experience",
+          "a sudden brilliant understanding",
+          "a very short time (as the time it takes the eye to blink or the heart to beat)"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 3,
+    "words": [
+      "Spring",
+      "Bark",
+      "Crane",
+      "Leaves"
+    ],
+    "verification": [
+      {
+        "word": "Spring",
+        "sense_count": 11,
+        "definitions": [
+          "the season of growth",
+          "a metal elastic device that returns to its shape or position when pushed or pulled or pressed",
+          "a natural flow of ground water",
+          "a point at which water issues forth",
+          "the elasticity of something that can be stretched and returns to its original length"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Crane",
+        "sense_count": 6,
+        "definitions": [
+          "United States writer (1871-1900)",
+          "United States poet (1899-1932)",
+          "a small constellation in the southern hemisphere near Phoenix",
+          "lifts and moves heavy objects; lifting tackle is suspended from a pivoted boom that rotates around a vertical axis",
+          "large long-necked wading bird of marshes and plains in many parts of the world"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Leaves",
+        "sense_count": 20,
+        "definitions": [
+          "the main organ of photosynthesis and transpiration in higher plants",
+          "a sheet of any written or printed material (especially in a manuscript or book)",
+          "hinged or detachable flat section (as of a table or door)",
+          "the period of time during which you are absent from work or duty",
+          "permission to do something"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 4,
+    "words": [
+      "Break the Ice",
+      "Saw",
+      "Light",
+      "Cold Feet"
+    ],
+    "verification": [
+      {
+        "word": "Break the Ice",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Saw",
+        "sense_count": 28,
+        "definitions": [
+          "a condensed but memorable saying embodying some important fact of experience that is taken as true by many people",
+          "hand tool having a toothed blade for cutting",
+          "a power tool for cutting wood",
+          "cut with a saw",
+          "perceive by sight or have the power to perceive by sight"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Cold Feet",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      }
+    ]
+  }
+]

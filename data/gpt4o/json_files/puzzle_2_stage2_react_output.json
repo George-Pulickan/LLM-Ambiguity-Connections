@@ -1,0 +1,226 @@
+[
+  {
+    "group_number": 1,
+    "words": [
+      "Bass",
+      "Harp",
+      "Organ",
+      "Cello"
+    ],
+    "verification": [
+      {
+        "word": "Bass",
+        "sense_count": 9,
+        "definitions": [
+          "the lowest part of the musical range",
+          "the lowest part in polyphonic music",
+          "an adult male singer with the lowest voice",
+          "the lean flesh of a saltwater fish of the family Serranidae",
+          "any of various North American freshwater fish with lean flesh (especially of the genus Micropterus)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Harp",
+        "sense_count": 5,
+        "definitions": [
+          "a chordophone that has a triangular frame consisting of a sounding board and a pillar and a curved neck; the strings stretched between the neck and the soundbox are plucked with the fingers",
+          "a pair of curved vertical supports for a lampshade",
+          "a small rectangular free-reed instrument having a row of free reeds set back in air holes and played by blowing into the desired hole",
+          "come back to",
+          "play the harp"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Organ",
+        "sense_count": 6,
+        "definitions": [
+          "a fully differentiated structural and functional unit in an animal that is specialized for some particular function",
+          "a government agency or instrument devoted to the performance of some specific function",
+          "(music) an electronic simulation of a pipe organ",
+          "a periodical that is published by a special interest group",
+          "wind instrument whose sound is produced by means of pipes arranged in sets supplied with air from a bellows and controlled from a large complex musical keyboard"
+        ],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "Cello",
+        "sense_count": 1,
+        "definitions": [
+          "a large stringed instrument; seated player holds it upright while playing"
+        ],
+        "ambiguity_type": "polysemy"
+      }
+    ]
+  },
+  {
+    "group_number": 2,
+    "words": [
+      "Pitch",
+      "Bark",
+      "Seal",
+      "Draft"
+    ],
+    "verification": [
+      {
+        "word": "Pitch",
+        "sense_count": 22,
+        "definitions": [
+          "the property of sound that varies with variation in the frequency of vibration",
+          "(baseball) the act of throwing a baseball by a pitcher to a batter",
+          "a vendor's position (especially on the sidewalk)",
+          "promotion by means of an argument and demonstration",
+          "degree of deviation from a horizontal plane"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Seal",
+        "sense_count": 15,
+        "definitions": [
+          "fastener consisting of a resinous composition that is plastic when warm; used for sealing documents and parcels and letters",
+          "a device incised to make an impression; used to secure a closing or to authenticate documents",
+          "the pelt or fur (especially the underfur) of a seal",
+          "a member of a Naval Special Warfare unit who is trained for unconventional warfare",
+          "a stamp affixed to a document (as to attest to its authenticity or to seal it)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Draft",
+        "sense_count": 14,
+        "definitions": [
+          "a document ordering the payment of money; drawn by one person or bank on another",
+          "a current of air (usually coming into a chimney or room or vehicle)",
+          "a preliminary sketch of a design or picture",
+          "a serving of drink (usually alcoholic) drawn from a keg",
+          "any of the various versions in the development of a written work"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 3,
+    "words": [
+      "bark",
+      "bat",
+      "light",
+      "crane"
+    ],
+    "verification": [
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "bat",
+        "sense_count": 10,
+        "definitions": [
+          "nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate",
+          "(baseball) a turn trying to get a hit",
+          "a small racket with a long handle used for playing squash",
+          "the club used in playing cricket",
+          "a club used for hitting a ball in various games"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "crane",
+        "sense_count": 6,
+        "definitions": [
+          "United States writer (1871-1900)",
+          "United States poet (1899-1932)",
+          "a small constellation in the southern hemisphere near Phoenix",
+          "lifts and moves heavy objects; lifting tackle is suspended from a pivoted boom that rotates around a vertical axis",
+          "large long-necked wading bird of marshes and plains in many parts of the world"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 4,
+    "words": [
+      "Break the ice",
+      "Duck",
+      "Flying planes can be dangerous",
+      "Light"
+    ],
+    "verification": [
+      {
+        "word": "Break the ice",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Duck",
+        "sense_count": 8,
+        "definitions": [
+          "small wild or domesticated web-footed broad-billed swimming bird usually having a depressed body and short legs",
+          "(cricket) a score of nothing by a batsman",
+          "flesh of a duck (domestic or wild)",
+          "a heavy cotton fabric of plain weave; used for clothing and tents",
+          "to move (the head or body) quickly downwards or away"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Flying planes can be dangerous",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  }
+]

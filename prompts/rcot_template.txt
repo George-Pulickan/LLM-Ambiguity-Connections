@@ -1,0 +1,4 @@
+You are verifying a word puzzle group. The group contains the following words or phrases:
+{word_list}
+
+For each word or phrase, explain why it belongs in the group, focusing on its ambiguity type (polysemy, homonymy, idiomatic, syntactic, figurative). Describe how its multiple meanings or interpretations relate to the theme of ambiguity.

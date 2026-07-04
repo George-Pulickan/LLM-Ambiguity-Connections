@@ -1,0 +1,8473 @@
+{
+  "model": "all-mpnet-base-v2",
+  "n_puzzles": 422,
+  "n_groups": 1688,
+  "spearman_rho": -0.44936523710841453,
+  "spearman_p": 1.1370845420064203e-84,
+  "per_level": {
+    "0": {
+      "mean_similarity": 0.34870880343296573,
+      "std": 0.10195311017255526,
+      "n": 422
+    },
+    "1": {
+      "mean_similarity": 0.32366044619113304,
+      "std": 0.08909561203600397,
+      "n": 422
+    },
+    "2": {
+      "mean_similarity": 0.29151596918504974,
+      "std": 0.08085587102018295,
+      "n": 422
+    },
+    "3": {
+      "mean_similarity": 0.25061599332927526,
+      "std": 0.06675798019744694,
+      "n": 422
+    }
+  },
+  "pairwise_ordering_accuracy": 0.7003167062549486,
+  "pairwise_comparisons": 2526,
+  "per_group_scores": [
+    {
+      "puzzle_id": 1,
+      "level": 0,
+      "similarity": 0.5637449622154236
+    },
+    {
+      "puzzle_id": 1,
+      "level": 1,
+      "similarity": 0.35639649629592896
+    },
+    {
+      "puzzle_id": 1,
+      "level": 2,
+      "similarity": 0.25775812566280365
+    },
+    {
+      "puzzle_id": 1,
+      "level": 3,
+      "similarity": 0.2265657919148604
+    },
+    {
+      "puzzle_id": 2,
+      "level": 0,
+      "similarity": 0.39026498297850293
+    },
+    {
+      "puzzle_id": 2,
+      "level": 1,
+      "similarity": 0.3711688319842021
+    },
+    {
+      "puzzle_id": 2,
+      "level": 2,
+      "similarity": 0.24197393655776978
+    },
+    {
+      "puzzle_id": 2,
+      "level": 3,
+      "similarity": 0.1783867875734965
+    },
+    {
+      "puzzle_id": 3,
+      "level": 0,
+      "similarity": 0.48955145478248596
+    },
+    {
+      "puzzle_id": 3,
+      "level": 1,
+      "similarity": 0.30177414665619534
+    },
+    {
+      "puzzle_id": 3,
+      "level": 2,
+      "similarity": 0.24910799165566763
+    },
+    {
+      "puzzle_id": 3,
+      "level": 3,
+      "similarity": 0.20694031566381454
+    },
+    {
+      "puzzle_id": 4,
+      "level": 0,
+      "similarity": 0.5871205826600393
+    },
+    {
+      "puzzle_id": 4,
+      "level": 1,
+      "similarity": 0.23631796737511954
+    },
+    {
+      "puzzle_id": 4,
+      "level": 2,
+      "similarity": 0.45083749790986377
+    },
+    {
+      "puzzle_id": 4,
+      "level": 3,
+      "similarity": 0.2803385332226753
+    },
+    {
+      "puzzle_id": 5,
+      "level": 0,
+      "similarity": 0.3029155309001605
+    },
+    {
+      "puzzle_id": 5,
+      "level": 1,
+      "similarity": 0.42469881226619083
+    },
+    {
+      "puzzle_id": 5,
+      "level": 2,
+      "similarity": 0.2988382528225581
+    },
+    {
+      "puzzle_id": 5,
+      "level": 3,
+      "similarity": 0.39272912343343097
+    },
+    {
+      "puzzle_id": 6,
+      "level": 0,
+      "similarity": 0.21875590334335962
+    },
+    {
+      "puzzle_id": 6,
+      "level": 1,
+      "similarity": 0.21068859100341797
+    },
+    {
+      "puzzle_id": 6,
+      "level": 2,
+      "similarity": 0.20670938740173975
+    },
+    {
+      "puzzle_id": 6,
+      "level": 3,
+      "similarity": 0.2723711108167966
+    },
+    {
+      "puzzle_id": 7,
+      "level": 0,
+      "similarity": 0.6262225906054179
+    },
+    {
+      "puzzle_id": 7,
+      "level": 1,
+      "similarity": 0.32629842559496564
+    },
+    {
+      "puzzle_id": 7,
+      "level": 2,
+      "similarity": 0.18822978685299555
+    },
+    {
+      "puzzle_id": 7,
+      "level": 3,
+      "similarity": 0.22722348695000014
+    },
+    {
+      "puzzle_id": 8,
+      "level": 0,
+      "similarity": 0.4174681454896927
+    },
+    {
+      "puzzle_id": 8,
+      "level": 1,
+      "similarity": 0.30676670372486115
+    },
+    {
+      "puzzle_id": 8,
+      "level": 2,
+      "similarity": 0.2714984317620595
+    },
+    {
+      "puzzle_id": 8,
+      "level": 3,
+      "similarity": 0.2770957152048747
+    },
+    {
+      "puzzle_id": 9,
+      "level": 0,
+      "similarity": 0.33461515853802365
+    },
+    {
+      "puzzle_id": 9,
+      "level": 1,
+      "similarity": 0.25396107385555905
+    },
+    {
+      "puzzle_id": 9,
+      "level": 2,
+      "similarity": 0.5087945759296417
+    },
+    {
+      "puzzle_id": 9,
+      "level": 3,
+      "similarity": 0.48241957525412243
+    },
+    {
+      "puzzle_id": 10,
+      "level": 0,
+      "similarity": 0.3240586817264557
+    },
+    {
+      "puzzle_id": 10,
+      "level": 1,
+      "similarity": 0.31226614614327747
+    },
+    {
+      "puzzle_id": 10,
+      "level": 2,
+      "similarity": 0.25423837701479596
+    },
+    {
+      "puzzle_id": 10,
+      "level": 3,
+      "similarity": 0.23084706316391626
+    },
+    {
+      "puzzle_id": 11,
+      "level": 0,
+      "similarity": 0.44755569597085315
+    },
+    {
+      "puzzle_id": 11,
+      "level": 1,
+      "similarity": 0.3644404287139575
+    },
+    {
+      "puzzle_id": 11,
+      "level": 2,
+      "similarity": 0.468609556555748
+    },
+    {
+      "puzzle_id": 11,
+      "level": 3,
+      "similarity": 0.27435849606990814
+    },
+    {
+      "puzzle_id": 12,
+      "level": 0,
+      "similarity": 0.294853334625562
+    },
+    {
+      "puzzle_id": 12,
+      "level": 1,
+      "similarity": 0.4966629445552826
+    },
+    {
+      "puzzle_id": 12,
+      "level": 2,
+      "similarity": 0.3843858639399211
+    },
+    {
+      "puzzle_id": 12,
+      "level": 3,
+      "similarity": 0.2978861679633458
+    },
+    {
+      "puzzle_id": 13,
+      "level": 0,
+      "similarity": 0.2432698185245196
+    },
+    {
+      "puzzle_id": 13,
+      "level": 1,
+      "similarity": 0.23123006522655487
+    },
+    {
+      "puzzle_id": 13,
+      "level": 2,
+      "similarity": 0.4395705312490463
+    },
+    {
+      "puzzle_id": 13,
+      "level": 3,
+      "similarity": 0.17655425518751144
+    },
+    {
+      "puzzle_id": 14,
+      "level": 0,
+      "similarity": 0.26092613985141117
+    },
+    {
+      "puzzle_id": 14,
+      "level": 1,
+      "similarity": 0.33392922580242157
+    },
+    {
+      "puzzle_id": 14,
+      "level": 2,
+      "similarity": 0.29137973859906197
+    },
+    {
+      "puzzle_id": 14,
+      "level": 3,
+      "similarity": 0.2675739452242851
+    },
+    {
+      "puzzle_id": 15,
+      "level": 0,
+      "similarity": 0.2521972308556239
+    },
+    {
+      "puzzle_id": 15,
+      "level": 1,
+      "similarity": 0.6218382716178894
+    },
+    {
+      "puzzle_id": 15,
+      "level": 2,
+      "similarity": 0.4003627623120944
+    },
+    {
+      "puzzle_id": 15,
+      "level": 3,
+      "similarity": 0.2388345276316007
+    },
+    {
+      "puzzle_id": 16,
+      "level": 0,
+      "similarity": 0.5519095559914907
+    },
+    {
+      "puzzle_id": 16,
+      "level": 1,
+      "similarity": 0.5671962201595306
+    },
+    {
+      "puzzle_id": 16,
+      "level": 2,
+      "similarity": 0.33971603711446124
+    },
+    {
+      "puzzle_id": 16,
+      "level": 3,
+      "similarity": 0.2778705308834712
+    },
+    {
+      "puzzle_id": 17,
+      "level": 0,
+      "similarity": 0.28626270592212677
+    },
+    {
+      "puzzle_id": 17,
+      "level": 1,
+      "similarity": 0.35702698429425556
+    },
+    {
+      "puzzle_id": 17,
+      "level": 2,
+      "similarity": 0.18832750370105109
+    },
+    {
+      "puzzle_id": 17,
+      "level": 3,
+      "similarity": 0.19146115829547247
+    },
+    {
+      "puzzle_id": 18,
+      "level": 0,
+      "similarity": 0.28510116537412006
+    },
+    {
+      "puzzle_id": 18,
+      "level": 1,
+      "similarity": 0.45173319925864536
+    },
+    {
+      "puzzle_id": 18,
+      "level": 2,
+      "similarity": 0.19934206952651343
+    },
+    {
+      "puzzle_id": 18,
+      "level": 3,
+      "similarity": 0.236813485622406
+    },
+    {
+      "puzzle_id": 19,
+      "level": 0,
+      "similarity": 0.3594692200422287
+    },
+    {
+      "puzzle_id": 19,
+      "level": 1,
+      "similarity": 0.2618667508165042
+    },
+    {
+      "puzzle_id": 19,
+      "level": 2,
+      "similarity": 0.5029150644938151
+    },
+    {
+      "puzzle_id": 19,
+      "level": 3,
+      "similarity": 0.33284728477398556
+    },
+    {
+      "puzzle_id": 20,
+      "level": 0,
+      "similarity": 0.3893989870945613
+    },
+    {
+      "puzzle_id": 20,
+      "level": 1,
+      "similarity": 0.46950729191303253
+    },
+    {
+      "puzzle_id": 20,
+      "level": 2,
+      "similarity": 0.2865510682264964
+    },
+    {
+      "puzzle_id": 20,
+      "level": 3,
+      "similarity": 0.21972631166378656
+    },
+    {
+      "puzzle_id": 21,
+      "level": 0,
+      "similarity": 0.37376120686531067
+    },
+    {
+      "puzzle_id": 21,
+      "level": 1,
+      "similarity": 0.3952811931570371
+    },
+    {
+      "puzzle_id": 21,
+      "level": 2,
+      "similarity": 0.46061644454797107
+    },
+    {
+      "puzzle_id": 21,
+      "level": 3,
+      "similarity": 0.30497478942076367
+    },
+    {
+      "puzzle_id": 22,
+      "level": 0,
+      "similarity": 0.4680296878019969
+    },
+    {
+      "puzzle_id": 22,
+      "level": 1,
+      "similarity": 0.46626941363016766
+    },
+    {
+      "puzzle_id": 22,
+      "level": 2,
+      "similarity": 0.21457976351181665
+    },
+    {
+      "puzzle_id": 22,
+      "level": 3,
+      "similarity": 0.2242309426267942
+    },
+    {
+      "puzzle_id": 23,
+      "level": 0,
+      "similarity": 0.2865902855992317
+    },
+    {
+      "puzzle_id": 23,
+      "level": 1,
+      "similarity": 0.20472460985183716
+    },
+    {
+      "puzzle_id": 23,
+      "level": 2,
+      "similarity": 0.3472827474276225
+    },
+    {
+      "puzzle_id": 23,
+      "level": 3,
+      "similarity": 0.23425776263078055
+    },
+    {
+      "puzzle_id": 24,
+      "level": 0,
+      "similarity": 0.18539495393633842
+    },
+    {
+      "puzzle_id": 24,
+      "level": 1,
+      "similarity": 0.2747132529815038
+    },
+    {
+      "puzzle_id": 24,
+      "level": 2,
+      "similarity": 0.31014328201611835
+    },
+    {
+      "puzzle_id": 24,
+      "level": 3,
+      "similarity": 0.18672138328353563
+    },
+    {
+      "puzzle_id": 25,
+      "level": 0,
+      "similarity": 0.3929351617892583
+    },
+    {
+      "puzzle_id": 25,
+      "level": 1,
+      "similarity": 0.227666096140941
+    },
+    {
+      "puzzle_id": 25,
+      "level": 2,
+      "similarity": 0.37459737559159595
+    },
+    {
+      "puzzle_id": 25,
+      "level": 3,
+      "similarity": 0.25903767844041187
+    },
+    {
+      "puzzle_id": 26,
+      "level": 0,
+      "similarity": 0.6041442255179087
+    },
+    {
+      "puzzle_id": 26,
+      "level": 1,
+      "similarity": 0.3466166506210963
+    },
+    {
+      "puzzle_id": 26,
+      "level": 2,
+      "similarity": 0.20498629411061606
+    },
+    {
+      "puzzle_id": 26,
+      "level": 3,
+      "similarity": 0.23820955554644266
+    },
+    {
+      "puzzle_id": 27,
+      "level": 0,
+      "similarity": 0.26927803705135983
+    },
+    {
+      "puzzle_id": 27,
+      "level": 1,
+      "similarity": 0.4931872437397639
+    },
+    {
+      "puzzle_id": 27,
+      "level": 2,
+      "similarity": 0.283261018494765
+    },
+    {
+      "puzzle_id": 27,
+      "level": 3,
+      "similarity": 0.3027372832099597
+    },
+    {
+      "puzzle_id": 28,
+      "level": 0,
+      "similarity": 0.2872505610187848
+    },
+    {
+      "puzzle_id": 28,
+      "level": 1,
+      "similarity": 0.29007432361443836
+    },
+    {
+      "puzzle_id": 28,
+      "level": 2,
+      "similarity": 0.3285718709230423
+    },
+    {
+      "puzzle_id": 28,
+      "level": 3,
+      "similarity": 0.5648659666379293
+    },
+    {
+      "puzzle_id": 29,
+      "level": 0,
+      "similarity": 0.40678367018699646
+    },
+    {
+      "puzzle_id": 29,
+      "level": 1,
+      "similarity": 0.3487910081942876
+    },
+    {
+      "puzzle_id": 29,
+      "level": 2,
+      "similarity": 0.2755708123246829
+    },
+    {
+      "puzzle_id": 29,
+      "level": 3,
+      "similarity": 0.16827966024478277
+    },
+    {
+      "puzzle_id": 30,
+      "level": 0,
+      "similarity": 0.34831024954716366
+    },
+    {
+      "puzzle_id": 30,
+      "level": 1,
+      "similarity": 0.24063099175691605
+    },
+    {
+      "puzzle_id": 30,
+      "level": 2,
+      "similarity": 0.5410856157541275
+    },
+    {
+      "puzzle_id": 30,
+      "level": 3,
+      "similarity": 0.2449042946100235
+    },
+    {
+      "puzzle_id": 31,
+      "level": 0,
+      "similarity": 0.47212674220403034
+    },
+    {
+      "puzzle_id": 31,
+      "level": 1,
+      "similarity": 0.4041765133539836
+    },
+    {
+      "puzzle_id": 31,
+      "level": 2,
+      "similarity": 0.3030256951848666
+    },
+    {
+      "puzzle_id": 31,
+      "level": 3,
+      "similarity": 0.23678446312745413
+    },
+    {
+      "puzzle_id": 32,
+      "level": 0,
+      "similarity": 0.38900796075661975
+    },
+    {
+      "puzzle_id": 32,
+      "level": 1,
+      "similarity": 0.2718775098522504
+    },
+    {
+      "puzzle_id": 32,
+      "level": 2,
+      "similarity": 0.23620155453681946
+    },
+    {
+      "puzzle_id": 32,
+      "level": 3,
+      "similarity": 0.21089249104261398
+    },
+    {
+      "puzzle_id": 33,
+      "level": 0,
+      "similarity": 0.3204589808980624
+    },
+    {
+      "puzzle_id": 33,
+      "level": 1,
+      "similarity": 0.22213618581493697
+    },
+    {
+      "puzzle_id": 33,
+      "level": 2,
+      "similarity": 0.2749763752023379
+    },
+    {
+      "puzzle_id": 33,
+      "level": 3,
+      "similarity": 0.27685222526391345
+    },
+    {
+      "puzzle_id": 34,
+      "level": 0,
+      "similarity": 0.6347674230734507
+    },
+    {
+      "puzzle_id": 34,
+      "level": 1,
+      "similarity": 0.31666527688503265
+    },
+    {
+      "puzzle_id": 34,
+      "level": 2,
+      "similarity": 0.2504927193125089
+    },
+    {
+      "puzzle_id": 34,
+      "level": 3,
+      "similarity": 0.3243892913063367
+    },
+    {
+      "puzzle_id": 35,
+      "level": 0,
+      "similarity": 0.4649227112531662
+    },
+    {
+      "puzzle_id": 35,
+      "level": 1,
+      "similarity": 0.4973695973555247
+    },
+    {
+      "puzzle_id": 35,
+      "level": 2,
+      "similarity": 0.3256184657414754
+    },
+    {
+      "puzzle_id": 35,
+      "level": 3,
+      "similarity": 0.19512353340784708
+    },
+    {
+      "puzzle_id": 36,
+      "level": 0,
+      "similarity": 0.6268594960371653
+    },
+    {
+      "puzzle_id": 36,
+      "level": 1,
+      "similarity": 0.30108413348595303
+    },
+    {
+      "puzzle_id": 36,
+      "level": 2,
+      "similarity": 0.28807011246681213
+    },
+    {
+      "puzzle_id": 36,
+      "level": 3,
+      "similarity": 0.27746327221393585
+    },
+    {
+      "puzzle_id": 37,
+      "level": 0,
+      "similarity": 0.4444037427504857
+    },
+    {
+      "puzzle_id": 37,
+      "level": 1,
+      "similarity": 0.24648690472046533
+    },
+    {
+      "puzzle_id": 37,
+      "level": 2,
+      "similarity": 0.2110583484172821
+    },
+    {
+      "puzzle_id": 37,
+      "level": 3,
+      "similarity": 0.2955678701400757
+    },
+    {
+      "puzzle_id": 38,
+      "level": 0,
+      "similarity": 0.49700914820035297
+    },
+    {
+      "puzzle_id": 38,
+      "level": 1,
+      "similarity": 0.5066627363363901
+    },
+    {
+      "puzzle_id": 38,
+      "level": 2,
+      "similarity": 0.27508918941020966
+    },
+    {
+      "puzzle_id": 38,
+      "level": 3,
+      "similarity": 0.2520793341100216
+    },
+    {
+      "puzzle_id": 39,
+      "level": 0,
+      "similarity": 0.3870590428511302
+    },
+    {
+      "puzzle_id": 39,
+      "level": 1,
+      "similarity": 0.20853088051080704
+    },
+    {
+      "puzzle_id": 39,
+      "level": 2,
+      "similarity": 0.20788597067197165
+    },
+    {
+      "puzzle_id": 39,
+      "level": 3,
+      "similarity": 0.21547197798887888
+    },
+    {
+      "puzzle_id": 40,
+      "level": 0,
+      "similarity": 0.7011697093645731
+    },
+    {
+      "puzzle_id": 40,
+      "level": 1,
+      "similarity": 0.39772213498751324
+    },
+    {
+      "puzzle_id": 40,
+      "level": 2,
+      "similarity": 0.29663413514693576
+    },
+    {
+      "puzzle_id": 40,
+      "level": 3,
+      "similarity": 0.27520506580670673
+    },
+    {
+      "puzzle_id": 41,
+      "level": 0,
+      "similarity": 0.2545742889245351
+    },
+    {
+      "puzzle_id": 41,
+      "level": 1,
+      "similarity": 0.22525418549776077
+    },
+    {
+      "puzzle_id": 41,
+      "level": 2,
+      "similarity": 0.5159224619468054
+    },
+    {
+      "puzzle_id": 41,
+      "level": 3,
+      "similarity": 0.21357701470454535
+    },
+    {
+      "puzzle_id": 42,
+      "level": 0,
+      "similarity": 0.3026043623685837
+    },
+    {
+      "puzzle_id": 42,
+      "level": 1,
+      "similarity": 0.30058686435222626
+    },
+    {
+      "puzzle_id": 42,
+      "level": 2,
+      "similarity": 0.3750241498152415
+    },
+    {
+      "puzzle_id": 42,
+      "level": 3,
+      "similarity": 0.2231815867125988
+    },
+    {
+      "puzzle_id": 43,
+      "level": 0,
+      "similarity": 0.7014675239721934
+    },
+    {
+      "puzzle_id": 43,
+      "level": 1,
+      "similarity": 0.324516125023365
+    },
+    {
+      "puzzle_id": 43,
+      "level": 2,
+      "similarity": 0.37303940455118817
+    },
+    {
+      "puzzle_id": 43,
+      "level": 3,
+      "similarity": 0.2224966585636139
+    },
+    {
+      "puzzle_id": 44,
+      "level": 0,
+      "similarity": 0.38155340154965717
+    },
+    {
+      "puzzle_id": 44,
+      "level": 1,
+      "similarity": 0.32470137377580005
+    },
+    {
+      "puzzle_id": 44,
+      "level": 2,
+      "similarity": 0.20747084667285284
+    },
+    {
+      "puzzle_id": 44,
+      "level": 3,
+      "similarity": 0.18520636732379595
+    },
+    {
+      "puzzle_id": 45,
+      "level": 0,
+      "similarity": 0.44499331216017407
+    },
+    {
+      "puzzle_id": 45,
+      "level": 1,
+      "similarity": 0.34539403518040973
+    },
+    {
+      "puzzle_id": 45,
+      "level": 2,
+      "similarity": 0.2537641649444898
+    },
+    {
+      "puzzle_id": 45,
+      "level": 3,
+      "similarity": 0.22468067953983942
+    },
+    {
+      "puzzle_id": 46,
+      "level": 0,
+      "similarity": 0.4694441358248393
+    },
+    {
+      "puzzle_id": 46,
+      "level": 1,
+      "similarity": 0.34470174709955853
+    },
+    {
+      "puzzle_id": 46,
+      "level": 2,
+      "similarity": 0.4459722439448039
+    },
+    {
+      "puzzle_id": 46,
+      "level": 3,
+      "similarity": 0.22160800794760385
+    },
+    {
+      "puzzle_id": 47,
+      "level": 0,
+      "similarity": 0.45354199906190235
+    },
+    {
+      "puzzle_id": 47,
+      "level": 1,
+      "similarity": 0.354219655195872
+    },
+    {
+      "puzzle_id": 47,
+      "level": 2,
+      "similarity": 0.2874956578016281
+    },
+    {
+      "puzzle_id": 47,
+      "level": 3,
+      "similarity": 0.21769632895787558
+    },
+    {
+      "puzzle_id": 48,
+      "level": 0,
+      "similarity": 0.48450931409994763
+    },
+    {
+      "puzzle_id": 48,
+      "level": 1,
+      "similarity": 0.4524504244327545
+    },
+    {
+      "puzzle_id": 48,
+      "level": 2,
+      "similarity": 0.36807584514220554
+    },
+    {
+      "puzzle_id": 48,
+      "level": 3,
+      "similarity": 0.26590943336486816
+    },
+    {
+      "puzzle_id": 49,
+      "level": 0,
+      "similarity": 0.5839994847774506
+    },
+    {
+      "puzzle_id": 49,
+      "level": 1,
+      "similarity": 0.4047463933626811
+    },
+    {
+      "puzzle_id": 49,
+      "level": 2,
+      "similarity": 0.24308277169863382
+    },
+    {
+      "puzzle_id": 49,
+      "level": 3,
+      "similarity": 0.27794259538253147
+    },
+    {
+      "puzzle_id": 50,
+      "level": 0,
+      "similarity": 0.4474762827157974
+    },
+    {
+      "puzzle_id": 50,
+      "level": 1,
+      "similarity": 0.27354427178700763
+    },
+    {
+      "puzzle_id": 50,
+      "level": 2,
+      "similarity": 0.3123757267991702
+    },
+    {
+      "puzzle_id": 50,
+      "level": 3,
+      "similarity": 0.22137715419133505
+    },
+    {
+      "puzzle_id": 51,
+      "level": 0,
+      "similarity": 0.22583965957164764
+    },
+    {
+      "puzzle_id": 51,
+      "level": 1,
+      "similarity": 0.26835743337869644
+    },
+    {
+      "puzzle_id": 51,
+      "level": 2,
+      "similarity": 0.2776075651248296
+    },
+    {
+      "puzzle_id": 51,
+      "level": 3,
+      "similarity": 0.23401635140180588
+    },
+    {
+      "puzzle_id": 52,
+      "level": 0,
+      "similarity": 0.39392570157845813
+    },
+    {
+      "puzzle_id": 52,
+      "level": 1,
+      "similarity": 0.5239014228185018
+    },
+    {
+      "puzzle_id": 52,
+      "level": 2,
+      "similarity": 0.30686764419078827
+    },
+    {
+      "puzzle_id": 52,
+      "level": 3,
+      "similarity": 0.2885349591573079
+    },
+    {
+      "puzzle_id": 53,
+      "level": 0,
+      "similarity": 0.2609379018346469
+    },
+    {
+      "puzzle_id": 53,
+      "level": 1,
+      "similarity": 0.397092138727506
+    },
+    {
+      "puzzle_id": 53,
+      "level": 2,
+      "similarity": 0.23116805901130041
+    },
+    {
+      "puzzle_id": 53,
+      "level": 3,
+      "similarity": 0.255487618347009
+    },
+    {
+      "puzzle_id": 54,
+      "level": 0,
+      "similarity": 0.480224405725797
+    },
+    {
+      "puzzle_id": 54,
+      "level": 1,
+      "similarity": 0.34309889872868854
+    },
+    {
+      "puzzle_id": 54,
+      "level": 2,
+      "similarity": 0.32559751719236374
+    },
+    {
+      "puzzle_id": 54,
+      "level": 3,
+      "similarity": 0.21449675286809602
+    },
+    {
+      "puzzle_id": 55,
+      "level": 0,
+      "similarity": 0.23274920135736465
+    },
+    {
+      "puzzle_id": 55,
+      "level": 1,
+      "similarity": 0.18770350391666094
+    },
+    {
+      "puzzle_id": 55,
+      "level": 2,
+      "similarity": 0.2622080147266388
+    },
+    {
+      "puzzle_id": 55,
+      "level": 3,
+      "similarity": 0.2620890140533447
+    },
+    {
+      "puzzle_id": 56,
+      "level": 0,
+      "similarity": 0.26434951027234393
+    },
+    {
+      "puzzle_id": 56,
+      "level": 1,
+      "similarity": 0.3256772657235463
+    },
+    {
+      "puzzle_id": 56,
+      "level": 2,
+      "similarity": 0.32054384301106137
+    },
+    {
+      "puzzle_id": 56,
+      "level": 3,
+      "similarity": 0.25951196998357773
+    },
+    {
+      "puzzle_id": 57,
+      "level": 0,
+      "similarity": 0.3018488635619481
+    },
+    {
+      "puzzle_id": 57,
+      "level": 1,
+      "similarity": 0.41152627766132355
+    },
+    {
+      "puzzle_id": 57,
+      "level": 2,
+      "similarity": 0.3092677940924962
+    },
+    {
+      "puzzle_id": 57,
+      "level": 3,
+      "similarity": 0.21595571686824164
+    },
+    {
+      "puzzle_id": 58,
+      "level": 0,
+      "similarity": 0.38465416928132373
+    },
+    {
+      "puzzle_id": 58,
+      "level": 1,
+      "similarity": 0.409126341342926
+    },
+    {
+      "puzzle_id": 58,
+      "level": 2,
+      "similarity": 0.2982899720470111
+    },
+    {
+      "puzzle_id": 58,
+      "level": 3,
+      "similarity": 0.16257380694150925
+    },
+    {
+      "puzzle_id": 59,
+      "level": 0,
+      "similarity": 0.58186308046182
+    },
+    {
+      "puzzle_id": 59,
+      "level": 1,
+      "similarity": 0.49739717443784076
+    },
+    {
+      "puzzle_id": 59,
+      "level": 2,
+      "similarity": 0.2550264621774356
+    },
+    {
+      "puzzle_id": 59,
+      "level": 3,
+      "similarity": 0.16597837706406912
+    },
+    {
+      "puzzle_id": 60,
+      "level": 0,
+      "similarity": 0.23042558506131172
+    },
+    {
+      "puzzle_id": 60,
+      "level": 1,
+      "similarity": 0.29223120709260303
+    },
+    {
+      "puzzle_id": 60,
+      "level": 2,
+      "similarity": 0.2984839628140132
+    },
+    {
+      "puzzle_id": 60,
+      "level": 3,
+      "similarity": 0.32889682551225025
+    },
+    {
+      "puzzle_id": 61,
+      "level": 0,
+      "similarity": 0.4058729410171509
+    },
+    {
+      "puzzle_id": 61,
+      "level": 1,
+      "similarity": 0.2197595164179802
+    },
+    {
+      "puzzle_id": 61,
+      "level": 2,
+      "similarity": 0.24969257165988287
+    },
+    {
+      "puzzle_id": 61,
+      "level": 3,
+      "similarity": 0.20780875037113825
+    },
+    {
+      "puzzle_id": 62,
+      "level": 0,
+      "similarity": 0.3170458947618802
+    },
+    {
+      "puzzle_id": 62,
+      "level": 1,
+      "similarity": 0.24841113636891046
+    },
+    {
+      "puzzle_id": 62,
+      "level": 2,
+      "similarity": 0.3465455025434494
+    },
+    {
+      "puzzle_id": 62,
+      "level": 3,
+      "similarity": 0.2864556262890498
+    },
+    {
+      "puzzle_id": 63,
+      "level": 0,
+      "similarity": 0.28016185263792676
+    },
+    {
+      "puzzle_id": 63,
+      "level": 1,
+      "similarity": 0.2418150727947553
+    },
+    {
+      "puzzle_id": 63,
+      "level": 2,
+      "similarity": 0.26691368222236633
+    },
+    {
+      "puzzle_id": 63,
+      "level": 3,
+      "similarity": 0.23931483179330826
+    },
+    {
+      "puzzle_id": 64,
+      "level": 0,
+      "similarity": 0.18769249320030212
+    },
+    {
+      "puzzle_id": 64,
+      "level": 1,
+      "similarity": 0.363688421746095
+    },
+    {
+      "puzzle_id": 64,
+      "level": 2,
+      "similarity": 0.22310539707541466
+    },
+    {
+      "puzzle_id": 64,
+      "level": 3,
+      "similarity": 0.27945223699013394
+    },
+    {
+      "puzzle_id": 65,
+      "level": 0,
+      "similarity": 0.38155340651671094
+    },
+    {
+      "puzzle_id": 65,
+      "level": 1,
+      "similarity": 0.34819690386454266
+    },
+    {
+      "puzzle_id": 65,
+      "level": 2,
+      "similarity": 0.4259871492783229
+    },
+    {
+      "puzzle_id": 65,
+      "level": 3,
+      "similarity": 0.2570388714472453
+    },
+    {
+      "puzzle_id": 66,
+      "level": 0,
+      "similarity": 0.5464442819356918
+    },
+    {
+      "puzzle_id": 66,
+      "level": 1,
+      "similarity": 0.47801479200522107
+    },
+    {
+      "puzzle_id": 66,
+      "level": 2,
+      "similarity": 0.21449413895606995
+    },
+    {
+      "puzzle_id": 66,
+      "level": 3,
+      "similarity": 0.1959939089914163
+    },
+    {
+      "puzzle_id": 67,
+      "level": 0,
+      "similarity": 0.3526744643847148
+    },
+    {
+      "puzzle_id": 67,
+      "level": 1,
+      "similarity": 0.43697037796179455
+    },
+    {
+      "puzzle_id": 67,
+      "level": 2,
+      "similarity": 0.2438331221540769
+    },
+    {
+      "puzzle_id": 67,
+      "level": 3,
+      "similarity": 0.2295618082086245
+    },
+    {
+      "puzzle_id": 68,
+      "level": 0,
+      "similarity": 0.471613551179568
+    },
+    {
+      "puzzle_id": 68,
+      "level": 1,
+      "similarity": 0.3564904183149338
+    },
+    {
+      "puzzle_id": 68,
+      "level": 2,
+      "similarity": 0.2511512190103531
+    },
+    {
+      "puzzle_id": 68,
+      "level": 3,
+      "similarity": 0.2423423926035563
+    },
+    {
+      "puzzle_id": 69,
+      "level": 0,
+      "similarity": 0.33225881308317184
+    },
+    {
+      "puzzle_id": 69,
+      "level": 1,
+      "similarity": 0.34794558584690094
+    },
+    {
+      "puzzle_id": 69,
+      "level": 2,
+      "similarity": 0.24570832153161368
+    },
+    {
+      "puzzle_id": 69,
+      "level": 3,
+      "similarity": 0.42529656489690143
+    },
+    {
+      "puzzle_id": 70,
+      "level": 0,
+      "similarity": 0.3553534001111984
+    },
+    {
+      "puzzle_id": 70,
+      "level": 1,
+      "similarity": 0.2953550840417544
+    },
+    {
+      "puzzle_id": 70,
+      "level": 2,
+      "similarity": 0.39479564627011615
+    },
+    {
+      "puzzle_id": 70,
+      "level": 3,
+      "similarity": 0.238253153860569
+    },
+    {
+      "puzzle_id": 71,
+      "level": 0,
+      "similarity": 0.6697539389133453
+    },
+    {
+      "puzzle_id": 71,
+      "level": 1,
+      "similarity": 0.3245302091042201
+    },
+    {
+      "puzzle_id": 71,
+      "level": 2,
+      "similarity": 0.17695924763878187
+    },
+    {
+      "puzzle_id": 71,
+      "level": 3,
+      "similarity": 0.23711030185222626
+    },
+    {
+      "puzzle_id": 72,
+      "level": 0,
+      "similarity": 0.46412475903828937
+    },
+    {
+      "puzzle_id": 72,
+      "level": 1,
+      "similarity": 0.22978677600622177
+    },
+    {
+      "puzzle_id": 72,
+      "level": 2,
+      "similarity": 0.29704901079336804
+    },
+    {
+      "puzzle_id": 72,
+      "level": 3,
+      "similarity": 0.21241315950949988
+    },
+    {
+      "puzzle_id": 73,
+      "level": 0,
+      "similarity": 0.6480195025602976
+    },
+    {
+      "puzzle_id": 73,
+      "level": 1,
+      "similarity": 0.37643615901470184
+    },
+    {
+      "puzzle_id": 73,
+      "level": 2,
+      "similarity": 0.3096022307872772
+    },
+    {
+      "puzzle_id": 73,
+      "level": 3,
+      "similarity": 0.2567412207523982
+    },
+    {
+      "puzzle_id": 74,
+      "level": 0,
+      "similarity": 0.38757309317588806
+    },
+    {
+      "puzzle_id": 74,
+      "level": 1,
+      "similarity": 0.4270538240671158
+    },
+    {
+      "puzzle_id": 74,
+      "level": 2,
+      "similarity": 0.24268836279710135
+    },
+    {
+      "puzzle_id": 74,
+      "level": 3,
+      "similarity": 0.28957707683245343
+    },
+    {
+      "puzzle_id": 75,
+      "level": 0,
+      "similarity": 0.24982596933841705
+    },
+    {
+      "puzzle_id": 75,
+      "level": 1,
+      "similarity": 0.24470880379279455
+    },
+    {
+      "puzzle_id": 75,
+      "level": 2,
+      "similarity": 0.25007662922143936
+    },
+    {
+      "puzzle_id": 75,
+      "level": 3,
+      "similarity": 0.2992441604534785
+    },
+    {
+      "puzzle_id": 76,
+      "level": 0,
+      "similarity": 0.2470510428150495
+    },
+    {
+      "puzzle_id": 76,
+      "level": 1,
+      "similarity": 0.24467653781175613
+    },
+    {
+      "puzzle_id": 76,
+      "level": 2,
+      "similarity": 0.3405267372727394
+    },
+    {
+      "puzzle_id": 76,
+      "level": 3,
+      "similarity": 0.3172864193717639
+    },
+    {
+      "puzzle_id": 77,
+      "level": 0,
+      "similarity": 0.28806036214033764
+    },
+    {
+      "puzzle_id": 77,
+      "level": 1,
+      "similarity": 0.23235777268807092
+    },
+    {
+      "puzzle_id": 77,
+      "level": 2,
+      "similarity": 0.2634159028530121
+    },
+    {
+      "puzzle_id": 77,
+      "level": 3,
+      "similarity": 0.20994174232085547
+    },
+    {
+      "puzzle_id": 78,
+      "level": 0,
+      "similarity": 0.501946821808815
+    },
+    {
+      "puzzle_id": 78,
+      "level": 1,
+      "similarity": 0.2744046375155449
+    },
+    {
+      "puzzle_id": 78,
+      "level": 2,
+      "similarity": 0.32614197582006454
+    },
+    {
+      "puzzle_id": 78,
+      "level": 3,
+      "similarity": 0.22424936294555664
+    },
+    {
+      "puzzle_id": 79,
+      "level": 0,
+      "similarity": 0.22278491407632828
+    },
+    {
+      "puzzle_id": 79,
+      "level": 1,
+      "similarity": 0.35353844116131466
+    },
+    {
+      "puzzle_id": 79,
+      "level": 2,
+      "similarity": 0.34252846737702686
+    },
+    {
+      "puzzle_id": 79,
+      "level": 3,
+      "similarity": 0.21385028213262558
+    },
+    {
+      "puzzle_id": 80,
+      "level": 0,
+      "similarity": 0.283898522456487
+    },
+    {
+      "puzzle_id": 80,
+      "level": 1,
+      "similarity": 0.2756250500679016
+    },
+    {
+      "puzzle_id": 80,
+      "level": 2,
+      "similarity": 0.24492793530225754
+    },
+    {
+      "puzzle_id": 80,
+      "level": 3,
+      "similarity": 0.20092002799113592
+    },
+    {
+      "puzzle_id": 81,
+      "level": 0,
+      "similarity": 0.28604529798030853
+    },
+    {
+      "puzzle_id": 81,
+      "level": 1,
+      "similarity": 0.42343398680289585
+    },
+    {
+      "puzzle_id": 81,
+      "level": 2,
+      "similarity": 0.32594593862692517
+    },
+    {
+      "puzzle_id": 81,
+      "level": 3,
+      "similarity": 0.21470165252685547
+    },
+    {
+      "puzzle_id": 82,
+      "level": 0,
+      "similarity": 0.24777633200089136
+    },
+    {
+      "puzzle_id": 82,
+      "level": 1,
+      "similarity": 0.7539497713247935
+    },
+    {
+      "puzzle_id": 82,
+      "level": 2,
+      "similarity": 0.20691515505313873
+    },
+    {
+      "puzzle_id": 82,
+      "level": 3,
+      "similarity": 0.2467891921599706
+    },
+    {
+      "puzzle_id": 83,
+      "level": 0,
+      "similarity": 0.5294582098722458
+    },
+    {
+      "puzzle_id": 83,
+      "level": 1,
+      "similarity": 0.27555480351050693
+    },
+    {
+      "puzzle_id": 83,
+      "level": 2,
+      "similarity": 0.3662191753586133
+    },
+    {
+      "puzzle_id": 83,
+      "level": 3,
+      "similarity": 0.24793103337287903
+    },
+    {
+      "puzzle_id": 84,
+      "level": 0,
+      "similarity": 0.30748653660217923
+    },
+    {
+      "puzzle_id": 84,
+      "level": 1,
+      "similarity": 0.4129252036412557
+    },
+    {
+      "puzzle_id": 84,
+      "level": 2,
+      "similarity": 0.4494626174370448
+    },
+    {
+      "puzzle_id": 84,
+      "level": 3,
+      "similarity": 0.2649070421854655
+    },
+    {
+      "puzzle_id": 85,
+      "level": 0,
+      "similarity": 0.39447146157423657
+    },
+    {
+      "puzzle_id": 85,
+      "level": 1,
+      "similarity": 0.2640411953131358
+    },
+    {
+      "puzzle_id": 85,
+      "level": 2,
+      "similarity": 0.2620801702141762
+    },
+    {
+      "puzzle_id": 85,
+      "level": 3,
+      "similarity": 0.22127757469813028
+    },
+    {
+      "puzzle_id": 86,
+      "level": 0,
+      "similarity": 0.4927078088124593
+    },
+    {
+      "puzzle_id": 86,
+      "level": 1,
+      "similarity": 0.33972548445065814
+    },
+    {
+      "puzzle_id": 86,
+      "level": 2,
+      "similarity": 0.37788115441799164
+    },
+    {
+      "puzzle_id": 86,
+      "level": 3,
+      "similarity": 0.16372396051883698
+    },
+    {
+      "puzzle_id": 87,
+      "level": 0,
+      "similarity": 0.34503227720657986
+    },
+    {
+      "puzzle_id": 87,
+      "level": 1,
+      "similarity": 0.2492960517605146
+    },
+    {
+      "puzzle_id": 87,
+      "level": 2,
+      "similarity": 0.3553096453348796
+    },
+    {
+      "puzzle_id": 87,
+      "level": 3,
+      "similarity": 0.43979717294375104
+    },
+    {
+      "puzzle_id": 88,
+      "level": 0,
+      "similarity": 0.24289824068546295
+    },
+    {
+      "puzzle_id": 88,
+      "level": 1,
+      "similarity": 0.254284826417764
+    },
+    {
+      "puzzle_id": 88,
+      "level": 2,
+      "similarity": 0.19558523098627725
+    },
+    {
+      "puzzle_id": 88,
+      "level": 3,
+      "similarity": 0.2714074005683263
+    },
+    {
+      "puzzle_id": 89,
+      "level": 0,
+      "similarity": 0.4717494696378708
+    },
+    {
+      "puzzle_id": 89,
+      "level": 1,
+      "similarity": 0.313826988140742
+    },
+    {
+      "puzzle_id": 89,
+      "level": 2,
+      "similarity": 0.2011449709534645
+    },
+    {
+      "puzzle_id": 89,
+      "level": 3,
+      "similarity": 0.24650681018829346
+    },
+    {
+      "puzzle_id": 90,
+      "level": 0,
+      "similarity": 0.2665451467037201
+    },
+    {
+      "puzzle_id": 90,
+      "level": 1,
+      "similarity": 0.42618359128634137
+    },
+    {
+      "puzzle_id": 90,
+      "level": 2,
+      "similarity": 0.41789718965689343
+    },
+    {
+      "puzzle_id": 90,
+      "level": 3,
+      "similarity": 0.20942988246679306
+    },
+    {
+      "puzzle_id": 91,
+      "level": 0,
+      "similarity": 0.3777405917644501
+    },
+    {
+      "puzzle_id": 91,
+      "level": 1,
+      "similarity": 0.36357515553633374
+    },
+    {
+      "puzzle_id": 91,
+      "level": 2,
+      "similarity": 0.21749359120925268
+    },
+    {
+      "puzzle_id": 91,
+      "level": 3,
+      "similarity": 0.23124465346336365
+    },
+    {
+      "puzzle_id": 92,
+      "level": 0,
+      "similarity": 0.24042036881049475
+    },
+    {
+      "puzzle_id": 92,
+      "level": 1,
+      "similarity": 0.27328603714704514
+    },
+    {
+      "puzzle_id": 92,
+      "level": 2,
+      "similarity": 0.2523726746439934
+    },
+    {
+      "puzzle_id": 92,
+      "level": 3,
+      "similarity": 0.3004861722389857
+    },
+    {
+      "puzzle_id": 93,
+      "level": 0,
+      "similarity": 0.4813918123642604
+    },
+    {
+      "puzzle_id": 93,
+      "level": 1,
+      "similarity": 0.3165241902073224
+    },
+    {
+      "puzzle_id": 93,
+      "level": 2,
+      "similarity": 0.32183067748943966
+    },
+    {
+      "puzzle_id": 93,
+      "level": 3,
+      "similarity": 0.25962401926517487
+    },
+    {
+      "puzzle_id": 94,
+      "level": 0,
+      "similarity": 0.37697576979796094
+    },
+    {
+      "puzzle_id": 94,
+      "level": 1,
+      "similarity": 0.4835454473892848
+    },
+    {
+      "puzzle_id": 94,
+      "level": 2,
+      "similarity": 0.23692302654186884
+    },
+    {
+      "puzzle_id": 94,
+      "level": 3,
+      "similarity": 0.2851033608118693
+    },
+    {
+      "puzzle_id": 95,
+      "level": 0,
+      "similarity": 0.38316453993320465
+    },
+    {
+      "puzzle_id": 95,
+      "level": 1,
+      "similarity": 0.5007182906071345
+    },
+    {
+      "puzzle_id": 95,
+      "level": 2,
+      "similarity": 0.18241376926501593
+    },
+    {
+      "puzzle_id": 95,
+      "level": 3,
+      "similarity": 0.37173637251059216
+    },
+    {
+      "puzzle_id": 96,
+      "level": 0,
+      "similarity": 0.3896397451559703
+    },
+    {
+      "puzzle_id": 96,
+      "level": 1,
+      "similarity": 0.44827518860499066
+    },
+    {
+      "puzzle_id": 96,
+      "level": 2,
+      "similarity": 0.2970773975054423
+    },
+    {
+      "puzzle_id": 96,
+      "level": 3,
+      "similarity": 0.17630263169606528
+    },
+    {
+      "puzzle_id": 97,
+      "level": 0,
+      "similarity": 0.35089702407519024
+    },
+    {
+      "puzzle_id": 97,
+      "level": 1,
+      "similarity": 0.2573356553912163
+    },
+    {
+      "puzzle_id": 97,
+      "level": 2,
+      "similarity": 0.30168063193559647
+    },
+    {
+      "puzzle_id": 97,
+      "level": 3,
+      "similarity": 0.17990821599960327
+    },
+    {
+      "puzzle_id": 98,
+      "level": 0,
+      "similarity": 0.4429319351911545
+    },
+    {
+      "puzzle_id": 98,
+      "level": 1,
+      "similarity": 0.4396395782629649
+    },
+    {
+      "puzzle_id": 98,
+      "level": 2,
+      "similarity": 0.27571889261404675
+    },
+    {
+      "puzzle_id": 98,
+      "level": 3,
+      "similarity": 0.2643084873755773
+    },
+    {
+      "puzzle_id": 99,
+      "level": 0,
+      "similarity": 0.38814278940359753
+    },
+    {
+      "puzzle_id": 99,
+      "level": 1,
+      "similarity": 0.3149223600824674
+    },
+    {
+      "puzzle_id": 99,
+      "level": 2,
+      "similarity": 0.4741586297750473
+    },
+    {
+      "puzzle_id": 99,
+      "level": 3,
+      "similarity": 0.19008680433034897
+    },
+    {
+      "puzzle_id": 100,
+      "level": 0,
+      "similarity": 0.24767670035362244
+    },
+    {
+      "puzzle_id": 100,
+      "level": 1,
+      "similarity": 0.38721322019894916
+    },
+    {
+      "puzzle_id": 100,
+      "level": 2,
+      "similarity": 0.282791127761205
+    },
+    {
+      "puzzle_id": 100,
+      "level": 3,
+      "similarity": 0.20029893517494202
+    },
+    {
+      "puzzle_id": 101,
+      "level": 0,
+      "similarity": 0.32746295134226483
+    },
+    {
+      "puzzle_id": 101,
+      "level": 1,
+      "similarity": 0.35749124983946484
+    },
+    {
+      "puzzle_id": 101,
+      "level": 2,
+      "similarity": 0.2578963289658229
+    },
+    {
+      "puzzle_id": 101,
+      "level": 3,
+      "similarity": 0.2902911603450775
+    },
+    {
+      "puzzle_id": 102,
+      "level": 0,
+      "similarity": 0.46433593332767487
+    },
+    {
+      "puzzle_id": 102,
+      "level": 1,
+      "similarity": 0.5420383910338084
+    },
+    {
+      "puzzle_id": 102,
+      "level": 2,
+      "similarity": 0.24066721399625143
+    },
+    {
+      "puzzle_id": 102,
+      "level": 3,
+      "similarity": 0.2431329886118571
+    },
+    {
+      "puzzle_id": 103,
+      "level": 0,
+      "similarity": 0.28294869263966876
+    },
+    {
+      "puzzle_id": 103,
+      "level": 1,
+      "similarity": 0.32280299564202625
+    },
+    {
+      "puzzle_id": 103,
+      "level": 2,
+      "similarity": 0.21648573875427246
+    },
+    {
+      "puzzle_id": 103,
+      "level": 3,
+      "similarity": 0.251830851038297
+    },
+    {
+      "puzzle_id": 104,
+      "level": 0,
+      "similarity": 0.29990019649267197
+    },
+    {
+      "puzzle_id": 104,
+      "level": 1,
+      "similarity": 0.37755771974722546
+    },
+    {
+      "puzzle_id": 104,
+      "level": 2,
+      "similarity": 0.21199909721811613
+    },
+    {
+      "puzzle_id": 104,
+      "level": 3,
+      "similarity": 0.17931847522656122
+    },
+    {
+      "puzzle_id": 105,
+      "level": 0,
+      "similarity": 0.3664267063140869
+    },
+    {
+      "puzzle_id": 105,
+      "level": 1,
+      "similarity": 0.5156233708063761
+    },
+    {
+      "puzzle_id": 105,
+      "level": 2,
+      "similarity": 0.2622046619653702
+    },
+    {
+      "puzzle_id": 105,
+      "level": 3,
+      "similarity": 0.3303471604983012
+    },
+    {
+      "puzzle_id": 106,
+      "level": 0,
+      "similarity": 0.24335945149262747
+    },
+    {
+      "puzzle_id": 106,
+      "level": 1,
+      "similarity": 0.3083726689219475
+    },
+    {
+      "puzzle_id": 106,
+      "level": 2,
+      "similarity": 0.23787196725606918
+    },
+    {
+      "puzzle_id": 106,
+      "level": 3,
+      "similarity": 0.18899879852930704
+    },
+    {
+      "puzzle_id": 107,
+      "level": 0,
+      "similarity": 0.25922977924346924
+    },
+    {
+      "puzzle_id": 107,
+      "level": 1,
+      "similarity": 0.3071778838833173
+    },
+    {
+      "puzzle_id": 107,
+      "level": 2,
+      "similarity": 0.3074954350789388
+    },
+    {
+      "puzzle_id": 107,
+      "level": 3,
+      "similarity": 0.23827640960613886
+    },
+    {
+      "puzzle_id": 108,
+      "level": 0,
+      "similarity": 0.2545936902364095
+    },
+    {
+      "puzzle_id": 108,
+      "level": 1,
+      "similarity": 0.39427125205596286
+    },
+    {
+      "puzzle_id": 108,
+      "level": 2,
+      "similarity": 0.32005639870961505
+    },
+    {
+      "puzzle_id": 108,
+      "level": 3,
+      "similarity": 0.2580905705690384
+    },
+    {
+      "puzzle_id": 109,
+      "level": 0,
+      "similarity": 0.5063963532447815
+    },
+    {
+      "puzzle_id": 109,
+      "level": 1,
+      "similarity": 0.30725156764189404
+    },
+    {
+      "puzzle_id": 109,
+      "level": 2,
+      "similarity": 0.24518238753080368
+    },
+    {
+      "puzzle_id": 109,
+      "level": 3,
+      "similarity": 0.23417491962512335
+    },
+    {
+      "puzzle_id": 110,
+      "level": 0,
+      "similarity": 0.32246985534826916
+    },
+    {
+      "puzzle_id": 110,
+      "level": 1,
+      "similarity": 0.5024134119351705
+    },
+    {
+      "puzzle_id": 110,
+      "level": 2,
+      "similarity": 0.3187130192915599
+    },
+    {
+      "puzzle_id": 110,
+      "level": 3,
+      "similarity": 0.27394408484299976
+    },
+    {
+      "puzzle_id": 111,
+      "level": 0,
+      "similarity": 0.318652684489886
+    },
+    {
+      "puzzle_id": 111,
+      "level": 1,
+      "similarity": 0.3380930572748184
+    },
+    {
+      "puzzle_id": 111,
+      "level": 2,
+      "similarity": 0.24507096161444983
+    },
+    {
+      "puzzle_id": 111,
+      "level": 3,
+      "similarity": 0.2703918019930522
+    },
+    {
+      "puzzle_id": 112,
+      "level": 0,
+      "similarity": 0.33173005779584247
+    },
+    {
+      "puzzle_id": 112,
+      "level": 1,
+      "similarity": 0.4453841745853424
+    },
+    {
+      "puzzle_id": 112,
+      "level": 2,
+      "similarity": 0.2568960164984067
+    },
+    {
+      "puzzle_id": 112,
+      "level": 3,
+      "similarity": 0.2490951120853424
+    },
+    {
+      "puzzle_id": 113,
+      "level": 0,
+      "similarity": 0.3653499037027359
+    },
+    {
+      "puzzle_id": 113,
+      "level": 1,
+      "similarity": 0.21413042893012366
+    },
+    {
+      "puzzle_id": 113,
+      "level": 2,
+      "similarity": 0.23139319568872452
+    },
+    {
+      "puzzle_id": 113,
+      "level": 3,
+      "similarity": 0.3153366024295489
+    },
+    {
+      "puzzle_id": 114,
+      "level": 0,
+      "similarity": 0.27140145500500995
+    },
+    {
+      "puzzle_id": 114,
+      "level": 1,
+      "similarity": 0.3241182491183281
+    },
+    {
+      "puzzle_id": 114,
+      "level": 2,
+      "similarity": 0.36175742248694104
+    },
+    {
+      "puzzle_id": 114,
+      "level": 3,
+      "similarity": 0.2705327520767848
+    },
+    {
+      "puzzle_id": 115,
+      "level": 0,
+      "similarity": 0.40254055460294086
+    },
+    {
+      "puzzle_id": 115,
+      "level": 1,
+      "similarity": 0.5208686292171478
+    },
+    {
+      "puzzle_id": 115,
+      "level": 2,
+      "similarity": 0.36132864157358807
+    },
+    {
+      "puzzle_id": 115,
+      "level": 3,
+      "similarity": 0.26551033556461334
+    },
+    {
+      "puzzle_id": 116,
+      "level": 0,
+      "similarity": 0.3240155478318532
+    },
+    {
+      "puzzle_id": 116,
+      "level": 1,
+      "similarity": 0.24867082138856253
+    },
+    {
+      "puzzle_id": 116,
+      "level": 2,
+      "similarity": 0.23411248624324799
+    },
+    {
+      "puzzle_id": 116,
+      "level": 3,
+      "similarity": 0.14815684656302133
+    },
+    {
+      "puzzle_id": 117,
+      "level": 0,
+      "similarity": 0.35620806738734245
+    },
+    {
+      "puzzle_id": 117,
+      "level": 1,
+      "similarity": 0.2208606501420339
+    },
+    {
+      "puzzle_id": 117,
+      "level": 2,
+      "similarity": 0.28086093068122864
+    },
+    {
+      "puzzle_id": 117,
+      "level": 3,
+      "similarity": 0.22055252889792124
+    },
+    {
+      "puzzle_id": 118,
+      "level": 0,
+      "similarity": 0.3660605748494466
+    },
+    {
+      "puzzle_id": 118,
+      "level": 1,
+      "similarity": 0.3351795052488645
+    },
+    {
+      "puzzle_id": 118,
+      "level": 2,
+      "similarity": 0.2880457912882169
+    },
+    {
+      "puzzle_id": 118,
+      "level": 3,
+      "similarity": 0.2552166034777959
+    },
+    {
+      "puzzle_id": 119,
+      "level": 0,
+      "similarity": 0.40980103115240735
+    },
+    {
+      "puzzle_id": 119,
+      "level": 1,
+      "similarity": 0.2881377662221591
+    },
+    {
+      "puzzle_id": 119,
+      "level": 2,
+      "similarity": 0.25856280078490573
+    },
+    {
+      "puzzle_id": 119,
+      "level": 3,
+      "similarity": 0.23703384151061377
+    },
+    {
+      "puzzle_id": 120,
+      "level": 0,
+      "similarity": 0.4648041824499766
+    },
+    {
+      "puzzle_id": 120,
+      "level": 1,
+      "similarity": 0.2773597190777461
+    },
+    {
+      "puzzle_id": 120,
+      "level": 2,
+      "similarity": 0.2621239423751831
+    },
+    {
+      "puzzle_id": 120,
+      "level": 3,
+      "similarity": 0.23740766445795694
+    },
+    {
+      "puzzle_id": 121,
+      "level": 0,
+      "similarity": 0.28235360731681186
+    },
+    {
+      "puzzle_id": 121,
+      "level": 1,
+      "similarity": 0.27287428081035614
+    },
+    {
+      "puzzle_id": 121,
+      "level": 2,
+      "similarity": 0.30829907953739166
+    },
+    {
+      "puzzle_id": 121,
+      "level": 3,
+      "similarity": 0.2373340924580892
+    },
+    {
+      "puzzle_id": 122,
+      "level": 0,
+      "similarity": 0.2967068925499916
+    },
+    {
+      "puzzle_id": 122,
+      "level": 1,
+      "similarity": 0.3987535461783409
+    },
+    {
+      "puzzle_id": 122,
+      "level": 2,
+      "similarity": 0.29442274818817776
+    },
+    {
+      "puzzle_id": 122,
+      "level": 3,
+      "similarity": 0.2777523547410965
+    },
+    {
+      "puzzle_id": 123,
+      "level": 0,
+      "similarity": 0.4089628557364146
+    },
+    {
+      "puzzle_id": 123,
+      "level": 1,
+      "similarity": 0.28663212309281033
+    },
+    {
+      "puzzle_id": 123,
+      "level": 2,
+      "similarity": 0.2746867934862773
+    },
+    {
+      "puzzle_id": 123,
+      "level": 3,
+      "similarity": 0.23917722950379053
+    },
+    {
+      "puzzle_id": 124,
+      "level": 0,
+      "similarity": 0.2857745165626208
+    },
+    {
+      "puzzle_id": 124,
+      "level": 1,
+      "similarity": 0.2725502202908198
+    },
+    {
+      "puzzle_id": 124,
+      "level": 2,
+      "similarity": 0.3609769344329834
+    },
+    {
+      "puzzle_id": 124,
+      "level": 3,
+      "similarity": 0.29636599868535995
+    },
+    {
+      "puzzle_id": 125,
+      "level": 0,
+      "similarity": 0.26169393708308536
+    },
+    {
+      "puzzle_id": 125,
+      "level": 1,
+      "similarity": 0.3585599213838577
+    },
+    {
+      "puzzle_id": 125,
+      "level": 2,
+      "similarity": 0.2817406530181567
+    },
+    {
+      "puzzle_id": 125,
+      "level": 3,
+      "similarity": 0.32147300988435745
+    },
+    {
+      "puzzle_id": 126,
+      "level": 0,
+      "similarity": 0.23175361504157385
+    },
+    {
+      "puzzle_id": 126,
+      "level": 1,
+      "similarity": 0.33242617050806683
+    },
+    {
+      "puzzle_id": 126,
+      "level": 2,
+      "similarity": 0.24160688370466232
+    },
+    {
+      "puzzle_id": 126,
+      "level": 3,
+      "similarity": 0.23139987140893936
+    },
+    {
+      "puzzle_id": 127,
+      "level": 0,
+      "similarity": 0.825556476910909
+    },
+    {
+      "puzzle_id": 127,
+      "level": 1,
+      "similarity": 0.34946027398109436
+    },
+    {
+      "puzzle_id": 127,
+      "level": 2,
+      "similarity": 0.20294896513223648
+    },
+    {
+      "puzzle_id": 127,
+      "level": 3,
+      "similarity": 0.2612731183568637
+    },
+    {
+      "puzzle_id": 128,
+      "level": 0,
+      "similarity": 0.22563304007053375
+    },
+    {
+      "puzzle_id": 128,
+      "level": 1,
+      "similarity": 0.2974896232287089
+    },
+    {
+      "puzzle_id": 128,
+      "level": 2,
+      "similarity": 0.19900580247243246
+    },
+    {
+      "puzzle_id": 128,
+      "level": 3,
+      "similarity": 0.2134539932012558
+    },
+    {
+      "puzzle_id": 129,
+      "level": 0,
+      "similarity": 0.33541183670361835
+    },
+    {
+      "puzzle_id": 129,
+      "level": 1,
+      "similarity": 0.3207946742574374
+    },
+    {
+      "puzzle_id": 129,
+      "level": 2,
+      "similarity": 0.2524319315950076
+    },
+    {
+      "puzzle_id": 129,
+      "level": 3,
+      "similarity": 0.2853018219272296
+    },
+    {
+      "puzzle_id": 130,
+      "level": 0,
+      "similarity": 0.30148356159528095
+    },
+    {
+      "puzzle_id": 130,
+      "level": 1,
+      "similarity": 0.3477155615886052
+    },
+    {
+      "puzzle_id": 130,
+      "level": 2,
+      "similarity": 0.2568316012620926
+    },
+    {
+      "puzzle_id": 130,
+      "level": 3,
+      "similarity": 0.26959896584351856
+    },
+    {
+      "puzzle_id": 131,
+      "level": 0,
+      "similarity": 0.37964947273333866
+    },
+    {
+      "puzzle_id": 131,
+      "level": 1,
+      "similarity": 0.3109578813115756
+    },
+    {
+      "puzzle_id": 131,
+      "level": 2,
+      "similarity": 0.2838834151625633
+    },
+    {
+      "puzzle_id": 131,
+      "level": 3,
+      "similarity": 0.21999513109525046
+    },
+    {
+      "puzzle_id": 132,
+      "level": 0,
+      "similarity": 0.34477290511131287
+    },
+    {
+      "puzzle_id": 132,
+      "level": 1,
+      "similarity": 0.31616439918677014
+    },
+    {
+      "puzzle_id": 132,
+      "level": 2,
+      "similarity": 0.3067736600836118
+    },
+    {
+      "puzzle_id": 132,
+      "level": 3,
+      "similarity": 0.2749834209680557
+    },
+    {
+      "puzzle_id": 133,
+      "level": 0,
+      "similarity": 0.2821464315056801
+    },
+    {
+      "puzzle_id": 133,
+      "level": 1,
+      "similarity": 0.42133977512518567
+    },
+    {
+      "puzzle_id": 133,
+      "level": 2,
+      "similarity": 0.2825432668129603
+    },
+    {
+      "puzzle_id": 133,
+      "level": 3,
+      "similarity": 0.24829553067684174
+    },
+    {
+      "puzzle_id": 134,
+      "level": 0,
+      "similarity": 0.2573445811867714
+    },
+    {
+      "puzzle_id": 134,
+      "level": 1,
+      "similarity": 0.3588017026583354
+    },
+    {
+      "puzzle_id": 134,
+      "level": 2,
+      "similarity": 0.3236284429828326
+    },
+    {
+      "puzzle_id": 134,
+      "level": 3,
+      "similarity": 0.187687865147988
+    },
+    {
+      "puzzle_id": 135,
+      "level": 0,
+      "similarity": 0.2271475295225779
+    },
+    {
+      "puzzle_id": 135,
+      "level": 1,
+      "similarity": 0.29217976828416187
+    },
+    {
+      "puzzle_id": 135,
+      "level": 2,
+      "similarity": 0.25300780187050503
+    },
+    {
+      "puzzle_id": 135,
+      "level": 3,
+      "similarity": 0.25804946819941205
+    },
+    {
+      "puzzle_id": 136,
+      "level": 0,
+      "similarity": 0.33891356239716214
+    },
+    {
+      "puzzle_id": 136,
+      "level": 1,
+      "similarity": 0.4679779460032781
+    },
+    {
+      "puzzle_id": 136,
+      "level": 2,
+      "similarity": 0.22306234389543533
+    },
+    {
+      "puzzle_id": 136,
+      "level": 3,
+      "similarity": 0.26958369463682175
+    },
+    {
+      "puzzle_id": 137,
+      "level": 0,
+      "similarity": 0.30426256358623505
+    },
+    {
+      "puzzle_id": 137,
+      "level": 1,
+      "similarity": 0.3068840205669403
+    },
+    {
+      "puzzle_id": 137,
+      "level": 2,
+      "similarity": 0.3368784934282303
+    },
+    {
+      "puzzle_id": 137,
+      "level": 3,
+      "similarity": 0.351169948776563
+    },
+    {
+      "puzzle_id": 138,
+      "level": 0,
+      "similarity": 0.3333223909139633
+    },
+    {
+      "puzzle_id": 138,
+      "level": 1,
+      "similarity": 0.6246829330921173
+    },
+    {
+      "puzzle_id": 138,
+      "level": 2,
+      "similarity": 0.3048464854558309
+    },
+    {
+      "puzzle_id": 138,
+      "level": 3,
+      "similarity": 0.35813239465157193
+    },
+    {
+      "puzzle_id": 139,
+      "level": 0,
+      "similarity": 0.4442381163438161
+    },
+    {
+      "puzzle_id": 139,
+      "level": 1,
+      "similarity": 0.3680066217978795
+    },
+    {
+      "puzzle_id": 139,
+      "level": 2,
+      "similarity": 0.4109555135170619
+    },
+    {
+      "puzzle_id": 139,
+      "level": 3,
+      "similarity": 0.18296375373999277
+    },
+    {
+      "puzzle_id": 140,
+      "level": 0,
+      "similarity": 0.31975093980630237
+    },
+    {
+      "puzzle_id": 140,
+      "level": 1,
+      "similarity": 0.3090960631767909
+    },
+    {
+      "puzzle_id": 140,
+      "level": 2,
+      "similarity": 0.30339664965867996
+    },
+    {
+      "puzzle_id": 140,
+      "level": 3,
+      "similarity": 0.26566800475120544
+    },
+    {
+      "puzzle_id": 141,
+      "level": 0,
+      "similarity": 0.5186607837677002
+    },
+    {
+      "puzzle_id": 141,
+      "level": 1,
+      "similarity": 0.1884648377696673
+    },
+    {
+      "puzzle_id": 141,
+      "level": 2,
+      "similarity": 0.2266563375790914
+    },
+    {
+      "puzzle_id": 141,
+      "level": 3,
+      "similarity": 0.19932561119397482
+    },
+    {
+      "puzzle_id": 142,
+      "level": 0,
+      "similarity": 0.448820357521375
+    },
+    {
+      "puzzle_id": 142,
+      "level": 1,
+      "similarity": 0.46980034311612445
+    },
+    {
+      "puzzle_id": 142,
+      "level": 2,
+      "similarity": 0.25155223657687503
+    },
+    {
+      "puzzle_id": 142,
+      "level": 3,
+      "similarity": 0.2720216487844785
+    },
+    {
+      "puzzle_id": 143,
+      "level": 0,
+      "similarity": 0.2839045748114586
+    },
+    {
+      "puzzle_id": 143,
+      "level": 1,
+      "similarity": 0.30081991851329803
+    },
+    {
+      "puzzle_id": 143,
+      "level": 2,
+      "similarity": 0.21798526247342428
+    },
+    {
+      "puzzle_id": 143,
+      "level": 3,
+      "similarity": 0.4923057605822881
+    },
+    {
+      "puzzle_id": 144,
+      "level": 0,
+      "similarity": 0.33698414514462155
+    },
+    {
+      "puzzle_id": 144,
+      "level": 1,
+      "similarity": 0.31242117782433826
+    },
+    {
+      "puzzle_id": 144,
+      "level": 2,
+      "similarity": 0.22697431594133377
+    },
+    {
+      "puzzle_id": 144,
+      "level": 3,
+      "similarity": 0.2717104305823644
+    },
+    {
+      "puzzle_id": 145,
+      "level": 0,
+      "similarity": 0.531596432129542
+    },
+    {
+      "puzzle_id": 145,
+      "level": 1,
+      "similarity": 0.25619953374067944
+    },
+    {
+      "puzzle_id": 145,
+      "level": 2,
+      "similarity": 0.275273231168588
+    },
+    {
+      "puzzle_id": 145,
+      "level": 3,
+      "similarity": 0.24752513567606607
+    },
+    {
+      "puzzle_id": 146,
+      "level": 0,
+      "similarity": 0.37823433180650073
+    },
+    {
+      "puzzle_id": 146,
+      "level": 1,
+      "similarity": 0.4182371993859609
+    },
+    {
+      "puzzle_id": 146,
+      "level": 2,
+      "similarity": 0.32089989135662716
+    },
+    {
+      "puzzle_id": 146,
+      "level": 3,
+      "similarity": 0.3201437791188558
+    },
+    {
+      "puzzle_id": 147,
+      "level": 0,
+      "similarity": 0.33278586715459824
+    },
+    {
+      "puzzle_id": 147,
+      "level": 1,
+      "similarity": 0.21883095800876617
+    },
+    {
+      "puzzle_id": 147,
+      "level": 2,
+      "similarity": 0.2757459282875061
+    },
+    {
+      "puzzle_id": 147,
+      "level": 3,
+      "similarity": 0.18156978860497475
+    },
+    {
+      "puzzle_id": 148,
+      "level": 0,
+      "similarity": 0.21375984201828638
+    },
+    {
+      "puzzle_id": 148,
+      "level": 1,
+      "similarity": 0.2672579189141591
+    },
+    {
+      "puzzle_id": 148,
+      "level": 2,
+      "similarity": 0.2582835132877032
+    },
+    {
+      "puzzle_id": 148,
+      "level": 3,
+      "similarity": 0.20413489391406378
+    },
+    {
+      "puzzle_id": 149,
+      "level": 0,
+      "similarity": 0.3531564474105835
+    },
+    {
+      "puzzle_id": 149,
+      "level": 1,
+      "similarity": 0.28495975335439044
+    },
+    {
+      "puzzle_id": 149,
+      "level": 2,
+      "similarity": 0.2878801127274831
+    },
+    {
+      "puzzle_id": 149,
+      "level": 3,
+      "similarity": 0.232248954474926
+    },
+    {
+      "puzzle_id": 150,
+      "level": 0,
+      "similarity": 0.296617624660333
+    },
+    {
+      "puzzle_id": 150,
+      "level": 1,
+      "similarity": 0.28192658722400665
+    },
+    {
+      "puzzle_id": 150,
+      "level": 2,
+      "similarity": 0.27507486939430237
+    },
+    {
+      "puzzle_id": 150,
+      "level": 3,
+      "similarity": 0.1954426740606626
+    },
+    {
+      "puzzle_id": 151,
+      "level": 0,
+      "similarity": 0.38356660306453705
+    },
+    {
+      "puzzle_id": 151,
+      "level": 1,
+      "similarity": 0.2756548176209132
+    },
+    {
+      "puzzle_id": 151,
+      "level": 2,
+      "similarity": 0.1562375264863173
+    },
+    {
+      "puzzle_id": 151,
+      "level": 3,
+      "similarity": 0.212643230954806
+    },
+    {
+      "puzzle_id": 152,
+      "level": 0,
+      "similarity": 0.285304235915343
+    },
+    {
+      "puzzle_id": 152,
+      "level": 1,
+      "similarity": 0.40938180685043335
+    },
+    {
+      "puzzle_id": 152,
+      "level": 2,
+      "similarity": 0.23259733617305756
+    },
+    {
+      "puzzle_id": 152,
+      "level": 3,
+      "similarity": 0.39135733246803284
+    },
+    {
+      "puzzle_id": 153,
+      "level": 0,
+      "similarity": 0.2876436561346054
+    },
+    {
+      "puzzle_id": 153,
+      "level": 1,
+      "similarity": 0.3305118829011917
+    },
+    {
+      "puzzle_id": 153,
+      "level": 2,
+      "similarity": 0.26579492042462033
+    },
+    {
+      "puzzle_id": 153,
+      "level": 3,
+      "similarity": 0.23271115745107332
+    },
+    {
+      "puzzle_id": 154,
+      "level": 0,
+      "similarity": 0.3201558341582616
+    },
+    {
+      "puzzle_id": 154,
+      "level": 1,
+      "similarity": 0.37491026024023694
+    },
+    {
+      "puzzle_id": 154,
+      "level": 2,
+      "similarity": 0.504825363556544
+    },
+    {
+      "puzzle_id": 154,
+      "level": 3,
+      "similarity": 0.28567415475845337
+    },
+    {
+      "puzzle_id": 155,
+      "level": 0,
+      "similarity": 0.4363189786672592
+    },
+    {
+      "puzzle_id": 155,
+      "level": 1,
+      "similarity": 0.3003792216380437
+    },
+    {
+      "puzzle_id": 155,
+      "level": 2,
+      "similarity": 0.3199172889192899
+    },
+    {
+      "puzzle_id": 155,
+      "level": 3,
+      "similarity": 0.25600070009628934
+    },
+    {
+      "puzzle_id": 156,
+      "level": 0,
+      "similarity": 0.4435308823982875
+    },
+    {
+      "puzzle_id": 156,
+      "level": 1,
+      "similarity": 0.355999323228995
+    },
+    {
+      "puzzle_id": 156,
+      "level": 2,
+      "similarity": 0.27577204008897144
+    },
+    {
+      "puzzle_id": 156,
+      "level": 3,
+      "similarity": 0.25105828046798706
+    },
+    {
+      "puzzle_id": 157,
+      "level": 0,
+      "similarity": 0.335285263756911
+    },
+    {
+      "puzzle_id": 157,
+      "level": 1,
+      "similarity": 0.2688944066564242
+    },
+    {
+      "puzzle_id": 157,
+      "level": 2,
+      "similarity": 0.3630266586939494
+    },
+    {
+      "puzzle_id": 157,
+      "level": 3,
+      "similarity": 0.2203601337969303
+    },
+    {
+      "puzzle_id": 158,
+      "level": 0,
+      "similarity": 0.3010544826587041
+    },
+    {
+      "puzzle_id": 158,
+      "level": 1,
+      "similarity": 0.2885940944155057
+    },
+    {
+      "puzzle_id": 158,
+      "level": 2,
+      "similarity": 0.4152491440375646
+    },
+    {
+      "puzzle_id": 158,
+      "level": 3,
+      "similarity": 0.28345279892285663
+    },
+    {
+      "puzzle_id": 159,
+      "level": 0,
+      "similarity": 0.5096760640541712
+    },
+    {
+      "puzzle_id": 159,
+      "level": 1,
+      "similarity": 0.46374567846457165
+    },
+    {
+      "puzzle_id": 159,
+      "level": 2,
+      "similarity": 0.39735327661037445
+    },
+    {
+      "puzzle_id": 159,
+      "level": 3,
+      "similarity": 0.2559329917033513
+    },
+    {
+      "puzzle_id": 160,
+      "level": 0,
+      "similarity": 0.42939552416404086
+    },
+    {
+      "puzzle_id": 160,
+      "level": 1,
+      "similarity": 0.27254148324330646
+    },
+    {
+      "puzzle_id": 160,
+      "level": 2,
+      "similarity": 0.39177490770816803
+    },
+    {
+      "puzzle_id": 160,
+      "level": 3,
+      "similarity": 0.2949368705352147
+    },
+    {
+      "puzzle_id": 161,
+      "level": 0,
+      "similarity": 0.32082771013180417
+    },
+    {
+      "puzzle_id": 161,
+      "level": 1,
+      "similarity": 0.23582624023159346
+    },
+    {
+      "puzzle_id": 161,
+      "level": 2,
+      "similarity": 0.38085393110911053
+    },
+    {
+      "puzzle_id": 161,
+      "level": 3,
+      "similarity": 0.23749351501464844
+    },
+    {
+      "puzzle_id": 162,
+      "level": 0,
+      "similarity": 0.3654939631621043
+    },
+    {
+      "puzzle_id": 162,
+      "level": 1,
+      "similarity": 0.5522969116767248
+    },
+    {
+      "puzzle_id": 162,
+      "level": 2,
+      "similarity": 0.3840654442707698
+    },
+    {
+      "puzzle_id": 162,
+      "level": 3,
+      "similarity": 0.3196457376082738
+    },
+    {
+      "puzzle_id": 163,
+      "level": 0,
+      "similarity": 0.29084156453609467
+    },
+    {
+      "puzzle_id": 163,
+      "level": 1,
+      "similarity": 0.29974187910556793
+    },
+    {
+      "puzzle_id": 163,
+      "level": 2,
+      "similarity": 0.18847883368531862
+    },
+    {
+      "puzzle_id": 163,
+      "level": 3,
+      "similarity": 0.29758652796347934
+    },
+    {
+      "puzzle_id": 164,
+      "level": 0,
+      "similarity": 0.37887614220380783
+    },
+    {
+      "puzzle_id": 164,
+      "level": 1,
+      "similarity": 0.2763648678859075
+    },
+    {
+      "puzzle_id": 164,
+      "level": 2,
+      "similarity": 0.21808277567227682
+    },
+    {
+      "puzzle_id": 164,
+      "level": 3,
+      "similarity": 0.2961156517267227
+    },
+    {
+      "puzzle_id": 165,
+      "level": 0,
+      "similarity": 0.2983776355783145
+    },
+    {
+      "puzzle_id": 165,
+      "level": 1,
+      "similarity": 0.20647633572419485
+    },
+    {
+      "puzzle_id": 165,
+      "level": 2,
+      "similarity": 0.5764983793099722
+    },
+    {
+      "puzzle_id": 165,
+      "level": 3,
+      "similarity": 0.3938484291235606
+    },
+    {
+      "puzzle_id": 166,
+      "level": 0,
+      "similarity": 0.2823198189338048
+    },
+    {
+      "puzzle_id": 166,
+      "level": 1,
+      "similarity": 0.26730677237113315
+    },
+    {
+      "puzzle_id": 166,
+      "level": 2,
+      "similarity": 0.24295601745446524
+    },
+    {
+      "puzzle_id": 166,
+      "level": 3,
+      "similarity": 0.2459179237484932
+    },
+    {
+      "puzzle_id": 167,
+      "level": 0,
+      "similarity": 0.4210819403330485
+    },
+    {
+      "puzzle_id": 167,
+      "level": 1,
+      "similarity": 0.5094244728485743
+    },
+    {
+      "puzzle_id": 167,
+      "level": 2,
+      "similarity": 0.2771071568131447
+    },
+    {
+      "puzzle_id": 167,
+      "level": 3,
+      "similarity": 0.1938973938425382
+    },
+    {
+      "puzzle_id": 168,
+      "level": 0,
+      "similarity": 0.5589820643266042
+    },
+    {
+      "puzzle_id": 168,
+      "level": 1,
+      "similarity": 0.2907730092604955
+    },
+    {
+      "puzzle_id": 168,
+      "level": 2,
+      "similarity": 0.3884099821249644
+    },
+    {
+      "puzzle_id": 168,
+      "level": 3,
+      "similarity": 0.23568222920099893
+    },
+    {
+      "puzzle_id": 169,
+      "level": 0,
+      "similarity": 0.29917333523432416
+    },
+    {
+      "puzzle_id": 169,
+      "level": 1,
+      "similarity": 0.3970714757839839
+    },
+    {
+      "puzzle_id": 169,
+      "level": 2,
+      "similarity": 0.4074084460735321
+    },
+    {
+      "puzzle_id": 169,
+      "level": 3,
+      "similarity": 0.40295300384362537
+    },
+    {
+      "puzzle_id": 170,
+      "level": 0,
+      "similarity": 0.3226823608080546
+    },
+    {
+      "puzzle_id": 170,
+      "level": 1,
+      "similarity": 0.30687663455804187
+    },
+    {
+      "puzzle_id": 170,
+      "level": 2,
+      "similarity": 0.2684849103291829
+    },
+    {
+      "puzzle_id": 170,
+      "level": 3,
+      "similarity": 0.1763693243265152
+    },
+    {
+      "puzzle_id": 171,
+      "level": 0,
+      "similarity": 0.31968401620785397
+    },
+    {
+      "puzzle_id": 171,
+      "level": 1,
+      "similarity": 0.3963852177063624
+    },
+    {
+      "puzzle_id": 171,
+      "level": 2,
+      "similarity": 0.31924500564734143
+    },
+    {
+      "puzzle_id": 171,
+      "level": 3,
+      "similarity": 0.338265319665273
+    },
+    {
+      "puzzle_id": 172,
+      "level": 0,
+      "similarity": 0.24626574416955313
+    },
+    {
+      "puzzle_id": 172,
+      "level": 1,
+      "similarity": 0.24708149830500284
+    },
+    {
+      "puzzle_id": 172,
+      "level": 2,
+      "similarity": 0.2860313629110654
+    },
+    {
+      "puzzle_id": 172,
+      "level": 3,
+      "similarity": 0.19833685457706451
+    },
+    {
+      "puzzle_id": 173,
+      "level": 0,
+      "similarity": 0.4361895223458608
+    },
+    {
+      "puzzle_id": 173,
+      "level": 1,
+      "similarity": 0.22307748471697172
+    },
+    {
+      "puzzle_id": 173,
+      "level": 2,
+      "similarity": 0.28053242961565655
+    },
+    {
+      "puzzle_id": 173,
+      "level": 3,
+      "similarity": 0.2443652699391047
+    },
+    {
+      "puzzle_id": 174,
+      "level": 0,
+      "similarity": 0.3602316230535507
+    },
+    {
+      "puzzle_id": 174,
+      "level": 1,
+      "similarity": 0.37376868228117627
+    },
+    {
+      "puzzle_id": 174,
+      "level": 2,
+      "similarity": 0.18287992477416992
+    },
+    {
+      "puzzle_id": 174,
+      "level": 3,
+      "similarity": 0.19181580344835916
+    },
+    {
+      "puzzle_id": 175,
+      "level": 0,
+      "similarity": 0.30805110186338425
+    },
+    {
+      "puzzle_id": 175,
+      "level": 1,
+      "similarity": 0.279196264843146
+    },
+    {
+      "puzzle_id": 175,
+      "level": 2,
+      "similarity": 0.26358510305484134
+    },
+    {
+      "puzzle_id": 175,
+      "level": 3,
+      "similarity": 0.28504953781763714
+    },
+    {
+      "puzzle_id": 176,
+      "level": 0,
+      "similarity": 0.3515976518392563
+    },
+    {
+      "puzzle_id": 176,
+      "level": 1,
+      "similarity": 0.37745675444602966
+    },
+    {
+      "puzzle_id": 176,
+      "level": 2,
+      "similarity": 0.34849704802036285
+    },
+    {
+      "puzzle_id": 176,
+      "level": 3,
+      "similarity": 0.2123684138059616
+    },
+    {
+      "puzzle_id": 177,
+      "level": 0,
+      "similarity": 0.5297029515107473
+    },
+    {
+      "puzzle_id": 177,
+      "level": 1,
+      "similarity": 0.30741099764903385
+    },
+    {
+      "puzzle_id": 177,
+      "level": 2,
+      "similarity": 0.22125538811087608
+    },
+    {
+      "puzzle_id": 177,
+      "level": 3,
+      "similarity": 0.1853573148449262
+    },
+    {
+      "puzzle_id": 178,
+      "level": 0,
+      "similarity": 0.20324413354198137
+    },
+    {
+      "puzzle_id": 178,
+      "level": 1,
+      "similarity": 0.17825479805469513
+    },
+    {
+      "puzzle_id": 178,
+      "level": 2,
+      "similarity": 0.2981693794329961
+    },
+    {
+      "puzzle_id": 178,
+      "level": 3,
+      "similarity": 0.1673971824347973
+    },
+    {
+      "puzzle_id": 179,
+      "level": 0,
+      "similarity": 0.1939808651804924
+    },
+    {
+      "puzzle_id": 179,
+      "level": 1,
+      "similarity": 0.1921452817817529
+    },
+    {
+      "puzzle_id": 179,
+      "level": 2,
+      "similarity": 0.3030788178245227
+    },
+    {
+      "puzzle_id": 179,
+      "level": 3,
+      "similarity": 0.23495258887608847
+    },
+    {
+      "puzzle_id": 180,
+      "level": 0,
+      "similarity": 0.2880903122325738
+    },
+    {
+      "puzzle_id": 180,
+      "level": 1,
+      "similarity": 0.4085437407096227
+    },
+    {
+      "puzzle_id": 180,
+      "level": 2,
+      "similarity": 0.24764046569665274
+    },
+    {
+      "puzzle_id": 180,
+      "level": 3,
+      "similarity": 0.3007054974635442
+    },
+    {
+      "puzzle_id": 181,
+      "level": 0,
+      "similarity": 0.2517455344398816
+    },
+    {
+      "puzzle_id": 181,
+      "level": 1,
+      "similarity": 0.3791790058215459
+    },
+    {
+      "puzzle_id": 181,
+      "level": 2,
+      "similarity": 0.38827991485595703
+    },
+    {
+      "puzzle_id": 181,
+      "level": 3,
+      "similarity": 0.26053719967603683
+    },
+    {
+      "puzzle_id": 182,
+      "level": 0,
+      "similarity": 0.2089617302020391
+    },
+    {
+      "puzzle_id": 182,
+      "level": 1,
+      "similarity": 0.23776768147945404
+    },
+    {
+      "puzzle_id": 182,
+      "level": 2,
+      "similarity": 0.3396979322036107
+    },
+    {
+      "puzzle_id": 182,
+      "level": 3,
+      "similarity": 0.2682262758413951
+    },
+    {
+      "puzzle_id": 183,
+      "level": 0,
+      "similarity": 0.5536807278792063
+    },
+    {
+      "puzzle_id": 183,
+      "level": 1,
+      "similarity": 0.3588859438896179
+    },
+    {
+      "puzzle_id": 183,
+      "level": 2,
+      "similarity": 0.33647166689236957
+    },
+    {
+      "puzzle_id": 183,
+      "level": 3,
+      "similarity": 0.21353318790594736
+    },
+    {
+      "puzzle_id": 184,
+      "level": 0,
+      "similarity": 0.5425092478593191
+    },
+    {
+      "puzzle_id": 184,
+      "level": 1,
+      "similarity": 0.3257541358470917
+    },
+    {
+      "puzzle_id": 184,
+      "level": 2,
+      "similarity": 0.2917718340953191
+    },
+    {
+      "puzzle_id": 184,
+      "level": 3,
+      "similarity": 0.24756875385840735
+    },
+    {
+      "puzzle_id": 185,
+      "level": 0,
+      "similarity": 0.245181476076444
+    },
+    {
+      "puzzle_id": 185,
+      "level": 1,
+      "similarity": 0.23706557850042978
+    },
+    {
+      "puzzle_id": 185,
+      "level": 2,
+      "similarity": 0.2795878325899442
+    },
+    {
+      "puzzle_id": 185,
+      "level": 3,
+      "similarity": 0.21278107662995657
+    },
+    {
+      "puzzle_id": 186,
+      "level": 0,
+      "similarity": 0.24884899457295737
+    },
+    {
+      "puzzle_id": 186,
+      "level": 1,
+      "similarity": 0.40542960663636524
+    },
+    {
+      "puzzle_id": 186,
+      "level": 2,
+      "similarity": 0.3683144400517146
+    },
+    {
+      "puzzle_id": 186,
+      "level": 3,
+      "similarity": 0.24980372935533524
+    },
+    {
+      "puzzle_id": 187,
+      "level": 0,
+      "similarity": 0.40925973653793335
+    },
+    {
+      "puzzle_id": 187,
+      "level": 1,
+      "similarity": 0.37406115730603534
+    },
+    {
+      "puzzle_id": 187,
+      "level": 2,
+      "similarity": 0.2850169961651166
+    },
+    {
+      "puzzle_id": 187,
+      "level": 3,
+      "similarity": 0.2840713858604431
+    },
+    {
+      "puzzle_id": 188,
+      "level": 0,
+      "similarity": 0.29491808513800305
+    },
+    {
+      "puzzle_id": 188,
+      "level": 1,
+      "similarity": 0.44019391636053723
+    },
+    {
+      "puzzle_id": 188,
+      "level": 2,
+      "similarity": 0.32525630791982013
+    },
+    {
+      "puzzle_id": 188,
+      "level": 3,
+      "similarity": 0.4636373966932297
+    },
+    {
+      "puzzle_id": 189,
+      "level": 0,
+      "similarity": 0.37975119054317474
+    },
+    {
+      "puzzle_id": 189,
+      "level": 1,
+      "similarity": 0.3488648558656375
+    },
+    {
+      "puzzle_id": 189,
+      "level": 2,
+      "similarity": 0.3057774007320404
+    },
+    {
+      "puzzle_id": 189,
+      "level": 3,
+      "similarity": 0.19732254619399706
+    },
+    {
+      "puzzle_id": 190,
+      "level": 0,
+      "similarity": 0.16742556790510812
+    },
+    {
+      "puzzle_id": 190,
+      "level": 1,
+      "similarity": 0.2673660491903623
+    },
+    {
+      "puzzle_id": 190,
+      "level": 2,
+      "similarity": 0.275981863339742
+    },
+    {
+      "puzzle_id": 190,
+      "level": 3,
+      "similarity": 0.16510896136363348
+    },
+    {
+      "puzzle_id": 191,
+      "level": 0,
+      "similarity": 0.31661344567934674
+    },
+    {
+      "puzzle_id": 191,
+      "level": 1,
+      "similarity": 0.24761299788951874
+    },
+    {
+      "puzzle_id": 191,
+      "level": 2,
+      "similarity": 0.2896355191866557
+    },
+    {
+      "puzzle_id": 191,
+      "level": 3,
+      "similarity": 0.15396362294753393
+    },
+    {
+      "puzzle_id": 192,
+      "level": 0,
+      "similarity": 0.32226235916217166
+    },
+    {
+      "puzzle_id": 192,
+      "level": 1,
+      "similarity": 0.3594511051972707
+    },
+    {
+      "puzzle_id": 192,
+      "level": 2,
+      "similarity": 0.3313804815212886
+    },
+    {
+      "puzzle_id": 192,
+      "level": 3,
+      "similarity": 0.21591664354006448
+    },
+    {
+      "puzzle_id": 193,
+      "level": 0,
+      "similarity": 0.40187979489564896
+    },
+    {
+      "puzzle_id": 193,
+      "level": 1,
+      "similarity": 0.2885940944155057
+    },
+    {
+      "puzzle_id": 193,
+      "level": 2,
+      "similarity": 0.2547509993116061
+    },
+    {
+      "puzzle_id": 193,
+      "level": 3,
+      "similarity": 0.18791584173838297
+    },
+    {
+      "puzzle_id": 194,
+      "level": 0,
+      "similarity": 0.37095938126246136
+    },
+    {
+      "puzzle_id": 194,
+      "level": 1,
+      "similarity": 0.35472142199675244
+    },
+    {
+      "puzzle_id": 194,
+      "level": 2,
+      "similarity": 0.24369880805412927
+    },
+    {
+      "puzzle_id": 194,
+      "level": 3,
+      "similarity": 0.24681369215250015
+    },
+    {
+      "puzzle_id": 195,
+      "level": 0,
+      "similarity": 0.44499331216017407
+    },
+    {
+      "puzzle_id": 195,
+      "level": 1,
+      "similarity": 0.3560080826282501
+    },
+    {
+      "puzzle_id": 195,
+      "level": 2,
+      "similarity": 0.32440410057703656
+    },
+    {
+      "puzzle_id": 195,
+      "level": 3,
+      "similarity": 0.2501342445611954
+    },
+    {
+      "puzzle_id": 196,
+      "level": 0,
+      "similarity": 0.33649492263793945
+    },
+    {
+      "puzzle_id": 196,
+      "level": 1,
+      "similarity": 0.32299625873565674
+    },
+    {
+      "puzzle_id": 196,
+      "level": 2,
+      "similarity": 0.29536272833744687
+    },
+    {
+      "puzzle_id": 196,
+      "level": 3,
+      "similarity": 0.26269950717687607
+    },
+    {
+      "puzzle_id": 197,
+      "level": 0,
+      "similarity": 0.3256133397420247
+    },
+    {
+      "puzzle_id": 197,
+      "level": 1,
+      "similarity": 0.27466752131779987
+    },
+    {
+      "puzzle_id": 197,
+      "level": 2,
+      "similarity": 0.323587899406751
+    },
+    {
+      "puzzle_id": 197,
+      "level": 3,
+      "similarity": 0.2830827981233597
+    },
+    {
+      "puzzle_id": 198,
+      "level": 0,
+      "similarity": 0.38995615641276044
+    },
+    {
+      "puzzle_id": 198,
+      "level": 1,
+      "similarity": 0.31596127649148303
+    },
+    {
+      "puzzle_id": 198,
+      "level": 2,
+      "similarity": 0.1357554259399573
+    },
+    {
+      "puzzle_id": 198,
+      "level": 3,
+      "similarity": 0.30177173763513565
+    },
+    {
+      "puzzle_id": 199,
+      "level": 0,
+      "similarity": 0.33228916426499683
+    },
+    {
+      "puzzle_id": 199,
+      "level": 1,
+      "similarity": 0.20074238379796347
+    },
+    {
+      "puzzle_id": 199,
+      "level": 2,
+      "similarity": 0.41985566914081573
+    },
+    {
+      "puzzle_id": 199,
+      "level": 3,
+      "similarity": 0.2288054550687472
+    },
+    {
+      "puzzle_id": 200,
+      "level": 0,
+      "similarity": 0.37496047218640643
+    },
+    {
+      "puzzle_id": 200,
+      "level": 1,
+      "similarity": 0.3160647476712863
+    },
+    {
+      "puzzle_id": 200,
+      "level": 2,
+      "similarity": 0.30770868559678394
+    },
+    {
+      "puzzle_id": 200,
+      "level": 3,
+      "similarity": 0.2505384013056755
+    },
+    {
+      "puzzle_id": 201,
+      "level": 0,
+      "similarity": 0.25288595755894977
+    },
+    {
+      "puzzle_id": 201,
+      "level": 1,
+      "similarity": 0.21792960166931152
+    },
+    {
+      "puzzle_id": 201,
+      "level": 2,
+      "similarity": 0.31413934876521427
+    },
+    {
+      "puzzle_id": 201,
+      "level": 3,
+      "similarity": 0.21439285824696222
+    },
+    {
+      "puzzle_id": 202,
+      "level": 0,
+      "similarity": 0.3321388488014539
+    },
+    {
+      "puzzle_id": 202,
+      "level": 1,
+      "similarity": 0.26204486687978107
+    },
+    {
+      "puzzle_id": 202,
+      "level": 2,
+      "similarity": 0.2532700374722481
+    },
+    {
+      "puzzle_id": 202,
+      "level": 3,
+      "similarity": 0.23825238396724066
+    },
+    {
+      "puzzle_id": 203,
+      "level": 0,
+      "similarity": 0.45544437567392987
+    },
+    {
+      "puzzle_id": 203,
+      "level": 1,
+      "similarity": 0.246468648314476
+    },
+    {
+      "puzzle_id": 203,
+      "level": 2,
+      "similarity": 0.21752999226252237
+    },
+    {
+      "puzzle_id": 203,
+      "level": 3,
+      "similarity": 0.23227769633134207
+    },
+    {
+      "puzzle_id": 204,
+      "level": 0,
+      "similarity": 0.4157068729400635
+    },
+    {
+      "puzzle_id": 204,
+      "level": 1,
+      "similarity": 0.23093940069278082
+    },
+    {
+      "puzzle_id": 204,
+      "level": 2,
+      "similarity": 0.23547501613696417
+    },
+    {
+      "puzzle_id": 204,
+      "level": 3,
+      "similarity": 0.25432901084423065
+    },
+    {
+      "puzzle_id": 205,
+      "level": 0,
+      "similarity": 0.4476262877384822
+    },
+    {
+      "puzzle_id": 205,
+      "level": 1,
+      "similarity": 0.32800018042325974
+    },
+    {
+      "puzzle_id": 205,
+      "level": 2,
+      "similarity": 0.2928539142012596
+    },
+    {
+      "puzzle_id": 205,
+      "level": 3,
+      "similarity": 0.2425063153107961
+    },
+    {
+      "puzzle_id": 206,
+      "level": 0,
+      "similarity": 0.3840050647656123
+    },
+    {
+      "puzzle_id": 206,
+      "level": 1,
+      "similarity": 0.22990350673596063
+    },
+    {
+      "puzzle_id": 206,
+      "level": 2,
+      "similarity": 0.3134332746267319
+    },
+    {
+      "puzzle_id": 206,
+      "level": 3,
+      "similarity": 0.2239871248602867
+    },
+    {
+      "puzzle_id": 207,
+      "level": 0,
+      "similarity": 0.3184986213843028
+    },
+    {
+      "puzzle_id": 207,
+      "level": 1,
+      "similarity": 0.2408594066898028
+    },
+    {
+      "puzzle_id": 207,
+      "level": 2,
+      "similarity": 0.3013328438003858
+    },
+    {
+      "puzzle_id": 207,
+      "level": 3,
+      "similarity": 0.24681225419044495
+    },
+    {
+      "puzzle_id": 208,
+      "level": 0,
+      "similarity": 0.2495885267853737
+    },
+    {
+      "puzzle_id": 208,
+      "level": 1,
+      "similarity": 0.40811964869499207
+    },
+    {
+      "puzzle_id": 208,
+      "level": 2,
+      "similarity": 0.2567651594678561
+    },
+    {
+      "puzzle_id": 208,
+      "level": 3,
+      "similarity": 0.19804552445809046
+    },
+    {
+      "puzzle_id": 209,
+      "level": 0,
+      "similarity": 0.26047178357839584
+    },
+    {
+      "puzzle_id": 209,
+      "level": 1,
+      "similarity": 0.3256654292345047
+    },
+    {
+      "puzzle_id": 209,
+      "level": 2,
+      "similarity": 0.25487179060777027
+    },
+    {
+      "puzzle_id": 209,
+      "level": 3,
+      "similarity": 0.19461863860487938
+    },
+    {
+      "puzzle_id": 210,
+      "level": 0,
+      "similarity": 0.26275170346101123
+    },
+    {
+      "puzzle_id": 210,
+      "level": 1,
+      "similarity": 0.2411064331730207
+    },
+    {
+      "puzzle_id": 210,
+      "level": 2,
+      "similarity": 0.27926216026147205
+    },
+    {
+      "puzzle_id": 210,
+      "level": 3,
+      "similarity": 0.1756558045744896
+    },
+    {
+      "puzzle_id": 211,
+      "level": 0,
+      "similarity": 0.3302047923207283
+    },
+    {
+      "puzzle_id": 211,
+      "level": 1,
+      "similarity": 0.35228924204905826
+    },
+    {
+      "puzzle_id": 211,
+      "level": 2,
+      "similarity": 0.2806871011853218
+    },
+    {
+      "puzzle_id": 211,
+      "level": 3,
+      "similarity": 0.33708558479944867
+    },
+    {
+      "puzzle_id": 212,
+      "level": 0,
+      "similarity": 0.41632990539073944
+    },
+    {
+      "puzzle_id": 212,
+      "level": 1,
+      "similarity": 0.3555219570795695
+    },
+    {
+      "puzzle_id": 212,
+      "level": 2,
+      "similarity": 0.4269834061463674
+    },
+    {
+      "puzzle_id": 212,
+      "level": 3,
+      "similarity": 0.281363770365715
+    },
+    {
+      "puzzle_id": 213,
+      "level": 0,
+      "similarity": 0.3153275102376938
+    },
+    {
+      "puzzle_id": 213,
+      "level": 1,
+      "similarity": 0.22140435626109442
+    },
+    {
+      "puzzle_id": 213,
+      "level": 2,
+      "similarity": 0.41057976086934406
+    },
+    {
+      "puzzle_id": 213,
+      "level": 3,
+      "similarity": 0.4492726723353068
+    },
+    {
+      "puzzle_id": 214,
+      "level": 0,
+      "similarity": 0.38155340651671094
+    },
+    {
+      "puzzle_id": 214,
+      "level": 1,
+      "similarity": 0.33821789423624676
+    },
+    {
+      "puzzle_id": 214,
+      "level": 2,
+      "similarity": 0.24910841385523477
+    },
+    {
+      "puzzle_id": 214,
+      "level": 3,
+      "similarity": 0.2301569258173307
+    },
+    {
+      "puzzle_id": 215,
+      "level": 0,
+      "similarity": 0.3368796507517497
+    },
+    {
+      "puzzle_id": 215,
+      "level": 1,
+      "similarity": 0.3102298825979233
+    },
+    {
+      "puzzle_id": 215,
+      "level": 2,
+      "similarity": 0.26341405014197034
+    },
+    {
+      "puzzle_id": 215,
+      "level": 3,
+      "similarity": 0.14149392892916998
+    },
+    {
+      "puzzle_id": 216,
+      "level": 0,
+      "similarity": 0.3352503031492233
+    },
+    {
+      "puzzle_id": 216,
+      "level": 1,
+      "similarity": 0.22071178754170737
+    },
+    {
+      "puzzle_id": 216,
+      "level": 2,
+      "similarity": 0.25123488903045654
+    },
+    {
+      "puzzle_id": 216,
+      "level": 3,
+      "similarity": 0.26225123554468155
+    },
+    {
+      "puzzle_id": 217,
+      "level": 0,
+      "similarity": 0.27946219344933826
+    },
+    {
+      "puzzle_id": 217,
+      "level": 1,
+      "similarity": 0.29653598616520566
+    },
+    {
+      "puzzle_id": 217,
+      "level": 2,
+      "similarity": 0.31273730595906574
+    },
+    {
+      "puzzle_id": 217,
+      "level": 3,
+      "similarity": 0.26292097320159274
+    },
+    {
+      "puzzle_id": 218,
+      "level": 0,
+      "similarity": 0.30551667014757794
+    },
+    {
+      "puzzle_id": 218,
+      "level": 1,
+      "similarity": 0.334765429298083
+    },
+    {
+      "puzzle_id": 218,
+      "level": 2,
+      "similarity": 0.28892409304777783
+    },
+    {
+      "puzzle_id": 218,
+      "level": 3,
+      "similarity": 0.3143789420525233
+    },
+    {
+      "puzzle_id": 219,
+      "level": 0,
+      "similarity": 0.2897260809938113
+    },
+    {
+      "puzzle_id": 219,
+      "level": 1,
+      "similarity": 0.17656257996956506
+    },
+    {
+      "puzzle_id": 219,
+      "level": 2,
+      "similarity": 0.10309888018916051
+    },
+    {
+      "puzzle_id": 219,
+      "level": 3,
+      "similarity": 0.22822978099187216
+    },
+    {
+      "puzzle_id": 220,
+      "level": 0,
+      "similarity": 0.27033781260252
+    },
+    {
+      "puzzle_id": 220,
+      "level": 1,
+      "similarity": 0.23883343487977982
+    },
+    {
+      "puzzle_id": 220,
+      "level": 2,
+      "similarity": 0.24001029878854752
+    },
+    {
+      "puzzle_id": 220,
+      "level": 3,
+      "similarity": 0.19424745937188467
+    },
+    {
+      "puzzle_id": 221,
+      "level": 0,
+      "similarity": 0.24858726064364114
+    },
+    {
+      "puzzle_id": 221,
+      "level": 1,
+      "similarity": 0.3283073604106903
+    },
+    {
+      "puzzle_id": 221,
+      "level": 2,
+      "similarity": 0.7004998326301575
+    },
+    {
+      "puzzle_id": 221,
+      "level": 3,
+      "similarity": 0.22781007240215936
+    },
+    {
+      "puzzle_id": 222,
+      "level": 0,
+      "similarity": 0.37093489865461987
+    },
+    {
+      "puzzle_id": 222,
+      "level": 1,
+      "similarity": 0.23882771780093512
+    },
+    {
+      "puzzle_id": 222,
+      "level": 2,
+      "similarity": 0.2533613679309686
+    },
+    {
+      "puzzle_id": 222,
+      "level": 3,
+      "similarity": 0.2399676168958346
+    },
+    {
+      "puzzle_id": 223,
+      "level": 0,
+      "similarity": 0.37755771974722546
+    },
+    {
+      "puzzle_id": 223,
+      "level": 1,
+      "similarity": 0.27095108727614087
+    },
+    {
+      "puzzle_id": 223,
+      "level": 2,
+      "similarity": 0.22491605083147684
+    },
+    {
+      "puzzle_id": 223,
+      "level": 3,
+      "similarity": 0.2100854441523552
+    },
+    {
+      "puzzle_id": 224,
+      "level": 0,
+      "similarity": 0.22077026466528574
+    },
+    {
+      "puzzle_id": 224,
+      "level": 1,
+      "similarity": 0.2954524904489517
+    },
+    {
+      "puzzle_id": 224,
+      "level": 2,
+      "similarity": 0.2866225764155388
+    },
+    {
+      "puzzle_id": 224,
+      "level": 3,
+      "similarity": 0.31371837357680005
+    },
+    {
+      "puzzle_id": 225,
+      "level": 0,
+      "similarity": 0.3796977748473485
+    },
+    {
+      "puzzle_id": 225,
+      "level": 1,
+      "similarity": 0.35792874296506244
+    },
+    {
+      "puzzle_id": 225,
+      "level": 2,
+      "similarity": 0.3059689824779828
+    },
+    {
+      "puzzle_id": 225,
+      "level": 3,
+      "similarity": 0.2344392811258634
+    },
+    {
+      "puzzle_id": 226,
+      "level": 0,
+      "similarity": 0.2855717937151591
+    },
+    {
+      "puzzle_id": 226,
+      "level": 1,
+      "similarity": 0.2551129336158435
+    },
+    {
+      "puzzle_id": 226,
+      "level": 2,
+      "similarity": 0.2873039518793424
+    },
+    {
+      "puzzle_id": 226,
+      "level": 3,
+      "similarity": 0.21758069097995758
+    },
+    {
+      "puzzle_id": 227,
+      "level": 0,
+      "similarity": 0.28654681394497555
+    },
+    {
+      "puzzle_id": 227,
+      "level": 1,
+      "similarity": 0.3307993412017822
+    },
+    {
+      "puzzle_id": 227,
+      "level": 2,
+      "similarity": 0.2952359467744827
+    },
+    {
+      "puzzle_id": 227,
+      "level": 3,
+      "similarity": 0.15775727480649948
+    },
+    {
+      "puzzle_id": 228,
+      "level": 0,
+      "similarity": 0.2736765096584956
+    },
+    {
+      "puzzle_id": 228,
+      "level": 1,
+      "similarity": 0.47444968422253925
+    },
+    {
+      "puzzle_id": 228,
+      "level": 2,
+      "similarity": 0.25023872405290604
+    },
+    {
+      "puzzle_id": 228,
+      "level": 3,
+      "similarity": 0.18018271028995514
+    },
+    {
+      "puzzle_id": 229,
+      "level": 0,
+      "similarity": 0.3654148628314336
+    },
+    {
+      "puzzle_id": 229,
+      "level": 1,
+      "similarity": 0.2766340970993042
+    },
+    {
+      "puzzle_id": 229,
+      "level": 2,
+      "similarity": 0.255605344971021
+    },
+    {
+      "puzzle_id": 229,
+      "level": 3,
+      "similarity": 0.22025786836942038
+    },
+    {
+      "puzzle_id": 230,
+      "level": 0,
+      "similarity": 0.24288630858063698
+    },
+    {
+      "puzzle_id": 230,
+      "level": 1,
+      "similarity": 0.29903680831193924
+    },
+    {
+      "puzzle_id": 230,
+      "level": 2,
+      "similarity": 0.2891221046447754
+    },
+    {
+      "puzzle_id": 230,
+      "level": 3,
+      "similarity": 0.2501935586333275
+    },
+    {
+      "puzzle_id": 231,
+      "level": 0,
+      "similarity": 0.3494592731197675
+    },
+    {
+      "puzzle_id": 231,
+      "level": 1,
+      "similarity": 0.3381560097138087
+    },
+    {
+      "puzzle_id": 231,
+      "level": 2,
+      "similarity": 0.286049447953701
+    },
+    {
+      "puzzle_id": 231,
+      "level": 3,
+      "similarity": 0.32855749130249023
+    },
+    {
+      "puzzle_id": 232,
+      "level": 0,
+      "similarity": 0.30429167052110034
+    },
+    {
+      "puzzle_id": 232,
+      "level": 1,
+      "similarity": 0.42221420506636304
+    },
+    {
+      "puzzle_id": 232,
+      "level": 2,
+      "similarity": 0.22826024517416954
+    },
+    {
+      "puzzle_id": 232,
+      "level": 3,
+      "similarity": 0.23476067930459976
+    },
+    {
+      "puzzle_id": 233,
+      "level": 0,
+      "similarity": 0.32431910932064056
+    },
+    {
+      "puzzle_id": 233,
+      "level": 1,
+      "similarity": 0.24008854230244955
+    },
+    {
+      "puzzle_id": 233,
+      "level": 2,
+      "similarity": 0.27381284534931183
+    },
+    {
+      "puzzle_id": 233,
+      "level": 3,
+      "similarity": 0.31974421938260394
+    },
+    {
+      "puzzle_id": 234,
+      "level": 0,
+      "similarity": 0.365432212750117
+    },
+    {
+      "puzzle_id": 234,
+      "level": 1,
+      "similarity": 0.3213849564393361
+    },
+    {
+      "puzzle_id": 234,
+      "level": 2,
+      "similarity": 0.22913062572479248
+    },
+    {
+      "puzzle_id": 234,
+      "level": 3,
+      "similarity": 0.24429558962583542
+    },
+    {
+      "puzzle_id": 235,
+      "level": 0,
+      "similarity": 0.37324491639931995
+    },
+    {
+      "puzzle_id": 235,
+      "level": 1,
+      "similarity": 0.30395091076691944
+    },
+    {
+      "puzzle_id": 235,
+      "level": 2,
+      "similarity": 0.32738704482714337
+    },
+    {
+      "puzzle_id": 235,
+      "level": 3,
+      "similarity": 0.19196771085262299
+    },
+    {
+      "puzzle_id": 236,
+      "level": 0,
+      "similarity": 0.33885196844736737
+    },
+    {
+      "puzzle_id": 236,
+      "level": 1,
+      "similarity": 0.3306594466169675
+    },
+    {
+      "puzzle_id": 236,
+      "level": 2,
+      "similarity": 0.16723985224962234
+    },
+    {
+      "puzzle_id": 236,
+      "level": 3,
+      "similarity": 0.16254063012699285
+    },
+    {
+      "puzzle_id": 237,
+      "level": 0,
+      "similarity": 0.38640671968460083
+    },
+    {
+      "puzzle_id": 237,
+      "level": 1,
+      "similarity": 0.2550822173555692
+    },
+    {
+      "puzzle_id": 237,
+      "level": 2,
+      "similarity": 0.23811110854148865
+    },
+    {
+      "puzzle_id": 237,
+      "level": 3,
+      "similarity": 0.2142567584911982
+    },
+    {
+      "puzzle_id": 238,
+      "level": 0,
+      "similarity": 0.3888220712542534
+    },
+    {
+      "puzzle_id": 238,
+      "level": 1,
+      "similarity": 0.4746469408273697
+    },
+    {
+      "puzzle_id": 238,
+      "level": 2,
+      "similarity": 0.22594827661911646
+    },
+    {
+      "puzzle_id": 238,
+      "level": 3,
+      "similarity": 0.2598727246125539
+    },
+    {
+      "puzzle_id": 239,
+      "level": 0,
+      "similarity": 0.2251284271478653
+    },
+    {
+      "puzzle_id": 239,
+      "level": 1,
+      "similarity": 0.35484912246465683
+    },
+    {
+      "puzzle_id": 239,
+      "level": 2,
+      "similarity": 0.38561904927094776
+    },
+    {
+      "puzzle_id": 239,
+      "level": 3,
+      "similarity": 0.21494214733441672
+    },
+    {
+      "puzzle_id": 240,
+      "level": 0,
+      "similarity": 0.38827917476495105
+    },
+    {
+      "puzzle_id": 240,
+      "level": 1,
+      "similarity": 0.2474994957447052
+    },
+    {
+      "puzzle_id": 240,
+      "level": 2,
+      "similarity": 0.27457693219184875
+    },
+    {
+      "puzzle_id": 240,
+      "level": 3,
+      "similarity": 0.20316254099210104
+    },
+    {
+      "puzzle_id": 241,
+      "level": 0,
+      "similarity": 0.4496850520372391
+    },
+    {
+      "puzzle_id": 241,
+      "level": 1,
+      "similarity": 0.4138266940911611
+    },
+    {
+      "puzzle_id": 241,
+      "level": 2,
+      "similarity": 0.2582755883534749
+    },
+    {
+      "puzzle_id": 241,
+      "level": 3,
+      "similarity": 0.17200113087892532
+    },
+    {
+      "puzzle_id": 242,
+      "level": 0,
+      "similarity": 0.45217521488666534
+    },
+    {
+      "puzzle_id": 242,
+      "level": 1,
+      "similarity": 0.2505344475309054
+    },
+    {
+      "puzzle_id": 242,
+      "level": 2,
+      "similarity": 0.22964861492315927
+    },
+    {
+      "puzzle_id": 242,
+      "level": 3,
+      "similarity": 0.250426617761453
+    },
+    {
+      "puzzle_id": 243,
+      "level": 0,
+      "similarity": 0.289734090367953
+    },
+    {
+      "puzzle_id": 243,
+      "level": 1,
+      "similarity": 0.2561481272180875
+    },
+    {
+      "puzzle_id": 243,
+      "level": 2,
+      "similarity": 0.23725214103857675
+    },
+    {
+      "puzzle_id": 243,
+      "level": 3,
+      "similarity": 0.270805299282074
+    },
+    {
+      "puzzle_id": 244,
+      "level": 0,
+      "similarity": 0.324099729458491
+    },
+    {
+      "puzzle_id": 244,
+      "level": 1,
+      "similarity": 0.3507825434207916
+    },
+    {
+      "puzzle_id": 244,
+      "level": 2,
+      "similarity": 0.30985183517138165
+    },
+    {
+      "puzzle_id": 244,
+      "level": 3,
+      "similarity": 0.30259556074937183
+    },
+    {
+      "puzzle_id": 245,
+      "level": 0,
+      "similarity": 0.2625835140546163
+    },
+    {
+      "puzzle_id": 245,
+      "level": 1,
+      "similarity": 0.28298913687467575
+    },
+    {
+      "puzzle_id": 245,
+      "level": 2,
+      "similarity": 0.2047352765997251
+    },
+    {
+      "puzzle_id": 245,
+      "level": 3,
+      "similarity": 0.20282271007696787
+    },
+    {
+      "puzzle_id": 246,
+      "level": 0,
+      "similarity": 0.2382837856809298
+    },
+    {
+      "puzzle_id": 246,
+      "level": 1,
+      "similarity": 0.2547647828857104
+    },
+    {
+      "puzzle_id": 246,
+      "level": 2,
+      "similarity": 0.3616986870765686
+    },
+    {
+      "puzzle_id": 246,
+      "level": 3,
+      "similarity": 0.193913534283638
+    },
+    {
+      "puzzle_id": 247,
+      "level": 0,
+      "similarity": 0.30957092096408206
+    },
+    {
+      "puzzle_id": 247,
+      "level": 1,
+      "similarity": 0.26789818455775577
+    },
+    {
+      "puzzle_id": 247,
+      "level": 2,
+      "similarity": 0.2933514093359311
+    },
+    {
+      "puzzle_id": 247,
+      "level": 3,
+      "similarity": 0.24893095592657724
+    },
+    {
+      "puzzle_id": 248,
+      "level": 0,
+      "similarity": 0.37064817796150845
+    },
+    {
+      "puzzle_id": 248,
+      "level": 1,
+      "similarity": 0.23731469611326853
+    },
+    {
+      "puzzle_id": 248,
+      "level": 2,
+      "similarity": 0.2731252610683441
+    },
+    {
+      "puzzle_id": 248,
+      "level": 3,
+      "similarity": 0.22737810015678406
+    },
+    {
+      "puzzle_id": 249,
+      "level": 0,
+      "similarity": 0.23735653857390085
+    },
+    {
+      "puzzle_id": 249,
+      "level": 1,
+      "similarity": 0.3157780319452286
+    },
+    {
+      "puzzle_id": 249,
+      "level": 2,
+      "similarity": 0.2593609814842542
+    },
+    {
+      "puzzle_id": 249,
+      "level": 3,
+      "similarity": 0.24715687582890192
+    },
+    {
+      "puzzle_id": 250,
+      "level": 0,
+      "similarity": 0.44375771284103394
+    },
+    {
+      "puzzle_id": 250,
+      "level": 1,
+      "similarity": 0.21320240696271262
+    },
+    {
+      "puzzle_id": 250,
+      "level": 2,
+      "similarity": 0.3897223124901454
+    },
+    {
+      "puzzle_id": 250,
+      "level": 3,
+      "similarity": 0.24692008644342422
+    },
+    {
+      "puzzle_id": 251,
+      "level": 0,
+      "similarity": 0.22871933629115423
+    },
+    {
+      "puzzle_id": 251,
+      "level": 1,
+      "similarity": 0.35662612318992615
+    },
+    {
+      "puzzle_id": 251,
+      "level": 2,
+      "similarity": 0.2386272003253301
+    },
+    {
+      "puzzle_id": 251,
+      "level": 3,
+      "similarity": 0.20410854121049246
+    },
+    {
+      "puzzle_id": 252,
+      "level": 0,
+      "similarity": 0.4112984488407771
+    },
+    {
+      "puzzle_id": 252,
+      "level": 1,
+      "similarity": 0.3829421252012253
+    },
+    {
+      "puzzle_id": 252,
+      "level": 2,
+      "similarity": 0.30795720716317493
+    },
+    {
+      "puzzle_id": 252,
+      "level": 3,
+      "similarity": 0.25337790449460346
+    },
+    {
+      "puzzle_id": 253,
+      "level": 0,
+      "similarity": 0.267349715034167
+    },
+    {
+      "puzzle_id": 253,
+      "level": 1,
+      "similarity": 0.22721884151299795
+    },
+    {
+      "puzzle_id": 253,
+      "level": 2,
+      "similarity": 0.2960157518585523
+    },
+    {
+      "puzzle_id": 253,
+      "level": 3,
+      "similarity": 0.30372729400793713
+    },
+    {
+      "puzzle_id": 254,
+      "level": 0,
+      "similarity": 0.23064959421753883
+    },
+    {
+      "puzzle_id": 254,
+      "level": 1,
+      "similarity": 0.27525992691516876
+    },
+    {
+      "puzzle_id": 254,
+      "level": 2,
+      "similarity": 0.3459954460461934
+    },
+    {
+      "puzzle_id": 254,
+      "level": 3,
+      "similarity": 0.23367531597614288
+    },
+    {
+      "puzzle_id": 255,
+      "level": 0,
+      "similarity": 0.32894278069337207
+    },
+    {
+      "puzzle_id": 255,
+      "level": 1,
+      "similarity": 0.24499176442623138
+    },
+    {
+      "puzzle_id": 255,
+      "level": 2,
+      "similarity": 0.23211011042197546
+    },
+    {
+      "puzzle_id": 255,
+      "level": 3,
+      "similarity": 0.24000386397043863
+    },
+    {
+      "puzzle_id": 256,
+      "level": 0,
+      "similarity": 0.4640947977701823
+    },
+    {
+      "puzzle_id": 256,
+      "level": 1,
+      "similarity": 0.3240155478318532
+    },
+    {
+      "puzzle_id": 256,
+      "level": 2,
+      "similarity": 0.20342715084552765
+    },
+    {
+      "puzzle_id": 256,
+      "level": 3,
+      "similarity": 0.2602287183205287
+    },
+    {
+      "puzzle_id": 257,
+      "level": 0,
+      "similarity": 0.36125048995018005
+    },
+    {
+      "puzzle_id": 257,
+      "level": 1,
+      "similarity": 0.3470493406057358
+    },
+    {
+      "puzzle_id": 257,
+      "level": 2,
+      "similarity": 0.2727324217557907
+    },
+    {
+      "puzzle_id": 257,
+      "level": 3,
+      "similarity": 0.2679852346579234
+    },
+    {
+      "puzzle_id": 258,
+      "level": 0,
+      "similarity": 0.3465691606203715
+    },
+    {
+      "puzzle_id": 258,
+      "level": 1,
+      "similarity": 0.2215281998117765
+    },
+    {
+      "puzzle_id": 258,
+      "level": 2,
+      "similarity": 0.27494875093301135
+    },
+    {
+      "puzzle_id": 258,
+      "level": 3,
+      "similarity": 0.23550786077976227
+    },
+    {
+      "puzzle_id": 259,
+      "level": 0,
+      "similarity": 0.3667693833510081
+    },
+    {
+      "puzzle_id": 259,
+      "level": 1,
+      "similarity": 0.31428903837998706
+    },
+    {
+      "puzzle_id": 259,
+      "level": 2,
+      "similarity": 0.41865769028663635
+    },
+    {
+      "puzzle_id": 259,
+      "level": 3,
+      "similarity": 0.26469945162534714
+    },
+    {
+      "puzzle_id": 260,
+      "level": 0,
+      "similarity": 0.44382812082767487
+    },
+    {
+      "puzzle_id": 260,
+      "level": 1,
+      "similarity": 0.3196943402290344
+    },
+    {
+      "puzzle_id": 260,
+      "level": 2,
+      "similarity": 0.3285054961840312
+    },
+    {
+      "puzzle_id": 260,
+      "level": 3,
+      "similarity": 0.27910786618789035
+    },
+    {
+      "puzzle_id": 261,
+      "level": 0,
+      "similarity": 0.2725335856278737
+    },
+    {
+      "puzzle_id": 261,
+      "level": 1,
+      "similarity": 0.2789614498615265
+    },
+    {
+      "puzzle_id": 261,
+      "level": 2,
+      "similarity": 0.2945691893498103
+    },
+    {
+      "puzzle_id": 261,
+      "level": 3,
+      "similarity": 0.19508356104294458
+    },
+    {
+      "puzzle_id": 262,
+      "level": 0,
+      "similarity": 0.3135065585374832
+    },
+    {
+      "puzzle_id": 262,
+      "level": 1,
+      "similarity": 0.3757542818784714
+    },
+    {
+      "puzzle_id": 262,
+      "level": 2,
+      "similarity": 0.3104570309321086
+    },
+    {
+      "puzzle_id": 262,
+      "level": 3,
+      "similarity": 0.22517230858405432
+    },
+    {
+      "puzzle_id": 263,
+      "level": 0,
+      "similarity": 0.5000121941169103
+    },
+    {
+      "puzzle_id": 263,
+      "level": 1,
+      "similarity": 0.3021765276789665
+    },
+    {
+      "puzzle_id": 263,
+      "level": 2,
+      "similarity": 0.2820789764324824
+    },
+    {
+      "puzzle_id": 263,
+      "level": 3,
+      "similarity": 0.2653924723466237
+    },
+    {
+      "puzzle_id": 264,
+      "level": 0,
+      "similarity": 0.4633742074171702
+    },
+    {
+      "puzzle_id": 264,
+      "level": 1,
+      "similarity": 0.4449181954065959
+    },
+    {
+      "puzzle_id": 264,
+      "level": 2,
+      "similarity": 0.2762702628970146
+    },
+    {
+      "puzzle_id": 264,
+      "level": 3,
+      "similarity": 0.32154160737991333
+    },
+    {
+      "puzzle_id": 265,
+      "level": 0,
+      "similarity": 0.2957410191496213
+    },
+    {
+      "puzzle_id": 265,
+      "level": 1,
+      "similarity": 0.29765116175015766
+    },
+    {
+      "puzzle_id": 265,
+      "level": 2,
+      "similarity": 0.2406513566772143
+    },
+    {
+      "puzzle_id": 265,
+      "level": 3,
+      "similarity": 0.24776490777730942
+    },
+    {
+      "puzzle_id": 266,
+      "level": 0,
+      "similarity": 0.2705443153778712
+    },
+    {
+      "puzzle_id": 266,
+      "level": 1,
+      "similarity": 0.2903366908431053
+    },
+    {
+      "puzzle_id": 266,
+      "level": 2,
+      "similarity": 0.3312448263168335
+    },
+    {
+      "puzzle_id": 266,
+      "level": 3,
+      "similarity": 0.3555741260449092
+    },
+    {
+      "puzzle_id": 267,
+      "level": 0,
+      "similarity": 0.23418063670396805
+    },
+    {
+      "puzzle_id": 267,
+      "level": 1,
+      "similarity": 0.3724169184764226
+    },
+    {
+      "puzzle_id": 267,
+      "level": 2,
+      "similarity": 0.22687409073114395
+    },
+    {
+      "puzzle_id": 267,
+      "level": 3,
+      "similarity": 0.2084863893687725
+    },
+    {
+      "puzzle_id": 268,
+      "level": 0,
+      "similarity": 0.20214597756663957
+    },
+    {
+      "puzzle_id": 268,
+      "level": 1,
+      "similarity": 0.2557080462574959
+    },
+    {
+      "puzzle_id": 268,
+      "level": 2,
+      "similarity": 0.27218500276406604
+    },
+    {
+      "puzzle_id": 268,
+      "level": 3,
+      "similarity": 0.23464146504799524
+    },
+    {
+      "puzzle_id": 269,
+      "level": 0,
+      "similarity": 0.40189839402834576
+    },
+    {
+      "puzzle_id": 269,
+      "level": 1,
+      "similarity": 0.4521239499251048
+    },
+    {
+      "puzzle_id": 269,
+      "level": 2,
+      "similarity": 0.28316429257392883
+    },
+    {
+      "puzzle_id": 269,
+      "level": 3,
+      "similarity": 0.32100312411785126
+    },
+    {
+      "puzzle_id": 270,
+      "level": 0,
+      "similarity": 0.36837005118529004
+    },
+    {
+      "puzzle_id": 270,
+      "level": 1,
+      "similarity": 0.42698265115420025
+    },
+    {
+      "puzzle_id": 270,
+      "level": 2,
+      "similarity": 0.27767879019180935
+    },
+    {
+      "puzzle_id": 270,
+      "level": 3,
+      "similarity": 0.20050392051537833
+    },
+    {
+      "puzzle_id": 271,
+      "level": 0,
+      "similarity": 0.29769530644019443
+    },
+    {
+      "puzzle_id": 271,
+      "level": 1,
+      "similarity": 0.23791822542746863
+    },
+    {
+      "puzzle_id": 271,
+      "level": 2,
+      "similarity": 0.2879340797662735
+    },
+    {
+      "puzzle_id": 271,
+      "level": 3,
+      "similarity": 0.18184084569414458
+    },
+    {
+      "puzzle_id": 272,
+      "level": 0,
+      "similarity": 0.20386876662572226
+    },
+    {
+      "puzzle_id": 272,
+      "level": 1,
+      "similarity": 0.3327350839972496
+    },
+    {
+      "puzzle_id": 272,
+      "level": 2,
+      "similarity": 0.3066420604785283
+    },
+    {
+      "puzzle_id": 272,
+      "level": 3,
+      "similarity": 0.24070227642854056
+    },
+    {
+      "puzzle_id": 273,
+      "level": 0,
+      "similarity": 0.3373175834616025
+    },
+    {
+      "puzzle_id": 273,
+      "level": 1,
+      "similarity": 0.3344599132736524
+    },
+    {
+      "puzzle_id": 273,
+      "level": 2,
+      "similarity": 0.3118867675463359
+    },
+    {
+      "puzzle_id": 273,
+      "level": 3,
+      "similarity": 0.24429661283890405
+    },
+    {
+      "puzzle_id": 274,
+      "level": 0,
+      "similarity": 0.3137804940342903
+    },
+    {
+      "puzzle_id": 274,
+      "level": 1,
+      "similarity": 0.2875007564822833
+    },
+    {
+      "puzzle_id": 274,
+      "level": 2,
+      "similarity": 0.48519302407900494
+    },
+    {
+      "puzzle_id": 274,
+      "level": 3,
+      "similarity": 0.23527532567580542
+    },
+    {
+      "puzzle_id": 275,
+      "level": 0,
+      "similarity": 0.35027357935905457
+    },
+    {
+      "puzzle_id": 275,
+      "level": 1,
+      "similarity": 0.40946727991104126
+    },
+    {
+      "puzzle_id": 275,
+      "level": 2,
+      "similarity": 0.29851097613573074
+    },
+    {
+      "puzzle_id": 275,
+      "level": 3,
+      "similarity": 0.17416434114178023
+    },
+    {
+      "puzzle_id": 276,
+      "level": 0,
+      "similarity": 0.3866177399953206
+    },
+    {
+      "puzzle_id": 276,
+      "level": 1,
+      "similarity": 0.40651193261146545
+    },
+    {
+      "puzzle_id": 276,
+      "level": 2,
+      "similarity": 0.32557784020900726
+    },
+    {
+      "puzzle_id": 276,
+      "level": 3,
+      "similarity": 0.3147554025053978
+    },
+    {
+      "puzzle_id": 277,
+      "level": 0,
+      "similarity": 0.2794166753689448
+    },
+    {
+      "puzzle_id": 277,
+      "level": 1,
+      "similarity": 0.245530903339386
+    },
+    {
+      "puzzle_id": 277,
+      "level": 2,
+      "similarity": 0.20856439818938574
+    },
+    {
+      "puzzle_id": 277,
+      "level": 3,
+      "similarity": 0.20564123491446176
+    },
+    {
+      "puzzle_id": 278,
+      "level": 0,
+      "similarity": 0.27523180345694226
+    },
+    {
+      "puzzle_id": 278,
+      "level": 1,
+      "similarity": 0.5979402860005697
+    },
+    {
+      "puzzle_id": 278,
+      "level": 2,
+      "similarity": 0.2482503056526184
+    },
+    {
+      "puzzle_id": 278,
+      "level": 3,
+      "similarity": 0.20323173825939497
+    },
+    {
+      "puzzle_id": 279,
+      "level": 0,
+      "similarity": 0.40211807439724606
+    },
+    {
+      "puzzle_id": 279,
+      "level": 1,
+      "similarity": 0.25013671318689984
+    },
+    {
+      "puzzle_id": 279,
+      "level": 2,
+      "similarity": 0.24283599108457565
+    },
+    {
+      "puzzle_id": 279,
+      "level": 3,
+      "similarity": 0.32264627516269684
+    },
+    {
+      "puzzle_id": 280,
+      "level": 0,
+      "similarity": 0.49057955543200177
+    },
+    {
+      "puzzle_id": 280,
+      "level": 1,
+      "similarity": 0.3421096056699753
+    },
+    {
+      "puzzle_id": 280,
+      "level": 2,
+      "similarity": 0.2279017542799314
+    },
+    {
+      "puzzle_id": 280,
+      "level": 3,
+      "similarity": 0.2474805066982905
+    },
+    {
+      "puzzle_id": 281,
+      "level": 0,
+      "similarity": 0.33100950469573337
+    },
+    {
+      "puzzle_id": 281,
+      "level": 1,
+      "similarity": 0.46500543256600696
+    },
+    {
+      "puzzle_id": 281,
+      "level": 2,
+      "similarity": 0.29008764525254566
+    },
+    {
+      "puzzle_id": 281,
+      "level": 3,
+      "similarity": 0.22545781234900156
+    },
+    {
+      "puzzle_id": 282,
+      "level": 0,
+      "similarity": 0.2838447193304698
+    },
+    {
+      "puzzle_id": 282,
+      "level": 1,
+      "similarity": 0.21635461846987405
+    },
+    {
+      "puzzle_id": 282,
+      "level": 2,
+      "similarity": 0.2298163721958796
+    },
+    {
+      "puzzle_id": 282,
+      "level": 3,
+      "similarity": 0.2624066894253095
+    },
+    {
+      "puzzle_id": 283,
+      "level": 0,
+      "similarity": 0.3024805635213852
+    },
+    {
+      "puzzle_id": 283,
+      "level": 1,
+      "similarity": 0.32827769219875336
+    },
+    {
+      "puzzle_id": 283,
+      "level": 2,
+      "similarity": 0.4042937060197194
+    },
+    {
+      "puzzle_id": 283,
+      "level": 3,
+      "similarity": 0.1328801636894544
+    },
+    {
+      "puzzle_id": 284,
+      "level": 0,
+      "similarity": 0.29512903094291687
+    },
+    {
+      "puzzle_id": 284,
+      "level": 1,
+      "similarity": 0.3563832143942515
+    },
+    {
+      "puzzle_id": 284,
+      "level": 2,
+      "similarity": 0.18943657477696738
+    },
+    {
+      "puzzle_id": 284,
+      "level": 3,
+      "similarity": 0.25426798438032466
+    },
+    {
+      "puzzle_id": 285,
+      "level": 0,
+      "similarity": 0.39761245747407276
+    },
+    {
+      "puzzle_id": 285,
+      "level": 1,
+      "similarity": 0.3030160317818324
+    },
+    {
+      "puzzle_id": 285,
+      "level": 2,
+      "similarity": 0.29107177754243213
+    },
+    {
+      "puzzle_id": 285,
+      "level": 3,
+      "similarity": 0.23760148882865906
+    },
+    {
+      "puzzle_id": 286,
+      "level": 0,
+      "similarity": 0.3748050530751546
+    },
+    {
+      "puzzle_id": 286,
+      "level": 1,
+      "similarity": 0.35180025299390155
+    },
+    {
+      "puzzle_id": 286,
+      "level": 2,
+      "similarity": 0.30808214594920474
+    },
+    {
+      "puzzle_id": 286,
+      "level": 3,
+      "similarity": 0.2923164864381154
+    },
+    {
+      "puzzle_id": 287,
+      "level": 0,
+      "similarity": 0.4289828489224116
+    },
+    {
+      "puzzle_id": 287,
+      "level": 1,
+      "similarity": 0.35845473408699036
+    },
+    {
+      "puzzle_id": 287,
+      "level": 2,
+      "similarity": 0.3264173815647761
+    },
+    {
+      "puzzle_id": 287,
+      "level": 3,
+      "similarity": 0.25895525763432187
+    },
+    {
+      "puzzle_id": 288,
+      "level": 0,
+      "similarity": 0.3362431178490321
+    },
+    {
+      "puzzle_id": 288,
+      "level": 1,
+      "similarity": 0.33704809347788495
+    },
+    {
+      "puzzle_id": 288,
+      "level": 2,
+      "similarity": 0.3968365391095479
+    },
+    {
+      "puzzle_id": 288,
+      "level": 3,
+      "similarity": 0.17856335702041784
+    },
+    {
+      "puzzle_id": 289,
+      "level": 0,
+      "similarity": 0.47902463873227435
+    },
+    {
+      "puzzle_id": 289,
+      "level": 1,
+      "similarity": 0.2698226471741994
+    },
+    {
+      "puzzle_id": 289,
+      "level": 2,
+      "similarity": 0.24083542823791504
+    },
+    {
+      "puzzle_id": 289,
+      "level": 3,
+      "similarity": 0.32187199344237644
+    },
+    {
+      "puzzle_id": 290,
+      "level": 0,
+      "similarity": 0.41709549228350323
+    },
+    {
+      "puzzle_id": 290,
+      "level": 1,
+      "similarity": 0.264825406173865
+    },
+    {
+      "puzzle_id": 290,
+      "level": 2,
+      "similarity": 0.35989638417959213
+    },
+    {
+      "puzzle_id": 290,
+      "level": 3,
+      "similarity": 0.2946443408727646
+    },
+    {
+      "puzzle_id": 291,
+      "level": 0,
+      "similarity": 0.2944031407435735
+    },
+    {
+      "puzzle_id": 291,
+      "level": 1,
+      "similarity": 0.4540998737017314
+    },
+    {
+      "puzzle_id": 291,
+      "level": 2,
+      "similarity": 0.2568706249197324
+    },
+    {
+      "puzzle_id": 291,
+      "level": 3,
+      "similarity": 0.17278246209025383
+    },
+    {
+      "puzzle_id": 292,
+      "level": 0,
+      "similarity": 0.3438044637441635
+    },
+    {
+      "puzzle_id": 292,
+      "level": 1,
+      "similarity": 0.2838508238395055
+    },
+    {
+      "puzzle_id": 292,
+      "level": 2,
+      "similarity": 0.2190536210934321
+    },
+    {
+      "puzzle_id": 292,
+      "level": 3,
+      "similarity": 0.21168100833892822
+    },
+    {
+      "puzzle_id": 293,
+      "level": 0,
+      "similarity": 0.4067433327436447
+    },
+    {
+      "puzzle_id": 293,
+      "level": 1,
+      "similarity": 0.32689811786015827
+    },
+    {
+      "puzzle_id": 293,
+      "level": 2,
+      "similarity": 0.337388535340627
+    },
+    {
+      "puzzle_id": 293,
+      "level": 3,
+      "similarity": 0.3636337071657181
+    },
+    {
+      "puzzle_id": 294,
+      "level": 0,
+      "similarity": 0.36353494226932526
+    },
+    {
+      "puzzle_id": 294,
+      "level": 1,
+      "similarity": 0.1639405656605959
+    },
+    {
+      "puzzle_id": 294,
+      "level": 2,
+      "similarity": 0.26548003653685254
+    },
+    {
+      "puzzle_id": 294,
+      "level": 3,
+      "similarity": 0.24239041407903036
+    },
+    {
+      "puzzle_id": 295,
+      "level": 0,
+      "similarity": 0.9999998211860657
+    },
+    {
+      "puzzle_id": 295,
+      "level": 1,
+      "similarity": 0.9999998211860657
+    },
+    {
+      "puzzle_id": 295,
+      "level": 2,
+      "similarity": 0.9999998211860657
+    },
+    {
+      "puzzle_id": 295,
+      "level": 3,
+      "similarity": 0.9999998211860657
+    },
+    {
+      "puzzle_id": 296,
+      "level": 0,
+      "similarity": 0.28270669281482697
+    },
+    {
+      "puzzle_id": 296,
+      "level": 1,
+      "similarity": 0.293746680021286
+    },
+    {
+      "puzzle_id": 296,
+      "level": 2,
+      "similarity": 0.29822375377019245
+    },
+    {
+      "puzzle_id": 296,
+      "level": 3,
+      "similarity": 0.26150961965322495
+    },
+    {
+      "puzzle_id": 297,
+      "level": 0,
+      "similarity": 0.31395675738652545
+    },
+    {
+      "puzzle_id": 297,
+      "level": 1,
+      "similarity": 0.23461340616146723
+    },
+    {
+      "puzzle_id": 297,
+      "level": 2,
+      "similarity": 0.2559530312816302
+    },
+    {
+      "puzzle_id": 297,
+      "level": 3,
+      "similarity": 0.3129180868466695
+    },
+    {
+      "puzzle_id": 298,
+      "level": 0,
+      "similarity": 0.3289821098248164
+    },
+    {
+      "puzzle_id": 298,
+      "level": 1,
+      "similarity": 0.29944351812203723
+    },
+    {
+      "puzzle_id": 298,
+      "level": 2,
+      "similarity": 0.33064259588718414
+    },
+    {
+      "puzzle_id": 298,
+      "level": 3,
+      "similarity": 0.21378175169229507
+    },
+    {
+      "puzzle_id": 299,
+      "level": 0,
+      "similarity": 0.4374959071477254
+    },
+    {
+      "puzzle_id": 299,
+      "level": 1,
+      "similarity": 0.19093628227710724
+    },
+    {
+      "puzzle_id": 299,
+      "level": 2,
+      "similarity": 0.23238064100344977
+    },
+    {
+      "puzzle_id": 299,
+      "level": 3,
+      "similarity": 0.21728703627983728
+    },
+    {
+      "puzzle_id": 300,
+      "level": 0,
+      "similarity": 0.275692880153656
+    },
+    {
+      "puzzle_id": 300,
+      "level": 1,
+      "similarity": 0.34134746591250104
+    },
+    {
+      "puzzle_id": 300,
+      "level": 2,
+      "similarity": 0.2340233325958252
+    },
+    {
+      "puzzle_id": 300,
+      "level": 3,
+      "similarity": 0.21306312829256058
+    },
+    {
+      "puzzle_id": 301,
+      "level": 0,
+      "similarity": 0.2623511552810669
+    },
+    {
+      "puzzle_id": 301,
+      "level": 1,
+      "similarity": 0.31329671293497086
+    },
+    {
+      "puzzle_id": 301,
+      "level": 2,
+      "similarity": 0.38754109541575116
+    },
+    {
+      "puzzle_id": 301,
+      "level": 3,
+      "similarity": 0.20459395895401636
+    },
+    {
+      "puzzle_id": 302,
+      "level": 0,
+      "similarity": 0.19938465456167856
+    },
+    {
+      "puzzle_id": 302,
+      "level": 1,
+      "similarity": 0.2484948361913363
+    },
+    {
+      "puzzle_id": 302,
+      "level": 2,
+      "similarity": 0.2238197202483813
+    },
+    {
+      "puzzle_id": 302,
+      "level": 3,
+      "similarity": 0.2529317910472552
+    },
+    {
+      "puzzle_id": 303,
+      "level": 0,
+      "similarity": 0.44943849742412567
+    },
+    {
+      "puzzle_id": 303,
+      "level": 1,
+      "similarity": 0.3761313060919444
+    },
+    {
+      "puzzle_id": 303,
+      "level": 2,
+      "similarity": 0.32718560099601746
+    },
+    {
+      "puzzle_id": 303,
+      "level": 3,
+      "similarity": 0.325599471728007
+    },
+    {
+      "puzzle_id": 304,
+      "level": 0,
+      "similarity": 0.28349978228410083
+    },
+    {
+      "puzzle_id": 304,
+      "level": 1,
+      "similarity": 0.3957766865690549
+    },
+    {
+      "puzzle_id": 304,
+      "level": 2,
+      "similarity": 0.30458856125672656
+    },
+    {
+      "puzzle_id": 304,
+      "level": 3,
+      "similarity": 0.20770967255036035
+    },
+    {
+      "puzzle_id": 305,
+      "level": 0,
+      "similarity": 0.24225532015164694
+    },
+    {
+      "puzzle_id": 305,
+      "level": 1,
+      "similarity": 0.28891277809937793
+    },
+    {
+      "puzzle_id": 305,
+      "level": 2,
+      "similarity": 0.25400495032469433
+    },
+    {
+      "puzzle_id": 305,
+      "level": 3,
+      "similarity": 0.3085873822371165
+    },
+    {
+      "puzzle_id": 306,
+      "level": 0,
+      "similarity": 0.390370674431324
+    },
+    {
+      "puzzle_id": 306,
+      "level": 1,
+      "similarity": 0.40353164573510486
+    },
+    {
+      "puzzle_id": 306,
+      "level": 2,
+      "similarity": 0.4111960679292679
+    },
+    {
+      "puzzle_id": 306,
+      "level": 3,
+      "similarity": 0.2941996281345685
+    },
+    {
+      "puzzle_id": 307,
+      "level": 0,
+      "similarity": 0.30006350576877594
+    },
+    {
+      "puzzle_id": 307,
+      "level": 1,
+      "similarity": 0.3994280199209849
+    },
+    {
+      "puzzle_id": 307,
+      "level": 2,
+      "similarity": 0.32770826915899914
+    },
+    {
+      "puzzle_id": 307,
+      "level": 3,
+      "similarity": 0.36823279162247974
+    },
+    {
+      "puzzle_id": 308,
+      "level": 0,
+      "similarity": 0.2606474707523982
+    },
+    {
+      "puzzle_id": 308,
+      "level": 1,
+      "similarity": 0.3824601074059804
+    },
+    {
+      "puzzle_id": 308,
+      "level": 2,
+      "similarity": 0.25652717302242917
+    },
+    {
+      "puzzle_id": 308,
+      "level": 3,
+      "similarity": 0.233369251092275
+    },
+    {
+      "puzzle_id": 309,
+      "level": 0,
+      "similarity": 0.23774453004201254
+    },
+    {
+      "puzzle_id": 309,
+      "level": 1,
+      "similarity": 0.1838456690311432
+    },
+    {
+      "puzzle_id": 309,
+      "level": 2,
+      "similarity": 0.2410154566168785
+    },
+    {
+      "puzzle_id": 309,
+      "level": 3,
+      "similarity": 0.24295651664336523
+    },
+    {
+      "puzzle_id": 310,
+      "level": 0,
+      "similarity": 0.35282645126183826
+    },
+    {
+      "puzzle_id": 310,
+      "level": 1,
+      "similarity": 0.30087725818157196
+    },
+    {
+      "puzzle_id": 310,
+      "level": 2,
+      "similarity": 0.2864867076277733
+    },
+    {
+      "puzzle_id": 310,
+      "level": 3,
+      "similarity": 0.32423244168361026
+    },
+    {
+      "puzzle_id": 311,
+      "level": 0,
+      "similarity": 0.354343518614769
+    },
+    {
+      "puzzle_id": 311,
+      "level": 1,
+      "similarity": 0.3079652488231659
+    },
+    {
+      "puzzle_id": 311,
+      "level": 2,
+      "similarity": 0.2410413771867752
+    },
+    {
+      "puzzle_id": 311,
+      "level": 3,
+      "similarity": 0.3316437204678853
+    },
+    {
+      "puzzle_id": 312,
+      "level": 0,
+      "similarity": 0.3066244001189868
+    },
+    {
+      "puzzle_id": 312,
+      "level": 1,
+      "similarity": 0.3721218754847844
+    },
+    {
+      "puzzle_id": 312,
+      "level": 2,
+      "similarity": 0.2086135819554329
+    },
+    {
+      "puzzle_id": 312,
+      "level": 3,
+      "similarity": 0.21654433012008667
+    },
+    {
+      "puzzle_id": 313,
+      "level": 0,
+      "similarity": 0.37906911472479504
+    },
+    {
+      "puzzle_id": 313,
+      "level": 1,
+      "similarity": 0.4061341832081477
+    },
+    {
+      "puzzle_id": 313,
+      "level": 2,
+      "similarity": 0.24506483475367227
+    },
+    {
+      "puzzle_id": 313,
+      "level": 3,
+      "similarity": 0.18161449333031973
+    },
+    {
+      "puzzle_id": 314,
+      "level": 0,
+      "similarity": 0.25614210963249207
+    },
+    {
+      "puzzle_id": 314,
+      "level": 1,
+      "similarity": 0.3869491517543793
+    },
+    {
+      "puzzle_id": 314,
+      "level": 2,
+      "similarity": 0.36043792963027954
+    },
+    {
+      "puzzle_id": 314,
+      "level": 3,
+      "similarity": 0.2596394866704941
+    },
+    {
+      "puzzle_id": 315,
+      "level": 0,
+      "similarity": 0.31399832169214886
+    },
+    {
+      "puzzle_id": 315,
+      "level": 1,
+      "similarity": 0.3046773026386897
+    },
+    {
+      "puzzle_id": 315,
+      "level": 2,
+      "similarity": 0.2533332134286563
+    },
+    {
+      "puzzle_id": 315,
+      "level": 3,
+      "similarity": 0.27688708156347275
+    },
+    {
+      "puzzle_id": 316,
+      "level": 0,
+      "similarity": 0.33225881308317184
+    },
+    {
+      "puzzle_id": 316,
+      "level": 1,
+      "similarity": 0.2710127805670102
+    },
+    {
+      "puzzle_id": 316,
+      "level": 2,
+      "similarity": 0.3268983190258344
+    },
+    {
+      "puzzle_id": 316,
+      "level": 3,
+      "similarity": 0.20066902041435242
+    },
+    {
+      "puzzle_id": 317,
+      "level": 0,
+      "similarity": 0.37376785775025684
+    },
+    {
+      "puzzle_id": 317,
+      "level": 1,
+      "similarity": 0.5055546462535858
+    },
+    {
+      "puzzle_id": 317,
+      "level": 2,
+      "similarity": 0.37276770174503326
+    },
+    {
+      "puzzle_id": 317,
+      "level": 3,
+      "similarity": 0.21810976912577948
+    },
+    {
+      "puzzle_id": 318,
+      "level": 0,
+      "similarity": 0.4617809901634852
+    },
+    {
+      "puzzle_id": 318,
+      "level": 1,
+      "similarity": 0.32532064119974774
+    },
+    {
+      "puzzle_id": 318,
+      "level": 2,
+      "similarity": 0.19640943904717764
+    },
+    {
+      "puzzle_id": 318,
+      "level": 3,
+      "similarity": 0.18582721054553986
+    },
+    {
+      "puzzle_id": 319,
+      "level": 0,
+      "similarity": 0.311255822579066
+    },
+    {
+      "puzzle_id": 319,
+      "level": 1,
+      "similarity": 0.21978452801704407
+    },
+    {
+      "puzzle_id": 319,
+      "level": 2,
+      "similarity": 0.2534069741765658
+    },
+    {
+      "puzzle_id": 319,
+      "level": 3,
+      "similarity": 0.33789586772521335
+    },
+    {
+      "puzzle_id": 320,
+      "level": 0,
+      "similarity": 0.39798381676276523
+    },
+    {
+      "puzzle_id": 320,
+      "level": 1,
+      "similarity": 0.29778023312489194
+    },
+    {
+      "puzzle_id": 320,
+      "level": 2,
+      "similarity": 0.3257143348455429
+    },
+    {
+      "puzzle_id": 320,
+      "level": 3,
+      "similarity": 0.20505202809969583
+    },
+    {
+      "puzzle_id": 321,
+      "level": 0,
+      "similarity": 0.2782082160313924
+    },
+    {
+      "puzzle_id": 321,
+      "level": 1,
+      "similarity": 0.27982082466284436
+    },
+    {
+      "puzzle_id": 321,
+      "level": 2,
+      "similarity": 0.32358838617801666
+    },
+    {
+      "puzzle_id": 321,
+      "level": 3,
+      "similarity": 0.22424476345380148
+    },
+    {
+      "puzzle_id": 322,
+      "level": 0,
+      "similarity": 0.4005114684502284
+    },
+    {
+      "puzzle_id": 322,
+      "level": 1,
+      "similarity": 0.22857306649287543
+    },
+    {
+      "puzzle_id": 322,
+      "level": 2,
+      "similarity": 0.32006185750166577
+    },
+    {
+      "puzzle_id": 322,
+      "level": 3,
+      "similarity": 0.2956140736738841
+    },
+    {
+      "puzzle_id": 323,
+      "level": 0,
+      "similarity": 0.2681380584836006
+    },
+    {
+      "puzzle_id": 323,
+      "level": 1,
+      "similarity": 0.2766478881239891
+    },
+    {
+      "puzzle_id": 323,
+      "level": 2,
+      "similarity": 0.30504217247168225
+    },
+    {
+      "puzzle_id": 323,
+      "level": 3,
+      "similarity": 0.22445501883824667
+    },
+    {
+      "puzzle_id": 324,
+      "level": 0,
+      "similarity": 0.41000894208749133
+    },
+    {
+      "puzzle_id": 324,
+      "level": 1,
+      "similarity": 0.331789289911588
+    },
+    {
+      "puzzle_id": 324,
+      "level": 2,
+      "similarity": 0.31003136187791824
+    },
+    {
+      "puzzle_id": 324,
+      "level": 3,
+      "similarity": 0.2589768519004186
+    },
+    {
+      "puzzle_id": 325,
+      "level": 0,
+      "similarity": 0.2714940682053566
+    },
+    {
+      "puzzle_id": 325,
+      "level": 1,
+      "similarity": 0.2563568502664566
+    },
+    {
+      "puzzle_id": 325,
+      "level": 2,
+      "similarity": 0.29034584760665894
+    },
+    {
+      "puzzle_id": 325,
+      "level": 3,
+      "similarity": 0.2441069483757019
+    },
+    {
+      "puzzle_id": 326,
+      "level": 0,
+      "similarity": 0.3075713515281677
+    },
+    {
+      "puzzle_id": 326,
+      "level": 1,
+      "similarity": 0.27225882063309353
+    },
+    {
+      "puzzle_id": 326,
+      "level": 2,
+      "similarity": 0.21925541013479233
+    },
+    {
+      "puzzle_id": 326,
+      "level": 3,
+      "similarity": 0.2018472428123156
+    },
+    {
+      "puzzle_id": 327,
+      "level": 0,
+      "similarity": 0.4656799038251241
+    },
+    {
+      "puzzle_id": 327,
+      "level": 1,
+      "similarity": 0.38458244999249774
+    },
+    {
+      "puzzle_id": 327,
+      "level": 2,
+      "similarity": 0.2934192841251691
+    },
+    {
+      "puzzle_id": 327,
+      "level": 3,
+      "similarity": 0.21490223333239555
+    },
+    {
+      "puzzle_id": 328,
+      "level": 0,
+      "similarity": 0.350772629181544
+    },
+    {
+      "puzzle_id": 328,
+      "level": 1,
+      "similarity": 0.3518881897131602
+    },
+    {
+      "puzzle_id": 328,
+      "level": 2,
+      "similarity": 0.20466390624642372
+    },
+    {
+      "puzzle_id": 328,
+      "level": 3,
+      "similarity": 0.23935718089342117
+    },
+    {
+      "puzzle_id": 329,
+      "level": 0,
+      "similarity": 0.27860550334056217
+    },
+    {
+      "puzzle_id": 329,
+      "level": 1,
+      "similarity": 0.2667466476559639
+    },
+    {
+      "puzzle_id": 329,
+      "level": 2,
+      "similarity": 0.25157973418633145
+    },
+    {
+      "puzzle_id": 329,
+      "level": 3,
+      "similarity": 0.23062950372695923
+    },
+    {
+      "puzzle_id": 330,
+      "level": 0,
+      "similarity": 0.26603678862253827
+    },
+    {
+      "puzzle_id": 330,
+      "level": 1,
+      "similarity": 0.26702260226011276
+    },
+    {
+      "puzzle_id": 330,
+      "level": 2,
+      "similarity": 0.6796080966790518
+    },
+    {
+      "puzzle_id": 330,
+      "level": 3,
+      "similarity": 0.26899776111046475
+    },
+    {
+      "puzzle_id": 331,
+      "level": 0,
+      "similarity": 0.27080190430084866
+    },
+    {
+      "puzzle_id": 331,
+      "level": 1,
+      "similarity": 0.19578747948010763
+    },
+    {
+      "puzzle_id": 331,
+      "level": 2,
+      "similarity": 0.29558472086985904
+    },
+    {
+      "puzzle_id": 331,
+      "level": 3,
+      "similarity": 0.23604536801576614
+    },
+    {
+      "puzzle_id": 332,
+      "level": 0,
+      "similarity": 0.39334745208422345
+    },
+    {
+      "puzzle_id": 332,
+      "level": 1,
+      "similarity": 0.29639191925525665
+    },
+    {
+      "puzzle_id": 332,
+      "level": 2,
+      "similarity": 0.2706522196531296
+    },
+    {
+      "puzzle_id": 332,
+      "level": 3,
+      "similarity": 0.33023588359355927
+    },
+    {
+      "puzzle_id": 333,
+      "level": 0,
+      "similarity": 0.334892009695371
+    },
+    {
+      "puzzle_id": 333,
+      "level": 1,
+      "similarity": 0.26314448316891986
+    },
+    {
+      "puzzle_id": 333,
+      "level": 2,
+      "similarity": 0.20107982556025186
+    },
+    {
+      "puzzle_id": 333,
+      "level": 3,
+      "similarity": 0.24993953357140222
+    },
+    {
+      "puzzle_id": 334,
+      "level": 0,
+      "similarity": 0.3333223760128021
+    },
+    {
+      "puzzle_id": 334,
+      "level": 1,
+      "similarity": 0.44459380209445953
+    },
+    {
+      "puzzle_id": 334,
+      "level": 2,
+      "similarity": 0.21886702626943588
+    },
+    {
+      "puzzle_id": 334,
+      "level": 3,
+      "similarity": 0.20610738173127174
+    },
+    {
+      "puzzle_id": 335,
+      "level": 0,
+      "similarity": 0.2761834114789963
+    },
+    {
+      "puzzle_id": 335,
+      "level": 1,
+      "similarity": 0.23378465821345648
+    },
+    {
+      "puzzle_id": 335,
+      "level": 2,
+      "similarity": 0.29019390046596527
+    },
+    {
+      "puzzle_id": 335,
+      "level": 3,
+      "similarity": 0.28954819589853287
+    },
+    {
+      "puzzle_id": 336,
+      "level": 0,
+      "similarity": 0.2658786177635193
+    },
+    {
+      "puzzle_id": 336,
+      "level": 1,
+      "similarity": 0.2525631959239642
+    },
+    {
+      "puzzle_id": 336,
+      "level": 2,
+      "similarity": 0.1330906618386507
+    },
+    {
+      "puzzle_id": 336,
+      "level": 3,
+      "similarity": 0.2734590371449788
+    },
+    {
+      "puzzle_id": 337,
+      "level": 0,
+      "similarity": 0.3066713511943817
+    },
+    {
+      "puzzle_id": 337,
+      "level": 1,
+      "similarity": 0.29382658501466113
+    },
+    {
+      "puzzle_id": 337,
+      "level": 2,
+      "similarity": 0.4124487986167272
+    },
+    {
+      "puzzle_id": 337,
+      "level": 3,
+      "similarity": 0.197734497487545
+    },
+    {
+      "puzzle_id": 338,
+      "level": 0,
+      "similarity": 0.32749027758836746
+    },
+    {
+      "puzzle_id": 338,
+      "level": 1,
+      "similarity": 0.3077065125107765
+    },
+    {
+      "puzzle_id": 338,
+      "level": 2,
+      "similarity": 0.2548041045665741
+    },
+    {
+      "puzzle_id": 338,
+      "level": 3,
+      "similarity": 0.22650688389937082
+    },
+    {
+      "puzzle_id": 339,
+      "level": 0,
+      "similarity": 0.1804032369206349
+    },
+    {
+      "puzzle_id": 339,
+      "level": 1,
+      "similarity": 0.44484702746073407
+    },
+    {
+      "puzzle_id": 339,
+      "level": 2,
+      "similarity": 0.28543071697155636
+    },
+    {
+      "puzzle_id": 339,
+      "level": 3,
+      "similarity": 0.20380898813406625
+    },
+    {
+      "puzzle_id": 340,
+      "level": 0,
+      "similarity": 0.2538435533642769
+    },
+    {
+      "puzzle_id": 340,
+      "level": 1,
+      "similarity": 0.3151394873857498
+    },
+    {
+      "puzzle_id": 340,
+      "level": 2,
+      "similarity": 0.36969228585561115
+    },
+    {
+      "puzzle_id": 340,
+      "level": 3,
+      "similarity": 0.20814675837755203
+    },
+    {
+      "puzzle_id": 341,
+      "level": 0,
+      "similarity": 0.29990343501170474
+    },
+    {
+      "puzzle_id": 341,
+      "level": 1,
+      "similarity": 0.33927106360594433
+    },
+    {
+      "puzzle_id": 341,
+      "level": 2,
+      "similarity": 0.1906033158302307
+    },
+    {
+      "puzzle_id": 341,
+      "level": 3,
+      "similarity": 0.20027600228786469
+    },
+    {
+      "puzzle_id": 342,
+      "level": 0,
+      "similarity": 0.3455070952574412
+    },
+    {
+      "puzzle_id": 342,
+      "level": 1,
+      "similarity": 0.2283815493186315
+    },
+    {
+      "puzzle_id": 342,
+      "level": 2,
+      "similarity": 0.2820686921477318
+    },
+    {
+      "puzzle_id": 342,
+      "level": 3,
+      "similarity": 0.23872481286525726
+    },
+    {
+      "puzzle_id": 343,
+      "level": 0,
+      "similarity": 0.36226561665534973
+    },
+    {
+      "puzzle_id": 343,
+      "level": 1,
+      "similarity": 0.277820885181427
+    },
+    {
+      "puzzle_id": 343,
+      "level": 2,
+      "similarity": 0.2337088684240977
+    },
+    {
+      "puzzle_id": 343,
+      "level": 3,
+      "similarity": 0.14005348707238832
+    },
+    {
+      "puzzle_id": 344,
+      "level": 0,
+      "similarity": 0.3570067435503006
+    },
+    {
+      "puzzle_id": 344,
+      "level": 1,
+      "similarity": 0.3887018362681071
+    },
+    {
+      "puzzle_id": 344,
+      "level": 2,
+      "similarity": 0.40241759022076923
+    },
+    {
+      "puzzle_id": 344,
+      "level": 3,
+      "similarity": 0.18513153741757074
+    },
+    {
+      "puzzle_id": 345,
+      "level": 0,
+      "similarity": 0.26512597252925235
+    },
+    {
+      "puzzle_id": 345,
+      "level": 1,
+      "similarity": 0.3191989486416181
+    },
+    {
+      "puzzle_id": 345,
+      "level": 2,
+      "similarity": 0.2418677086631457
+    },
+    {
+      "puzzle_id": 345,
+      "level": 3,
+      "similarity": 0.21663766851027808
+    },
+    {
+      "puzzle_id": 346,
+      "level": 0,
+      "similarity": 0.45886722207069397
+    },
+    {
+      "puzzle_id": 346,
+      "level": 1,
+      "similarity": 0.29976987838745117
+    },
+    {
+      "puzzle_id": 346,
+      "level": 2,
+      "similarity": 0.32118985801935196
+    },
+    {
+      "puzzle_id": 346,
+      "level": 3,
+      "similarity": 0.29507291813691455
+    },
+    {
+      "puzzle_id": 347,
+      "level": 0,
+      "similarity": 0.31388381868600845
+    },
+    {
+      "puzzle_id": 347,
+      "level": 1,
+      "similarity": 0.3072417229413986
+    },
+    {
+      "puzzle_id": 347,
+      "level": 2,
+      "similarity": 0.24155595898628235
+    },
+    {
+      "puzzle_id": 347,
+      "level": 3,
+      "similarity": 0.2593478113412857
+    },
+    {
+      "puzzle_id": 348,
+      "level": 0,
+      "similarity": 0.5044027517239252
+    },
+    {
+      "puzzle_id": 348,
+      "level": 1,
+      "similarity": 0.2463610718647639
+    },
+    {
+      "puzzle_id": 348,
+      "level": 2,
+      "similarity": 0.21832939982414246
+    },
+    {
+      "puzzle_id": 348,
+      "level": 3,
+      "similarity": 0.2332980881134669
+    },
+    {
+      "puzzle_id": 349,
+      "level": 0,
+      "similarity": 0.45228858788808185
+    },
+    {
+      "puzzle_id": 349,
+      "level": 1,
+      "similarity": 0.33307140817244846
+    },
+    {
+      "puzzle_id": 349,
+      "level": 2,
+      "similarity": 0.2854906345407168
+    },
+    {
+      "puzzle_id": 349,
+      "level": 3,
+      "similarity": 0.22316908339659372
+    },
+    {
+      "puzzle_id": 350,
+      "level": 0,
+      "similarity": 0.3258456711967786
+    },
+    {
+      "puzzle_id": 350,
+      "level": 1,
+      "similarity": 0.32181210815906525
+    },
+    {
+      "puzzle_id": 350,
+      "level": 2,
+      "similarity": 0.31653105715910596
+    },
+    {
+      "puzzle_id": 350,
+      "level": 3,
+      "similarity": 0.19851674884557724
+    },
+    {
+      "puzzle_id": 351,
+      "level": 0,
+      "similarity": 0.2800555129845937
+    },
+    {
+      "puzzle_id": 351,
+      "level": 1,
+      "similarity": 0.24360234787066778
+    },
+    {
+      "puzzle_id": 351,
+      "level": 2,
+      "similarity": 0.271310622493426
+    },
+    {
+      "puzzle_id": 351,
+      "level": 3,
+      "similarity": 0.236374261478583
+    },
+    {
+      "puzzle_id": 352,
+      "level": 0,
+      "similarity": 0.2698434218764305
+    },
+    {
+      "puzzle_id": 352,
+      "level": 1,
+      "similarity": 0.2734142119685809
+    },
+    {
+      "puzzle_id": 352,
+      "level": 2,
+      "similarity": 0.2636849756042163
+    },
+    {
+      "puzzle_id": 352,
+      "level": 3,
+      "similarity": 0.334782138466835
+    },
+    {
+      "puzzle_id": 353,
+      "level": 0,
+      "similarity": 0.2551698436339696
+    },
+    {
+      "puzzle_id": 353,
+      "level": 1,
+      "similarity": 0.2885940944155057
+    },
+    {
+      "puzzle_id": 353,
+      "level": 2,
+      "similarity": 0.26804155111312866
+    },
+    {
+      "puzzle_id": 353,
+      "level": 3,
+      "similarity": 0.2684398591518402
+    },
+    {
+      "puzzle_id": 354,
+      "level": 0,
+      "similarity": 0.33258963624636334
+    },
+    {
+      "puzzle_id": 354,
+      "level": 1,
+      "similarity": 0.2756250451008479
+    },
+    {
+      "puzzle_id": 354,
+      "level": 2,
+      "similarity": 0.18166179209947586
+    },
+    {
+      "puzzle_id": 354,
+      "level": 3,
+      "similarity": 0.22521206239859262
+    },
+    {
+      "puzzle_id": 355,
+      "level": 0,
+      "similarity": 0.19011955335736275
+    },
+    {
+      "puzzle_id": 355,
+      "level": 1,
+      "similarity": 0.3033057351907094
+    },
+    {
+      "puzzle_id": 355,
+      "level": 2,
+      "similarity": 0.28278687844673794
+    },
+    {
+      "puzzle_id": 355,
+      "level": 3,
+      "similarity": 0.16855773205558458
+    },
+    {
+      "puzzle_id": 356,
+      "level": 0,
+      "similarity": 0.29719702899456024
+    },
+    {
+      "puzzle_id": 356,
+      "level": 1,
+      "similarity": 0.2663586586713791
+    },
+    {
+      "puzzle_id": 356,
+      "level": 2,
+      "similarity": 0.23110861082871756
+    },
+    {
+      "puzzle_id": 356,
+      "level": 3,
+      "similarity": 0.20347295453151068
+    },
+    {
+      "puzzle_id": 357,
+      "level": 0,
+      "similarity": 0.3881521373987198
+    },
+    {
+      "puzzle_id": 357,
+      "level": 1,
+      "similarity": 0.4616762051979701
+    },
+    {
+      "puzzle_id": 357,
+      "level": 2,
+      "similarity": 0.3128584176301956
+    },
+    {
+      "puzzle_id": 357,
+      "level": 3,
+      "similarity": 0.21833068504929543
+    },
+    {
+      "puzzle_id": 358,
+      "level": 0,
+      "similarity": 0.2823367938399315
+    },
+    {
+      "puzzle_id": 358,
+      "level": 1,
+      "similarity": 0.27289000650246936
+    },
+    {
+      "puzzle_id": 358,
+      "level": 2,
+      "similarity": 0.2162547136346499
+    },
+    {
+      "puzzle_id": 358,
+      "level": 3,
+      "similarity": 0.2961210409800212
+    },
+    {
+      "puzzle_id": 359,
+      "level": 0,
+      "similarity": 0.28438569605350494
+    },
+    {
+      "puzzle_id": 359,
+      "level": 1,
+      "similarity": 0.34405219554901123
+    },
+    {
+      "puzzle_id": 359,
+      "level": 2,
+      "similarity": 0.3505780945221583
+    },
+    {
+      "puzzle_id": 359,
+      "level": 3,
+      "similarity": 0.29858411351839703
+    },
+    {
+      "puzzle_id": 360,
+      "level": 0,
+      "similarity": 0.5601252218087515
+    },
+    {
+      "puzzle_id": 360,
+      "level": 1,
+      "similarity": 0.31251010050376254
+    },
+    {
+      "puzzle_id": 360,
+      "level": 2,
+      "similarity": 0.2417619600892067
+    },
+    {
+      "puzzle_id": 360,
+      "level": 3,
+      "similarity": 0.25025315086046857
+    },
+    {
+      "puzzle_id": 361,
+      "level": 0,
+      "similarity": 0.41246936718622845
+    },
+    {
+      "puzzle_id": 361,
+      "level": 1,
+      "similarity": 0.18781060725450516
+    },
+    {
+      "puzzle_id": 361,
+      "level": 2,
+      "similarity": 0.26177484542131424
+    },
+    {
+      "puzzle_id": 361,
+      "level": 3,
+      "similarity": 0.38010971744855243
+    },
+    {
+      "puzzle_id": 362,
+      "level": 0,
+      "similarity": 0.30142146348953247
+    },
+    {
+      "puzzle_id": 362,
+      "level": 1,
+      "similarity": 0.39202041923999786
+    },
+    {
+      "puzzle_id": 362,
+      "level": 2,
+      "similarity": 0.3661645899216334
+    },
+    {
+      "puzzle_id": 362,
+      "level": 3,
+      "similarity": 0.3706646611293157
+    },
+    {
+      "puzzle_id": 363,
+      "level": 0,
+      "similarity": 0.2144851783911387
+    },
+    {
+      "puzzle_id": 363,
+      "level": 1,
+      "similarity": 0.28851255774497986
+    },
+    {
+      "puzzle_id": 363,
+      "level": 2,
+      "similarity": 0.332306111852328
+    },
+    {
+      "puzzle_id": 363,
+      "level": 3,
+      "similarity": 0.20545633509755135
+    },
+    {
+      "puzzle_id": 364,
+      "level": 0,
+      "similarity": 0.573395773768425
+    },
+    {
+      "puzzle_id": 364,
+      "level": 1,
+      "similarity": 0.3426368460059166
+    },
+    {
+      "puzzle_id": 364,
+      "level": 2,
+      "similarity": 0.28589090208212536
+    },
+    {
+      "puzzle_id": 364,
+      "level": 3,
+      "similarity": 0.2600944514075915
+    },
+    {
+      "puzzle_id": 365,
+      "level": 0,
+      "similarity": 0.3098085547486941
+    },
+    {
+      "puzzle_id": 365,
+      "level": 1,
+      "similarity": 0.29108503957589466
+    },
+    {
+      "puzzle_id": 365,
+      "level": 2,
+      "similarity": 0.22803505510091782
+    },
+    {
+      "puzzle_id": 365,
+      "level": 3,
+      "similarity": 0.19434571266174316
+    },
+    {
+      "puzzle_id": 366,
+      "level": 0,
+      "similarity": 0.19256447007258734
+    },
+    {
+      "puzzle_id": 366,
+      "level": 1,
+      "similarity": 0.2990618372956912
+    },
+    {
+      "puzzle_id": 366,
+      "level": 2,
+      "similarity": 0.23470673461755118
+    },
+    {
+      "puzzle_id": 366,
+      "level": 3,
+      "similarity": 0.21181522061427435
+    },
+    {
+      "puzzle_id": 367,
+      "level": 0,
+      "similarity": 0.32447924216588336
+    },
+    {
+      "puzzle_id": 367,
+      "level": 1,
+      "similarity": 0.2984110688169797
+    },
+    {
+      "puzzle_id": 367,
+      "level": 2,
+      "similarity": 0.4096746891736984
+    },
+    {
+      "puzzle_id": 367,
+      "level": 3,
+      "similarity": 0.23696515460809073
+    },
+    {
+      "puzzle_id": 368,
+      "level": 0,
+      "similarity": 0.24684063841899237
+    },
+    {
+      "puzzle_id": 368,
+      "level": 1,
+      "similarity": 0.2749512443939845
+    },
+    {
+      "puzzle_id": 368,
+      "level": 2,
+      "similarity": 0.3505326161781947
+    },
+    {
+      "puzzle_id": 368,
+      "level": 3,
+      "similarity": 0.24074558665355048
+    },
+    {
+      "puzzle_id": 369,
+      "level": 0,
+      "similarity": 0.3611542334159215
+    },
+    {
+      "puzzle_id": 369,
+      "level": 1,
+      "similarity": 0.27211860567331314
+    },
+    {
+      "puzzle_id": 369,
+      "level": 2,
+      "similarity": 0.2592648317416509
+    },
+    {
+      "puzzle_id": 369,
+      "level": 3,
+      "similarity": 0.20138940339287123
+    },
+    {
+      "puzzle_id": 370,
+      "level": 0,
+      "similarity": 0.29861023277044296
+    },
+    {
+      "puzzle_id": 370,
+      "level": 1,
+      "similarity": 0.3007308195034663
+    },
+    {
+      "puzzle_id": 370,
+      "level": 2,
+      "similarity": 0.3216889450947444
+    },
+    {
+      "puzzle_id": 370,
+      "level": 3,
+      "similarity": 0.22815396388371786
+    },
+    {
+      "puzzle_id": 371,
+      "level": 0,
+      "similarity": 0.27943343420823413
+    },
+    {
+      "puzzle_id": 371,
+      "level": 1,
+      "similarity": 0.26855143904685974
+    },
+    {
+      "puzzle_id": 371,
+      "level": 2,
+      "similarity": 0.2391910950342814
+    },
+    {
+      "puzzle_id": 371,
+      "level": 3,
+      "similarity": 0.28294303516546887
+    },
+    {
+      "puzzle_id": 372,
+      "level": 0,
+      "similarity": 0.3835680733124415
+    },
+    {
+      "puzzle_id": 372,
+      "level": 1,
+      "similarity": 0.2934841439127922
+    },
+    {
+      "puzzle_id": 372,
+      "level": 2,
+      "similarity": 0.3100242142875989
+    },
+    {
+      "puzzle_id": 372,
+      "level": 3,
+      "similarity": 0.25290820002555847
+    },
+    {
+      "puzzle_id": 373,
+      "level": 0,
+      "similarity": 0.24904334545135498
+    },
+    {
+      "puzzle_id": 373,
+      "level": 1,
+      "similarity": 0.3217356304327647
+    },
+    {
+      "puzzle_id": 373,
+      "level": 2,
+      "similarity": 0.32807647188504535
+    },
+    {
+      "puzzle_id": 373,
+      "level": 3,
+      "similarity": 0.2633877247571945
+    },
+    {
+      "puzzle_id": 374,
+      "level": 0,
+      "similarity": 0.24095341066519418
+    },
+    {
+      "puzzle_id": 374,
+      "level": 1,
+      "similarity": 0.21110623826583227
+    },
+    {
+      "puzzle_id": 374,
+      "level": 2,
+      "similarity": 0.2147624393304189
+    },
+    {
+      "puzzle_id": 374,
+      "level": 3,
+      "similarity": 0.26637068142493564
+    },
+    {
+      "puzzle_id": 375,
+      "level": 0,
+      "similarity": 0.3115472123026848
+    },
+    {
+      "puzzle_id": 375,
+      "level": 1,
+      "similarity": 0.22503563885887465
+    },
+    {
+      "puzzle_id": 375,
+      "level": 2,
+      "similarity": 0.27644433081150055
+    },
+    {
+      "puzzle_id": 375,
+      "level": 3,
+      "similarity": 0.28522952646017075
+    },
+    {
+      "puzzle_id": 376,
+      "level": 0,
+      "similarity": 0.5077599932750066
+    },
+    {
+      "puzzle_id": 376,
+      "level": 1,
+      "similarity": 0.20290150741736093
+    },
+    {
+      "puzzle_id": 376,
+      "level": 2,
+      "similarity": 0.2612103496988614
+    },
+    {
+      "puzzle_id": 376,
+      "level": 3,
+      "similarity": 0.1859084814786911
+    },
+    {
+      "puzzle_id": 377,
+      "level": 0,
+      "similarity": 0.26204486687978107
+    },
+    {
+      "puzzle_id": 377,
+      "level": 1,
+      "similarity": 0.28257804612318677
+    },
+    {
+      "puzzle_id": 377,
+      "level": 2,
+      "similarity": 0.20177650700012842
+    },
+    {
+      "puzzle_id": 377,
+      "level": 3,
+      "similarity": 0.24329292650024095
+    },
+    {
+      "puzzle_id": 378,
+      "level": 0,
+      "similarity": 0.3072922428448995
+    },
+    {
+      "puzzle_id": 378,
+      "level": 1,
+      "similarity": 0.2562049552798271
+    },
+    {
+      "puzzle_id": 378,
+      "level": 2,
+      "similarity": 0.2603871126969655
+    },
+    {
+      "puzzle_id": 378,
+      "level": 3,
+      "similarity": 0.25067921976248425
+    },
+    {
+      "puzzle_id": 379,
+      "level": 0,
+      "similarity": 0.363769752283891
+    },
+    {
+      "puzzle_id": 379,
+      "level": 1,
+      "similarity": 0.234367402891318
+    },
+    {
+      "puzzle_id": 379,
+      "level": 2,
+      "similarity": 0.20809809118509293
+    },
+    {
+      "puzzle_id": 379,
+      "level": 3,
+      "similarity": 0.2820523952444394
+    },
+    {
+      "puzzle_id": 380,
+      "level": 0,
+      "similarity": 0.26743538677692413
+    },
+    {
+      "puzzle_id": 380,
+      "level": 1,
+      "similarity": 0.334558367729187
+    },
+    {
+      "puzzle_id": 380,
+      "level": 2,
+      "similarity": 0.30044350773096085
+    },
+    {
+      "puzzle_id": 380,
+      "level": 3,
+      "similarity": 0.29739149411519367
+    },
+    {
+      "puzzle_id": 381,
+      "level": 0,
+      "similarity": 0.30049453924099606
+    },
+    {
+      "puzzle_id": 381,
+      "level": 1,
+      "similarity": 0.4097481419642766
+    },
+    {
+      "puzzle_id": 381,
+      "level": 2,
+      "similarity": 0.34582145512104034
+    },
+    {
+      "puzzle_id": 381,
+      "level": 3,
+      "similarity": 0.19759787370761236
+    },
+    {
+      "puzzle_id": 382,
+      "level": 0,
+      "similarity": 0.36147962758938473
+    },
+    {
+      "puzzle_id": 382,
+      "level": 1,
+      "similarity": 0.329088419675827
+    },
+    {
+      "puzzle_id": 382,
+      "level": 2,
+      "similarity": 0.2890326331059138
+    },
+    {
+      "puzzle_id": 382,
+      "level": 3,
+      "similarity": 0.2013752112785975
+    },
+    {
+      "puzzle_id": 383,
+      "level": 0,
+      "similarity": 0.23224583268165588
+    },
+    {
+      "puzzle_id": 383,
+      "level": 1,
+      "similarity": 0.2592420130968094
+    },
+    {
+      "puzzle_id": 383,
+      "level": 2,
+      "similarity": 0.2953721930583318
+    },
+    {
+      "puzzle_id": 383,
+      "level": 3,
+      "similarity": 0.264026698966821
+    },
+    {
+      "puzzle_id": 384,
+      "level": 0,
+      "similarity": 0.2094999278585116
+    },
+    {
+      "puzzle_id": 384,
+      "level": 1,
+      "similarity": 0.30816352864106494
+    },
+    {
+      "puzzle_id": 384,
+      "level": 2,
+      "similarity": 0.41053443650404614
+    },
+    {
+      "puzzle_id": 384,
+      "level": 3,
+      "similarity": 0.2288545866807302
+    },
+    {
+      "puzzle_id": 385,
+      "level": 0,
+      "similarity": 0.2008547050257524
+    },
+    {
+      "puzzle_id": 385,
+      "level": 1,
+      "similarity": 0.383454571167628
+    },
+    {
+      "puzzle_id": 385,
+      "level": 2,
+      "similarity": 0.34481793145338696
+    },
+    {
+      "puzzle_id": 385,
+      "level": 3,
+      "similarity": 0.26578565686941147
+    },
+    {
+      "puzzle_id": 386,
+      "level": 0,
+      "similarity": 0.2393986297150453
+    },
+    {
+      "puzzle_id": 386,
+      "level": 1,
+      "similarity": 0.25571660697460175
+    },
+    {
+      "puzzle_id": 386,
+      "level": 2,
+      "similarity": 0.2944098437825839
+    },
+    {
+      "puzzle_id": 386,
+      "level": 3,
+      "similarity": 0.25862358262141544
+    },
+    {
+      "puzzle_id": 387,
+      "level": 0,
+      "similarity": 0.3898963729540507
+    },
+    {
+      "puzzle_id": 387,
+      "level": 1,
+      "similarity": 0.2583370159069697
+    },
+    {
+      "puzzle_id": 387,
+      "level": 2,
+      "similarity": 0.16880298778414726
+    },
+    {
+      "puzzle_id": 387,
+      "level": 3,
+      "similarity": 0.19766582176089287
+    },
+    {
+      "puzzle_id": 388,
+      "level": 0,
+      "similarity": 0.30721396456162137
+    },
+    {
+      "puzzle_id": 388,
+      "level": 1,
+      "similarity": 0.3383014152447383
+    },
+    {
+      "puzzle_id": 388,
+      "level": 2,
+      "similarity": 0.25737135112285614
+    },
+    {
+      "puzzle_id": 388,
+      "level": 3,
+      "similarity": 0.22731916109720865
+    },
+    {
+      "puzzle_id": 389,
+      "level": 0,
+      "similarity": 0.3371247599522273
+    },
+    {
+      "puzzle_id": 389,
+      "level": 1,
+      "similarity": 0.3452427387237549
+    },
+    {
+      "puzzle_id": 389,
+      "level": 2,
+      "similarity": 0.35576384762922925
+    },
+    {
+      "puzzle_id": 389,
+      "level": 3,
+      "similarity": 0.2240119750301043
+    },
+    {
+      "puzzle_id": 390,
+      "level": 0,
+      "similarity": 0.2214488610625267
+    },
+    {
+      "puzzle_id": 390,
+      "level": 1,
+      "similarity": 0.2047156790892283
+    },
+    {
+      "puzzle_id": 390,
+      "level": 2,
+      "similarity": 0.2969250703851382
+    },
+    {
+      "puzzle_id": 390,
+      "level": 3,
+      "similarity": 0.1779236445824305
+    },
+    {
+      "puzzle_id": 391,
+      "level": 0,
+      "similarity": 0.3809424862265587
+    },
+    {
+      "puzzle_id": 391,
+      "level": 1,
+      "similarity": 0.22685243686040243
+    },
+    {
+      "puzzle_id": 391,
+      "level": 2,
+      "similarity": 0.23899410168329874
+    },
+    {
+      "puzzle_id": 391,
+      "level": 3,
+      "similarity": 0.19743000715970993
+    },
+    {
+      "puzzle_id": 392,
+      "level": 0,
+      "similarity": 0.47992194692293805
+    },
+    {
+      "puzzle_id": 392,
+      "level": 1,
+      "similarity": 0.27226488043864566
+    },
+    {
+      "puzzle_id": 392,
+      "level": 2,
+      "similarity": 0.18912372241417566
+    },
+    {
+      "puzzle_id": 392,
+      "level": 3,
+      "similarity": 0.22721300522486368
+    },
+    {
+      "puzzle_id": 393,
+      "level": 0,
+      "similarity": 0.3663473774989446
+    },
+    {
+      "puzzle_id": 393,
+      "level": 1,
+      "similarity": 0.2985023508469264
+    },
+    {
+      "puzzle_id": 393,
+      "level": 2,
+      "similarity": 0.28250855455795926
+    },
+    {
+      "puzzle_id": 393,
+      "level": 3,
+      "similarity": 0.1532906914750735
+    },
+    {
+      "puzzle_id": 394,
+      "level": 0,
+      "similarity": 0.3402811413009961
+    },
+    {
+      "puzzle_id": 394,
+      "level": 1,
+      "similarity": 0.21145684768756232
+    },
+    {
+      "puzzle_id": 394,
+      "level": 2,
+      "similarity": 0.2289174497127533
+    },
+    {
+      "puzzle_id": 394,
+      "level": 3,
+      "similarity": 0.20541937152544656
+    },
+    {
+      "puzzle_id": 395,
+      "level": 0,
+      "similarity": 0.25319820394118625
+    },
+    {
+      "puzzle_id": 395,
+      "level": 1,
+      "similarity": 0.3534175306558609
+    },
+    {
+      "puzzle_id": 395,
+      "level": 2,
+      "similarity": 0.333998183409373
+    },
+    {
+      "puzzle_id": 395,
+      "level": 3,
+      "similarity": 0.2893327946464221
+    },
+    {
+      "puzzle_id": 396,
+      "level": 0,
+      "similarity": 0.3723236471414566
+    },
+    {
+      "puzzle_id": 396,
+      "level": 1,
+      "similarity": 0.2735368336240451
+    },
+    {
+      "puzzle_id": 396,
+      "level": 2,
+      "similarity": 0.32403625051180523
+    },
+    {
+      "puzzle_id": 396,
+      "level": 3,
+      "similarity": 0.2656359225511551
+    },
+    {
+      "puzzle_id": 397,
+      "level": 0,
+      "similarity": 0.3850237876176834
+    },
+    {
+      "puzzle_id": 397,
+      "level": 1,
+      "similarity": 0.34130049248536426
+    },
+    {
+      "puzzle_id": 397,
+      "level": 2,
+      "similarity": 0.2840251997113228
+    },
+    {
+      "puzzle_id": 397,
+      "level": 3,
+      "similarity": 0.28191165377696353
+    },
+    {
+      "puzzle_id": 398,
+      "level": 0,
+      "similarity": 0.41205331434806186
+    },
+    {
+      "puzzle_id": 398,
+      "level": 1,
+      "similarity": 0.38558048009872437
+    },
+    {
+      "puzzle_id": 398,
+      "level": 2,
+      "similarity": 0.35916343828042346
+    },
+    {
+      "puzzle_id": 398,
+      "level": 3,
+      "similarity": 0.20964486648639044
+    },
+    {
+      "puzzle_id": 399,
+      "level": 0,
+      "similarity": 0.2660403251647949
+    },
+    {
+      "puzzle_id": 399,
+      "level": 1,
+      "similarity": 0.36333756645520526
+    },
+    {
+      "puzzle_id": 399,
+      "level": 2,
+      "similarity": 0.21711165830492973
+    },
+    {
+      "puzzle_id": 399,
+      "level": 3,
+      "similarity": 0.2867106993993123
+    },
+    {
+      "puzzle_id": 400,
+      "level": 0,
+      "similarity": 0.3417366196711858
+    },
+    {
+      "puzzle_id": 400,
+      "level": 1,
+      "similarity": 0.28368854025999707
+    },
+    {
+      "puzzle_id": 400,
+      "level": 2,
+      "similarity": 0.3022167310118675
+    },
+    {
+      "puzzle_id": 400,
+      "level": 3,
+      "similarity": 0.251763549943765
+    },
+    {
+      "puzzle_id": 401,
+      "level": 0,
+      "similarity": 0.2333546777566274
+    },
+    {
+      "puzzle_id": 401,
+      "level": 1,
+      "similarity": 0.2896769394477208
+    },
+    {
+      "puzzle_id": 401,
+      "level": 2,
+      "similarity": 0.20818211883306503
+    },
+    {
+      "puzzle_id": 401,
+      "level": 3,
+      "similarity": 0.3182939738035202
+    },
+    {
+      "puzzle_id": 402,
+      "level": 0,
+      "similarity": 0.42291735112667084
+    },
+    {
+      "puzzle_id": 402,
+      "level": 1,
+      "similarity": 0.21028620998064676
+    },
+    {
+      "puzzle_id": 402,
+      "level": 2,
+      "similarity": 0.2699885865052541
+    },
+    {
+      "puzzle_id": 402,
+      "level": 3,
+      "similarity": 0.2309160257379214
+    },
+    {
+      "puzzle_id": 403,
+      "level": 0,
+      "similarity": 0.29416393240292865
+    },
+    {
+      "puzzle_id": 403,
+      "level": 1,
+      "similarity": 0.316801942884922
+    },
+    {
+      "puzzle_id": 403,
+      "level": 2,
+      "similarity": 0.2905022551616033
+    },
+    {
+      "puzzle_id": 403,
+      "level": 3,
+      "similarity": 0.29707979410886765
+    },
+    {
+      "puzzle_id": 404,
+      "level": 0,
+      "similarity": 0.2730797082185745
+    },
+    {
+      "puzzle_id": 404,
+      "level": 1,
+      "similarity": 0.20554501563310623
+    },
+    {
+      "puzzle_id": 404,
+      "level": 2,
+      "similarity": 0.2527865382532279
+    },
+    {
+      "puzzle_id": 404,
+      "level": 3,
+      "similarity": 0.32958728820085526
+    },
+    {
+      "puzzle_id": 405,
+      "level": 0,
+      "similarity": 0.34892340501149494
+    },
+    {
+      "puzzle_id": 405,
+      "level": 1,
+      "similarity": 0.42288662989934284
+    },
+    {
+      "puzzle_id": 405,
+      "level": 2,
+      "similarity": 0.41774414976437885
+    },
+    {
+      "puzzle_id": 405,
+      "level": 3,
+      "similarity": 0.24590526769558588
+    },
+    {
+      "puzzle_id": 406,
+      "level": 0,
+      "similarity": 0.23091697692871094
+    },
+    {
+      "puzzle_id": 406,
+      "level": 1,
+      "similarity": 0.3083682432770729
+    },
+    {
+      "puzzle_id": 406,
+      "level": 2,
+      "similarity": 0.1921987235546112
+    },
+    {
+      "puzzle_id": 406,
+      "level": 3,
+      "similarity": 0.22290389984846115
+    },
+    {
+      "puzzle_id": 407,
+      "level": 0,
+      "similarity": 0.29279006520907086
+    },
+    {
+      "puzzle_id": 407,
+      "level": 1,
+      "similarity": 0.24915795400738716
+    },
+    {
+      "puzzle_id": 407,
+      "level": 2,
+      "similarity": 0.22313331564267477
+    },
+    {
+      "puzzle_id": 407,
+      "level": 3,
+      "similarity": 0.17098759983976683
+    },
+    {
+      "puzzle_id": 408,
+      "level": 0,
+      "similarity": 0.34492087612549466
+    },
+    {
+      "puzzle_id": 408,
+      "level": 1,
+      "similarity": 0.29645102967818576
+    },
+    {
+      "puzzle_id": 408,
+      "level": 2,
+      "similarity": 0.282542921602726
+    },
+    {
+      "puzzle_id": 408,
+      "level": 3,
+      "similarity": 0.15079473828276
+    },
+    {
+      "puzzle_id": 409,
+      "level": 0,
+      "similarity": 0.24665991216897964
+    },
+    {
+      "puzzle_id": 409,
+      "level": 1,
+      "similarity": 0.35800760984420776
+    },
+    {
+      "puzzle_id": 409,
+      "level": 2,
+      "similarity": 0.24688818057378134
+    },
+    {
+      "puzzle_id": 409,
+      "level": 3,
+      "similarity": 0.3135947237412135
+    },
+    {
+      "puzzle_id": 410,
+      "level": 0,
+      "similarity": 0.38828668743371964
+    },
+    {
+      "puzzle_id": 410,
+      "level": 1,
+      "similarity": 0.3389279494682948
+    },
+    {
+      "puzzle_id": 410,
+      "level": 2,
+      "similarity": 0.2382045661409696
+    },
+    {
+      "puzzle_id": 410,
+      "level": 3,
+      "similarity": 0.20718930661678314
+    },
+    {
+      "puzzle_id": 411,
+      "level": 0,
+      "similarity": 0.32406103362639743
+    },
+    {
+      "puzzle_id": 411,
+      "level": 1,
+      "similarity": 0.2854906345407168
+    },
+    {
+      "puzzle_id": 411,
+      "level": 2,
+      "similarity": 0.24002341429392496
+    },
+    {
+      "puzzle_id": 411,
+      "level": 3,
+      "similarity": 0.19976236671209335
+    },
+    {
+      "puzzle_id": 412,
+      "level": 0,
+      "similarity": 0.29796574513117474
+    },
+    {
+      "puzzle_id": 412,
+      "level": 1,
+      "similarity": 0.4155604715148608
+    },
+    {
+      "puzzle_id": 412,
+      "level": 2,
+      "similarity": 0.20587506517767906
+    },
+    {
+      "puzzle_id": 412,
+      "level": 3,
+      "similarity": 0.18081640203793845
+    },
+    {
+      "puzzle_id": 413,
+      "level": 0,
+      "similarity": 0.2832610160112381
+    },
+    {
+      "puzzle_id": 413,
+      "level": 1,
+      "similarity": 0.3231229955951373
+    },
+    {
+      "puzzle_id": 413,
+      "level": 2,
+      "similarity": 0.253257488210996
+    },
+    {
+      "puzzle_id": 413,
+      "level": 3,
+      "similarity": 0.3007924134532611
+    },
+    {
+      "puzzle_id": 414,
+      "level": 0,
+      "similarity": 0.461616779367129
+    },
+    {
+      "puzzle_id": 414,
+      "level": 1,
+      "similarity": 0.3078310862183571
+    },
+    {
+      "puzzle_id": 414,
+      "level": 2,
+      "similarity": 0.21169371406237283
+    },
+    {
+      "puzzle_id": 414,
+      "level": 3,
+      "similarity": 0.2721272309621175
+    },
+    {
+      "puzzle_id": 415,
+      "level": 0,
+      "similarity": 0.2854808246095975
+    },
+    {
+      "puzzle_id": 415,
+      "level": 1,
+      "similarity": 0.4117314467827479
+    },
+    {
+      "puzzle_id": 415,
+      "level": 2,
+      "similarity": 0.22438379873832068
+    },
+    {
+      "puzzle_id": 415,
+      "level": 3,
+      "similarity": 0.3154270201921463
+    },
+    {
+      "puzzle_id": 416,
+      "level": 0,
+      "similarity": 0.331320787469546
+    },
+    {
+      "puzzle_id": 416,
+      "level": 1,
+      "similarity": 0.2292300139864286
+    },
+    {
+      "puzzle_id": 416,
+      "level": 2,
+      "similarity": 0.2726143424709638
+    },
+    {
+      "puzzle_id": 416,
+      "level": 3,
+      "similarity": 0.2783273806174596
+    },
+    {
+      "puzzle_id": 417,
+      "level": 0,
+      "similarity": 0.31176163752873737
+    },
+    {
+      "puzzle_id": 417,
+      "level": 1,
+      "similarity": 0.2615628068645795
+    },
+    {
+      "puzzle_id": 417,
+      "level": 2,
+      "similarity": 0.31781359761953354
+    },
+    {
+      "puzzle_id": 417,
+      "level": 3,
+      "similarity": 0.1967049464583397
+    },
+    {
+      "puzzle_id": 418,
+      "level": 0,
+      "similarity": 0.2115392287572225
+    },
+    {
+      "puzzle_id": 418,
+      "level": 1,
+      "similarity": 0.2818584144115448
+    },
+    {
+      "puzzle_id": 418,
+      "level": 2,
+      "similarity": 0.19861960411071777
+    },
+    {
+      "puzzle_id": 418,
+      "level": 3,
+      "similarity": 0.22027741993467012
+    },
+    {
+      "puzzle_id": 419,
+      "level": 0,
+      "similarity": 0.27324265738328296
+    },
+    {
+      "puzzle_id": 419,
+      "level": 1,
+      "similarity": 0.2210864077011744
+    },
+    {
+      "puzzle_id": 419,
+      "level": 2,
+      "similarity": 0.31141557296117145
+    },
+    {
+      "puzzle_id": 419,
+      "level": 3,
+      "similarity": 0.24431941409905752
+    },
+    {
+      "puzzle_id": 420,
+      "level": 0,
+      "similarity": 0.3605371316274007
+    },
+    {
+      "puzzle_id": 420,
+      "level": 1,
+      "similarity": 0.29353131850560504
+    },
+    {
+      "puzzle_id": 420,
+      "level": 2,
+      "similarity": 0.23120726396640143
+    },
+    {
+      "puzzle_id": 420,
+      "level": 3,
+      "similarity": 0.20275787512461343
+    },
+    {
+      "puzzle_id": 421,
+      "level": 0,
+      "similarity": 0.34704412519931793
+    },
+    {
+      "puzzle_id": 421,
+      "level": 1,
+      "similarity": 0.24822375923395157
+    },
+    {
+      "puzzle_id": 421,
+      "level": 2,
+      "similarity": 0.26873981455961865
+    },
+    {
+      "puzzle_id": 421,
+      "level": 3,
+      "similarity": 0.25046349316835403
+    },
+    {
+      "puzzle_id": 422,
+      "level": 0,
+      "similarity": 0.27043454100688297
+    },
+    {
+      "puzzle_id": 422,
+      "level": 1,
+      "similarity": 0.26393722494443256
+    },
+    {
+      "puzzle_id": 422,
+      "level": 2,
+      "similarity": 0.22522206356128058
+    },
+    {
+      "puzzle_id": 422,
+      "level": 3,
+      "similarity": 0.2044630373517672
+    }
+  ]
+}

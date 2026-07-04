@@ -1,0 +1,6 @@
+You are solving a New York Times Connections puzzle. You are given 16 words. Group them into exactly 4 groups of 4 words, where each group shares a common theme or connection.
+
+Words: {words}
+
+Respond ONLY with a JSON object of the form:
+{{"groups": [{{"theme": "...", "words": ["w1", "w2", "w3", "w4"]}}, ...]}}

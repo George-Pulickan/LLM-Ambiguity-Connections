@@ -1,0 +1,229 @@
+[
+  {
+    "group_number": 1,
+    "words": [
+      "Palm",
+      "Pine",
+      "Willow",
+      "Cherry"
+    ],
+    "verification": [
+      {
+        "word": "Palm",
+        "sense_count": 5,
+        "definitions": [
+          "the inner surface of the hand from the wrist to the base of the fingers",
+          "a linear unit based on the length or width of the human hand",
+          "any plant of the family Palmae having an unbranched trunk crowned by large pinnate or palmate leaves",
+          "an award for winning a championship or commemorating some other event",
+          "touch, lift, or hold with the hands"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Pine",
+        "sense_count": 3,
+        "definitions": [
+          "a coniferous tree",
+          "straight-grained durable and often resinous white to yellowish timber of any of numerous trees of the genus Pinus",
+          "have a desire for something or someone who is not present"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Willow",
+        "sense_count": 2,
+        "definitions": [
+          "any of numerous deciduous trees and shrubs of the genus Salix",
+          "a textile machine having a system of revolving spikes for opening and cleaning raw textile fibers"
+        ],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "Cherry",
+        "sense_count": 5,
+        "definitions": [
+          "wood of any of various cherry trees especially the black cherry",
+          "any of numerous trees and shrubs producing a small fleshy round fruit with a single hard stone; many also produce a valuable hardwood",
+          "a red fruit with a single hard stone",
+          "a red the color of ripe cherries",
+          "of a color at the end of the color spectrum (next to orange); resembling the color of blood or cherries or tomatoes or rubies"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 2,
+    "words": [
+      "Light",
+      "Bark",
+      "Leaves",
+      "Seal"
+    ],
+    "verification": [
+      {
+        "word": "Light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Leaves",
+        "sense_count": 20,
+        "definitions": [
+          "the main organ of photosynthesis and transpiration in higher plants",
+          "a sheet of any written or printed material (especially in a manuscript or book)",
+          "hinged or detachable flat section (as of a table or door)",
+          "the period of time during which you are absent from work or duty",
+          "permission to do something"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Seal",
+        "sense_count": 15,
+        "definitions": [
+          "fastener consisting of a resinous composition that is plastic when warm; used for sealing documents and parcels and letters",
+          "a device incised to make an impression; used to secure a closing or to authenticate documents",
+          "the pelt or fur (especially the underfur) of a seal",
+          "a member of a Naval Special Warfare unit who is trained for unconventional warfare",
+          "a stamp affixed to a document (as to attest to its authenticity or to seal it)"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 3,
+    "words": [
+      "bark",
+      "light",
+      "bat",
+      "suit"
+    ],
+    "verification": [
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "bat",
+        "sense_count": 10,
+        "definitions": [
+          "nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate",
+          "(baseball) a turn trying to get a hit",
+          "a small racket with a long handle used for playing squash",
+          "the club used in playing cricket",
+          "a club used for hitting a ball in various games"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "suit",
+        "sense_count": 10,
+        "definitions": [
+          "a set of garments (usually including a jacket and trousers or skirt) for outerwear all of the same fabric and color",
+          "a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy",
+          "(slang) a businessman dressed in a business suit",
+          "a man's courting of a woman; seeking the affections of a woman (usually with the hope of marriage)",
+          "a petition or appeal made to a person of superior status or rank"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 4,
+    "words": [
+      "Break the Ice",
+      "Saw",
+      "Light",
+      "Pitch"
+    ],
+    "verification": [
+      {
+        "word": "Break the Ice",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Saw",
+        "sense_count": 28,
+        "definitions": [
+          "a condensed but memorable saying embodying some important fact of experience that is taken as true by many people",
+          "hand tool having a toothed blade for cutting",
+          "a power tool for cutting wood",
+          "cut with a saw",
+          "perceive by sight or have the power to perceive by sight"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Pitch",
+        "sense_count": 22,
+        "definitions": [
+          "the property of sound that varies with variation in the frequency of vibration",
+          "(baseball) the act of throwing a baseball by a pitcher to a batter",
+          "a vendor's position (especially on the sidewalk)",
+          "promotion by means of an argument and demonstration",
+          "degree of deviation from a horizontal plane"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  }
+]

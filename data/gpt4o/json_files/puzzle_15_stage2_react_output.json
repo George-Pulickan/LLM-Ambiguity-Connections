@@ -1,0 +1,226 @@
+[
+  {
+    "group_number": 1,
+    "words": [
+      "Bass",
+      "Harp",
+      "Cello",
+      "Organ"
+    ],
+    "verification": [
+      {
+        "word": "Bass",
+        "sense_count": 9,
+        "definitions": [
+          "the lowest part of the musical range",
+          "the lowest part in polyphonic music",
+          "an adult male singer with the lowest voice",
+          "the lean flesh of a saltwater fish of the family Serranidae",
+          "any of various North American freshwater fish with lean flesh (especially of the genus Micropterus)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Harp",
+        "sense_count": 5,
+        "definitions": [
+          "a chordophone that has a triangular frame consisting of a sounding board and a pillar and a curved neck; the strings stretched between the neck and the soundbox are plucked with the fingers",
+          "a pair of curved vertical supports for a lampshade",
+          "a small rectangular free-reed instrument having a row of free reeds set back in air holes and played by blowing into the desired hole",
+          "come back to",
+          "play the harp"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Cello",
+        "sense_count": 1,
+        "definitions": [
+          "a large stringed instrument; seated player holds it upright while playing"
+        ],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "Organ",
+        "sense_count": 6,
+        "definitions": [
+          "a fully differentiated structural and functional unit in an animal that is specialized for some particular function",
+          "a government agency or instrument devoted to the performance of some specific function",
+          "(music) an electronic simulation of a pipe organ",
+          "a periodical that is published by a special interest group",
+          "wind instrument whose sound is produced by means of pipes arranged in sets supplied with air from a bellows and controlled from a large complex musical keyboard"
+        ],
+        "ambiguity_type": "polysemy"
+      }
+    ]
+  },
+  {
+    "group_number": 2,
+    "words": [
+      "message",
+      "call",
+      "signal",
+      "report"
+    ],
+    "verification": [
+      {
+        "word": "message",
+        "sense_count": 5,
+        "definitions": [
+          "a communication (usually brief) that is written or spoken or signaled",
+          "what a communication that is about something is about",
+          "send a message to",
+          "send as a message",
+          "send a message"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "call",
+        "sense_count": 41,
+        "definitions": [
+          "a telephone connection",
+          "a special disposition (as if from a divine source) to pursue a particular course",
+          "a loud utterance; often in protest or opposition",
+          "a demand especially in the phrase",
+          "the characteristic sound produced by a bird"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "signal",
+        "sense_count": 6,
+        "definitions": [
+          "any nonverbal action or gesture that encodes a message",
+          "any incitement to action",
+          "an electric quantity (voltage or current or field strength) whose modulation represents coded information about the source from which it comes",
+          "communicate silently and non-verbally by signals or signs",
+          "be a signal for or a symptom of"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "report",
+        "sense_count": 13,
+        "definitions": [
+          "a written document describing the findings of some individual or group",
+          "the act of informing by verbal report",
+          "a short account of the news",
+          "a sharp explosive sound (especially the sound of a gun firing)",
+          "a written evaluation of a student's scholarship and deportment"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 3,
+    "words": [
+      "bark",
+      "pitch",
+      "seal",
+      "draft"
+    ],
+    "verification": [
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "pitch",
+        "sense_count": 22,
+        "definitions": [
+          "the property of sound that varies with variation in the frequency of vibration",
+          "(baseball) the act of throwing a baseball by a pitcher to a batter",
+          "a vendor's position (especially on the sidewalk)",
+          "promotion by means of an argument and demonstration",
+          "degree of deviation from a horizontal plane"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "seal",
+        "sense_count": 15,
+        "definitions": [
+          "fastener consisting of a resinous composition that is plastic when warm; used for sealing documents and parcels and letters",
+          "a device incised to make an impression; used to secure a closing or to authenticate documents",
+          "the pelt or fur (especially the underfur) of a seal",
+          "a member of a Naval Special Warfare unit who is trained for unconventional warfare",
+          "a stamp affixed to a document (as to attest to its authenticity or to seal it)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "draft",
+        "sense_count": 14,
+        "definitions": [
+          "a document ordering the payment of money; drawn by one person or bank on another",
+          "a current of air (usually coming into a chimney or room or vehicle)",
+          "a preliminary sketch of a design or picture",
+          "a serving of drink (usually alcoholic) drawn from a keg",
+          "any of the various versions in the development of a written work"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 4,
+    "words": [
+      "bank",
+      "duck",
+      "kick the bucket",
+      "flying planes can be dangerous"
+    ],
+    "verification": [
+      {
+        "word": "bank",
+        "sense_count": 18,
+        "definitions": [
+          "sloping land (especially the slope beside a body of water)",
+          "a financial institution that accepts deposits and channels the money into lending activities",
+          "a long ridge or pile",
+          "an arrangement of similar objects in a row or in tiers",
+          "a supply or stock held in reserve for future use (especially in emergencies)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "duck",
+        "sense_count": 8,
+        "definitions": [
+          "small wild or domesticated web-footed broad-billed swimming bird usually having a depressed body and short legs",
+          "(cricket) a score of nothing by a batsman",
+          "flesh of a duck (domestic or wild)",
+          "a heavy cotton fabric of plain weave; used for clothing and tents",
+          "to move (the head or body) quickly downwards or away"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "kick the bucket",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "flying planes can be dangerous",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      }
+    ]
+  }
+]

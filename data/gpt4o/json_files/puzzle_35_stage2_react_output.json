@@ -1,0 +1,229 @@
+[
+  {
+    "group_number": 1,
+    "words": [
+      "Bass",
+      "Key",
+      "Scale",
+      "Chord"
+    ],
+    "verification": [
+      {
+        "word": "Bass",
+        "sense_count": 9,
+        "definitions": [
+          "the lowest part of the musical range",
+          "the lowest part in polyphonic music",
+          "an adult male singer with the lowest voice",
+          "the lean flesh of a saltwater fish of the family Serranidae",
+          "any of various North American freshwater fish with lean flesh (especially of the genus Micropterus)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Key",
+        "sense_count": 21,
+        "definitions": [
+          "metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated",
+          "something crucial for explaining",
+          "pitch of the voice",
+          "any of 24 major or minor diatonic scales that provide the tonal framework for a piece of music",
+          "a kilogram of a narcotic drug"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Scale",
+        "sense_count": 18,
+        "definitions": [
+          "an ordered reference standard",
+          "relative magnitude",
+          "the ratio between the size of something and a representation of it",
+          "a specialized leaf or bract that protects a bud or catkin",
+          "a thin flake of dead epidermis shed from the surface of the skin"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Chord",
+        "sense_count": 4,
+        "definitions": [
+          "a straight line connecting two points on a curve",
+          "a combination of three or more notes that blend harmoniously when sounded together",
+          "play chords on (a string instrument)",
+          "bring into consonance, harmony, or accord while making music or singing"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 2,
+    "words": [
+      "light",
+      "right",
+      "rock",
+      "bark"
+    ],
+    "verification": [
+      {
+        "word": "light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "right",
+        "sense_count": 36,
+        "definitions": [
+          "an abstract idea of that which is due to a person or governmental body by law or tradition or nature; ; - Eleanor Roosevelt",
+          "location near or direction toward the right side; i.e. the side to the south when a person or object faces east",
+          "the piece of ground in the outfield on the catcher's right",
+          "those who support political or social or economic conservatism; those who believe that things are better left unchanged",
+          "the hand that is on the right side of the body"
+        ],
+        "ambiguity_type": "figurative"
+      },
+      {
+        "word": "rock",
+        "sense_count": 9,
+        "definitions": [
+          "a lump or mass of hard consolidated mineral matter",
+          "material consisting of the aggregate of minerals like those making up the Earth's crust",
+          "United States gynecologist and devout Catholic who conducted the first clinical trials of the oral contraceptive pill (1890-1984)",
+          "(figurative) someone who is strong and stable and dependable; ; --Gospel According to Matthew",
+          "hard bright-colored stick candy (typically flavored with peppermint)"
+        ],
+        "ambiguity_type": "figurative"
+      },
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 3,
+    "words": [
+      "bark",
+      "bat",
+      "leaves",
+      "ring"
+    ],
+    "verification": [
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "bat",
+        "sense_count": 10,
+        "definitions": [
+          "nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate",
+          "(baseball) a turn trying to get a hit",
+          "a small racket with a long handle used for playing squash",
+          "the club used in playing cricket",
+          "a club used for hitting a ball in various games"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "leaves",
+        "sense_count": 20,
+        "definitions": [
+          "the main organ of photosynthesis and transpiration in higher plants",
+          "a sheet of any written or printed material (especially in a manuscript or book)",
+          "hinged or detachable flat section (as of a table or door)",
+          "the period of time during which you are absent from work or duty",
+          "permission to do something"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "ring",
+        "sense_count": 15,
+        "definitions": [
+          "a characteristic sound",
+          "a toroidal shape",
+          "a rigid circular band of metal or wood or other material used for holding or fastening or hanging or pulling",
+          "(chemistry) a chain of atoms in a molecule that forms a closed loop",
+          "an association of criminals"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 4,
+    "words": [
+      "Kick the bucket",
+      "Flying planes can be dangerous",
+      "Light",
+      "Bank"
+    ],
+    "verification": [
+      {
+        "word": "Kick the bucket",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Flying planes can be dangerous",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Bank",
+        "sense_count": 18,
+        "definitions": [
+          "sloping land (especially the slope beside a body of water)",
+          "a financial institution that accepts deposits and channels the money into lending activities",
+          "a long ridge or pile",
+          "an arrangement of similar objects in a row or in tiers",
+          "a supply or stock held in reserve for future use (especially in emergencies)"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  }
+]

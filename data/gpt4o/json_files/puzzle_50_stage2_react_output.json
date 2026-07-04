@@ -1,0 +1,224 @@
+[
+  {
+    "group_number": 1,
+    "words": [
+      "Spectacles",
+      "Tumbler",
+      "Flute",
+      "Goblet"
+    ],
+    "verification": [
+      {
+        "word": "Spectacles",
+        "sense_count": 4,
+        "definitions": [
+          "optical instrument consisting of a frame that holds a pair of lenses for correcting defective vision",
+          "something or someone seen (especially a notable or unusual sight)",
+          "an elaborate and remarkable display on a lavish scale",
+          "a blunder that makes you look ridiculous; used in the phrase `make a spectacle of' yourself"
+        ],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "Tumbler",
+        "sense_count": 4,
+        "definitions": [
+          "a gymnast who performs rolls and somersaults and twists etc.",
+          "a glass with a flat bottom but no handle or stem; originally had a round bottom",
+          "a movable obstruction in a lock that must be adjusted to a given position (as by a key) before the bolt can be thrown",
+          "pigeon that executes backward somersaults in flight or on the ground"
+        ],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "Flute",
+        "sense_count": 4,
+        "definitions": [
+          "a high-pitched woodwind instrument; a slender tube closed at one end with finger holes on one end and an opening near the closed end across which the breath is blown",
+          "a tall narrow wineglass",
+          "a groove or furrow in cloth etc (particularly a shallow concave groove on the shaft of a column)",
+          "form flutes in"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Goblet",
+        "sense_count": 2,
+        "definitions": [
+          "a drinking glass with a base and stem",
+          "a bowl-shaped drinking vessel; especially the Eucharistic cup"
+        ],
+        "ambiguity_type": "polysemy"
+      }
+    ]
+  },
+  {
+    "group_number": 2,
+    "words": [
+      "Bark",
+      "Leaves",
+      "Seal",
+      "Date"
+    ],
+    "verification": [
+      {
+        "word": "Bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Leaves",
+        "sense_count": 20,
+        "definitions": [
+          "the main organ of photosynthesis and transpiration in higher plants",
+          "a sheet of any written or printed material (especially in a manuscript or book)",
+          "hinged or detachable flat section (as of a table or door)",
+          "the period of time during which you are absent from work or duty",
+          "permission to do something"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Seal",
+        "sense_count": 15,
+        "definitions": [
+          "fastener consisting of a resinous composition that is plastic when warm; used for sealing documents and parcels and letters",
+          "a device incised to make an impression; used to secure a closing or to authenticate documents",
+          "the pelt or fur (especially the underfur) of a seal",
+          "a member of a Naval Special Warfare unit who is trained for unconventional warfare",
+          "a stamp affixed to a document (as to attest to its authenticity or to seal it)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Date",
+        "sense_count": 13,
+        "definitions": [
+          "the specified day of the month",
+          "a participant in a date",
+          "a meeting arranged in advance",
+          "a particular but unspecified point in time",
+          "the present"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 3,
+    "words": [
+      "bark",
+      "crane",
+      "leaves",
+      "rock"
+    ],
+    "verification": [
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "crane",
+        "sense_count": 6,
+        "definitions": [
+          "United States writer (1871-1900)",
+          "United States poet (1899-1932)",
+          "a small constellation in the southern hemisphere near Phoenix",
+          "lifts and moves heavy objects; lifting tackle is suspended from a pivoted boom that rotates around a vertical axis",
+          "large long-necked wading bird of marshes and plains in many parts of the world"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "leaves",
+        "sense_count": 20,
+        "definitions": [
+          "the main organ of photosynthesis and transpiration in higher plants",
+          "a sheet of any written or printed material (especially in a manuscript or book)",
+          "hinged or detachable flat section (as of a table or door)",
+          "the period of time during which you are absent from work or duty",
+          "permission to do something"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "rock",
+        "sense_count": 9,
+        "definitions": [
+          "a lump or mass of hard consolidated mineral matter",
+          "material consisting of the aggregate of minerals like those making up the Earth's crust",
+          "United States gynecologist and devout Catholic who conducted the first clinical trials of the oral contraceptive pill (1890-1984)",
+          "(figurative) someone who is strong and stable and dependable; ; --Gospel According to Matthew",
+          "hard bright-colored stick candy (typically flavored with peppermint)"
+        ],
+        "ambiguity_type": "figurative"
+      }
+    ]
+  },
+  {
+    "group_number": 4,
+    "words": [
+      "Break the ice",
+      "Flying off the handle",
+      "Duck",
+      "Light"
+    ],
+    "verification": [
+      {
+        "word": "Break the ice",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Flying off the handle",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Duck",
+        "sense_count": 8,
+        "definitions": [
+          "small wild or domesticated web-footed broad-billed swimming bird usually having a depressed body and short legs",
+          "(cricket) a score of nothing by a batsman",
+          "flesh of a duck (domestic or wild)",
+          "a heavy cotton fabric of plain weave; used for clothing and tents",
+          "to move (the head or body) quickly downwards or away"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  }
+]

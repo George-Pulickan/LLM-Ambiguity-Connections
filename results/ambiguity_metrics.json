@@ -1,0 +1,98 @@
+{
+  "n_stage2_files": 50,
+  "generated_by_group_level": {
+    "group_1": {
+      "mean_senses": 6.09,
+      "ambiguous_ratio": 0.86,
+      "highly_ambiguous_ratio": 0.58,
+      "phrase_ratio": 0.0,
+      "n_groups": 50,
+      "ambiguity_type_counts": {
+        "homonymy": 131,
+        "polysemy": 69
+      }
+    },
+    "group_2": {
+      "mean_senses": 16.366666666666664,
+      "ambiguous_ratio": 1.0,
+      "highly_ambiguous_ratio": 0.98,
+      "phrase_ratio": 0.005,
+      "n_groups": 50,
+      "ambiguity_type_counts": {
+        "homonymy": 187,
+        "polysemy": 7,
+        "figurative": 5,
+        "idiomatic": 1
+      }
+    },
+    "group_3": {
+      "mean_senses": 14.86,
+      "ambiguous_ratio": 1.0,
+      "highly_ambiguous_ratio": 0.98,
+      "phrase_ratio": 0.0,
+      "n_groups": 50,
+      "ambiguity_type_counts": {
+        "homonymy": 195,
+        "polysemy": 3,
+        "figurative": 2
+      }
+    },
+    "group_4": {
+      "mean_senses": 24.976190476190474,
+      "ambiguous_ratio": 0.9183673469387755,
+      "highly_ambiguous_ratio": 0.9183673469387755,
+      "phrase_ratio": 0.5,
+      "n_groups": 50,
+      "ambiguity_type_counts": {
+        "homonymy": 91,
+        "idiomatic": 98,
+        "polysemy": 6,
+        "figurative": 1
+      }
+    }
+  },
+  "generated_overall": {
+    "mean_senses": 15.525963149078729,
+    "ambiguous_ratio": 0.9447236180904522,
+    "highly_ambiguous_ratio": 0.864321608040201,
+    "phrase_ratio": 0.12625,
+    "n_groups": 200
+  },
+  "real_nyt_by_level": {
+    "level_0": {
+      "mean_senses": 7.502369668246446,
+      "ambiguous_ratio": 0.8595971563981043,
+      "highly_ambiguous_ratio": 0.5485781990521327,
+      "phrase_ratio": 0.008886255924170616,
+      "n_groups": 422
+    },
+    "level_1": {
+      "mean_senses": 8.10347551342812,
+      "ambiguous_ratio": 0.879739336492891,
+      "highly_ambiguous_ratio": 0.6204581358609795,
+      "phrase_ratio": 0.007701421800947867,
+      "n_groups": 422
+    },
+    "level_2": {
+      "mean_senses": 7.801464766429136,
+      "ambiguous_ratio": 0.8509501187648456,
+      "highly_ambiguous_ratio": 0.5603721298495645,
+      "phrase_ratio": 0.013033175355450236,
+      "n_groups": 422
+    },
+    "level_3": {
+      "mean_senses": 6.352685624012637,
+      "ambiguous_ratio": 0.8191153238546602,
+      "highly_ambiguous_ratio": 0.49111374407582936,
+      "phrase_ratio": 0.007701421800947867,
+      "n_groups": 422
+    }
+  },
+  "real_nyt_overall": {
+    "mean_senses": 7.439784627543965,
+    "ambiguous_ratio": 0.8523513139695711,
+    "highly_ambiguous_ratio": 0.555127445168939,
+    "phrase_ratio": 0.009330568720379146,
+    "n_groups": 1688
+  }
+}

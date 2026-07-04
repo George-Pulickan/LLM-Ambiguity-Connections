@@ -1,0 +1,226 @@
+[
+  {
+    "group_number": 1,
+    "words": [
+      "Bass",
+      "Cello",
+      "Organ",
+      "Harp"
+    ],
+    "verification": [
+      {
+        "word": "Bass",
+        "sense_count": 9,
+        "definitions": [
+          "the lowest part of the musical range",
+          "the lowest part in polyphonic music",
+          "an adult male singer with the lowest voice",
+          "the lean flesh of a saltwater fish of the family Serranidae",
+          "any of various North American freshwater fish with lean flesh (especially of the genus Micropterus)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Cello",
+        "sense_count": 1,
+        "definitions": [
+          "a large stringed instrument; seated player holds it upright while playing"
+        ],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "Organ",
+        "sense_count": 6,
+        "definitions": [
+          "a fully differentiated structural and functional unit in an animal that is specialized for some particular function",
+          "a government agency or instrument devoted to the performance of some specific function",
+          "(music) an electronic simulation of a pipe organ",
+          "a periodical that is published by a special interest group",
+          "wind instrument whose sound is produced by means of pipes arranged in sets supplied with air from a bellows and controlled from a large complex musical keyboard"
+        ],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "Harp",
+        "sense_count": 5,
+        "definitions": [
+          "a chordophone that has a triangular frame consisting of a sounding board and a pillar and a curved neck; the strings stretched between the neck and the soundbox are plucked with the fingers",
+          "a pair of curved vertical supports for a lampshade",
+          "a small rectangular free-reed instrument having a row of free reeds set back in air holes and played by blowing into the desired hole",
+          "come back to",
+          "play the harp"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 2,
+    "words": [
+      "Light",
+      "Bright",
+      "Flash",
+      "Glow"
+    ],
+    "verification": [
+      {
+        "word": "Light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Bright",
+        "sense_count": 11,
+        "definitions": [
+          "emitting or reflecting light readily or in large amounts",
+          "having striking color",
+          "characterized by quickness and ease in learning",
+          "having lots of light either natural or artificial",
+          "made smooth and bright by or as if by rubbing; reflecting a sheen or glow"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Flash",
+        "sense_count": 19,
+        "definitions": [
+          "a sudden intense burst of radiant energy",
+          "a momentary brightness",
+          "a short vivid experience",
+          "a sudden brilliant understanding",
+          "a very short time (as the time it takes the eye to blink or the heart to beat)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Glow",
+        "sense_count": 12,
+        "definitions": [
+          "an alert and refreshed state",
+          "light from nonthermal sources",
+          "the phenomenon of light emission by a body as its temperature is raised",
+          "a feeling of considerable warmth",
+          "a steady even light without flames"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 3,
+    "words": [
+      "bark",
+      "light",
+      "draft",
+      "bat"
+    ],
+    "verification": [
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "draft",
+        "sense_count": 14,
+        "definitions": [
+          "a document ordering the payment of money; drawn by one person or bank on another",
+          "a current of air (usually coming into a chimney or room or vehicle)",
+          "a preliminary sketch of a design or picture",
+          "a serving of drink (usually alcoholic) drawn from a keg",
+          "any of the various versions in the development of a written work"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "bat",
+        "sense_count": 10,
+        "definitions": [
+          "nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate",
+          "(baseball) a turn trying to get a hit",
+          "a small racket with a long handle used for playing squash",
+          "the club used in playing cricket",
+          "a club used for hitting a ball in various games"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 4,
+    "words": [
+      "bank",
+      "duck",
+      "kick the bucket",
+      "flying planes can be dangerous"
+    ],
+    "verification": [
+      {
+        "word": "bank",
+        "sense_count": 18,
+        "definitions": [
+          "sloping land (especially the slope beside a body of water)",
+          "a financial institution that accepts deposits and channels the money into lending activities",
+          "a long ridge or pile",
+          "an arrangement of similar objects in a row or in tiers",
+          "a supply or stock held in reserve for future use (especially in emergencies)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "duck",
+        "sense_count": 8,
+        "definitions": [
+          "small wild or domesticated web-footed broad-billed swimming bird usually having a depressed body and short legs",
+          "(cricket) a score of nothing by a batsman",
+          "flesh of a duck (domestic or wild)",
+          "a heavy cotton fabric of plain weave; used for clothing and tents",
+          "to move (the head or body) quickly downwards or away"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "kick the bucket",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "flying planes can be dangerous",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+You are solving a New York Times Connections puzzle. You are given 16 words. Group them into exactly 4 groups of 4 words, where each group shares a common theme or connection.
+
+Words: {words}
+
+Use tree-of-thoughts reasoning. Explore THREE distinct candidate solutions in parallel:
+
+Branch A: Group primarily by literal semantic categories.
+Branch B: Group primarily by wordplay — homophones, homographs, hidden words, and words that precede/follow a common word.
+Branch C: Group by mixed strategies, deliberately re-assigning any word that appears to fit an obvious category (it is often a decoy).
+
+For each branch, build a complete 4x4 partition, then evaluate it: every group must have exactly 4 words, every word used exactly once, and every theme must apply to all 4 of its words and to no word outside the group. Score each branch (0-10) on those criteria and select the highest-scoring branch. If all branches score below 7, backtrack and revise the weakest groups before selecting.
+
+After your exploration, output ONLY the selected solution as a JSON object of the form:
+{{"groups": [{{"theme": "...", "words": ["w1", "w2", "w3", "w4"]}}, ...]}}

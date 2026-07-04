@@ -1,0 +1,203 @@
+[
+  {
+    "group_number": 1,
+    "words": [
+      "Apple",
+      "Date",
+      "Pear",
+      "Orange"
+    ],
+    "verification": [
+      {
+        "word": "Apple",
+        "sense_count": 2,
+        "definitions": [
+          "fruit with red or yellow or green skin and sweet to tart crisp whitish flesh",
+          "native Eurasian tree widely cultivated in many varieties for its firm rounded edible fruits"
+        ],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "Date",
+        "sense_count": 13,
+        "definitions": [
+          "the specified day of the month",
+          "a participant in a date",
+          "a meeting arranged in advance",
+          "a particular but unspecified point in time",
+          "the present"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Pear",
+        "sense_count": 2,
+        "definitions": [
+          "sweet juicy gritty-textured fruit available in many varieties",
+          "Old World tree having sweet gritty-textured juicy fruit; widely cultivated in many varieties"
+        ],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "Orange",
+        "sense_count": 6,
+        "definitions": [
+          "round yellow to orange fruit of any of several citrus trees",
+          "orange color or pigment; any of a range of colors between red and yellow",
+          "any citrus tree bearing oranges",
+          "any pigment producing the orange color",
+          "a river in South Africa that flows generally westward to the Atlantic Ocean"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 2,
+    "words": [
+      "Bark",
+      "Bat",
+      "Chair",
+      "Crane"
+    ],
+    "verification": [
+      {
+        "word": "Bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Bat",
+        "sense_count": 10,
+        "definitions": [
+          "nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate",
+          "(baseball) a turn trying to get a hit",
+          "a small racket with a long handle used for playing squash",
+          "the club used in playing cricket",
+          "a club used for hitting a ball in various games"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Chair",
+        "sense_count": 7,
+        "definitions": [
+          "a seat for one person, with a support for the back",
+          "the position of professor",
+          "the officer who presides at the meetings of an organization",
+          "an instrument of execution by electrocution; resembles an ordinary seat for one person",
+          "a particular seat in an orchestra"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Crane",
+        "sense_count": 6,
+        "definitions": [
+          "United States writer (1871-1900)",
+          "United States poet (1899-1932)",
+          "a small constellation in the southern hemisphere near Phoenix",
+          "lifts and moves heavy objects; lifting tackle is suspended from a pivoted boom that rotates around a vertical axis",
+          "large long-necked wading bird of marshes and plains in many parts of the world"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 3,
+    "words": [
+      "Seal",
+      "Bark",
+      "Bat",
+      "Date"
+    ],
+    "verification": [
+      {
+        "word": "Seal",
+        "sense_count": 15,
+        "definitions": [
+          "fastener consisting of a resinous composition that is plastic when warm; used for sealing documents and parcels and letters",
+          "a device incised to make an impression; used to secure a closing or to authenticate documents",
+          "the pelt or fur (especially the underfur) of a seal",
+          "a member of a Naval Special Warfare unit who is trained for unconventional warfare",
+          "a stamp affixed to a document (as to attest to its authenticity or to seal it)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Bat",
+        "sense_count": 10,
+        "definitions": [
+          "nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate",
+          "(baseball) a turn trying to get a hit",
+          "a small racket with a long handle used for playing squash",
+          "the club used in playing cricket",
+          "a club used for hitting a ball in various games"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Date",
+        "sense_count": 13,
+        "definitions": [
+          "the specified day of the month",
+          "a participant in a date",
+          "a meeting arranged in advance",
+          "a particular but unspecified point in time",
+          "the present"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 4,
+    "words": [
+      "\"Break the ice\"",
+      "\"Bat\"",
+      "\"Light\""
+    ],
+    "verification": [
+      {
+        "word": "\"Break the ice\"",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "\"Bat\"",
+        "sense_count": 0,
+        "definitions": [],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "\"Light\"",
+        "sense_count": 0,
+        "definitions": [],
+        "ambiguity_type": "polysemy"
+      }
+    ]
+  }
+]

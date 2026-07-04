@@ -1,0 +1,302 @@
+[
+  {
+    "puzzle_id": 1,
+    "stage1_file": "puzzle_1_stage1_output.json",
+    "stage2_file": "puzzle_1_stage2_react_output.json",
+    "stage3_file": "puzzle_1_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 2,
+    "stage1_file": "puzzle_2_stage1_output.json",
+    "stage2_file": "puzzle_2_stage2_react_output.json",
+    "stage3_file": "puzzle_2_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 3,
+    "stage1_file": "puzzle_3_stage1_output.json",
+    "stage2_file": "puzzle_3_stage2_react_output.json",
+    "stage3_file": "puzzle_3_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 4,
+    "stage1_file": "puzzle_4_stage1_output.json",
+    "stage2_file": "puzzle_4_stage2_react_output.json",
+    "stage3_file": "puzzle_4_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 5,
+    "stage1_file": "puzzle_5_stage1_output.json",
+    "stage2_file": "puzzle_5_stage2_react_output.json",
+    "stage3_file": "puzzle_5_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 6,
+    "stage1_file": "puzzle_6_stage1_output.json",
+    "stage2_file": "puzzle_6_stage2_react_output.json",
+    "stage3_file": "puzzle_6_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 7,
+    "stage1_file": "puzzle_7_stage1_output.json",
+    "stage2_file": "puzzle_7_stage2_react_output.json",
+    "stage3_file": "puzzle_7_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 8,
+    "stage1_file": "puzzle_8_stage1_output.json",
+    "stage2_file": "puzzle_8_stage2_react_output.json",
+    "stage3_file": "puzzle_8_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 9,
+    "stage1_file": "puzzle_9_stage1_output.json",
+    "stage2_file": "puzzle_9_stage2_react_output.json",
+    "stage3_file": "puzzle_9_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 10,
+    "stage1_file": "puzzle_10_stage1_output.json",
+    "stage2_file": "puzzle_10_stage2_react_output.json",
+    "stage3_file": "puzzle_10_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 11,
+    "stage1_file": "puzzle_11_stage1_output.json",
+    "stage2_file": "puzzle_11_stage2_react_output.json",
+    "stage3_file": "puzzle_11_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 12,
+    "stage1_file": "puzzle_12_stage1_output.json",
+    "stage2_file": "puzzle_12_stage2_react_output.json",
+    "stage3_file": "puzzle_12_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 13,
+    "stage1_file": "puzzle_13_stage1_output.json",
+    "stage2_file": "puzzle_13_stage2_react_output.json",
+    "stage3_file": "puzzle_13_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 14,
+    "stage1_file": "puzzle_14_stage1_output.json",
+    "stage2_file": "puzzle_14_stage2_react_output.json",
+    "stage3_file": "puzzle_14_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 15,
+    "stage1_file": "puzzle_15_stage1_output.json",
+    "stage2_file": "puzzle_15_stage2_react_output.json",
+    "stage3_file": "puzzle_15_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 16,
+    "stage1_file": "puzzle_16_stage1_output.json",
+    "stage2_file": "puzzle_16_stage2_react_output.json",
+    "stage3_file": "puzzle_16_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 17,
+    "stage1_file": "puzzle_17_stage1_output.json",
+    "stage2_file": "puzzle_17_stage2_react_output.json",
+    "stage3_file": "puzzle_17_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 18,
+    "stage1_file": "puzzle_18_stage1_output.json",
+    "stage2_file": "puzzle_18_stage2_react_output.json",
+    "stage3_file": "puzzle_18_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 19,
+    "stage1_file": "puzzle_19_stage1_output.json",
+    "stage2_file": "puzzle_19_stage2_react_output.json",
+    "stage3_file": "puzzle_19_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 20,
+    "stage1_file": "puzzle_20_stage1_output.json",
+    "stage2_file": "puzzle_20_stage2_react_output.json",
+    "stage3_file": "puzzle_20_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 21,
+    "stage1_file": "puzzle_21_stage1_output.json",
+    "stage2_file": "puzzle_21_stage2_react_output.json",
+    "stage3_file": "puzzle_21_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 22,
+    "stage1_file": "puzzle_22_stage1_output.json",
+    "stage2_file": "puzzle_22_stage2_react_output.json",
+    "stage3_file": "puzzle_22_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 23,
+    "stage1_file": "puzzle_23_stage1_output.json",
+    "stage2_file": "puzzle_23_stage2_react_output.json",
+    "stage3_file": "puzzle_23_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 24,
+    "stage1_file": "puzzle_24_stage1_output.json",
+    "stage2_file": "puzzle_24_stage2_react_output.json",
+    "stage3_file": "puzzle_24_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 25,
+    "stage1_file": "puzzle_25_stage1_output.json",
+    "stage2_file": "puzzle_25_stage2_react_output.json",
+    "stage3_file": "puzzle_25_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 26,
+    "stage1_file": "puzzle_26_stage1_output.json",
+    "stage2_file": "puzzle_26_stage2_react_output.json",
+    "stage3_file": "puzzle_26_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 27,
+    "stage1_file": "puzzle_27_stage1_output.json",
+    "stage2_file": "puzzle_27_stage2_react_output.json",
+    "stage3_file": "puzzle_27_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 28,
+    "stage1_file": "puzzle_28_stage1_output.json",
+    "stage2_file": "puzzle_28_stage2_react_output.json",
+    "stage3_file": "puzzle_28_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 29,
+    "stage1_file": "puzzle_29_stage1_output.json",
+    "stage2_file": "puzzle_29_stage2_react_output.json",
+    "stage3_file": "puzzle_29_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 30,
+    "stage1_file": "puzzle_30_stage1_output.json",
+    "stage2_file": "puzzle_30_stage2_react_output.json",
+    "stage3_file": "puzzle_30_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 31,
+    "stage1_file": "puzzle_31_stage1_output.json",
+    "stage2_file": "puzzle_31_stage2_react_output.json",
+    "stage3_file": "puzzle_31_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 32,
+    "stage1_file": "puzzle_32_stage1_output.json",
+    "stage2_file": "puzzle_32_stage2_react_output.json",
+    "stage3_file": "puzzle_32_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 33,
+    "stage1_file": "puzzle_33_stage1_output.json",
+    "stage2_file": "puzzle_33_stage2_react_output.json",
+    "stage3_file": "puzzle_33_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 34,
+    "stage1_file": "puzzle_34_stage1_output.json",
+    "stage2_file": "puzzle_34_stage2_react_output.json",
+    "stage3_file": "puzzle_34_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 35,
+    "stage1_file": "puzzle_35_stage1_output.json",
+    "stage2_file": "puzzle_35_stage2_react_output.json",
+    "stage3_file": "puzzle_35_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 36,
+    "stage1_file": "puzzle_36_stage1_output.json",
+    "stage2_file": "puzzle_36_stage2_react_output.json",
+    "stage3_file": "puzzle_36_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 37,
+    "stage1_file": "puzzle_37_stage1_output.json",
+    "stage2_file": "puzzle_37_stage2_react_output.json",
+    "stage3_file": "puzzle_37_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 38,
+    "stage1_file": "puzzle_38_stage1_output.json",
+    "stage2_file": "puzzle_38_stage2_react_output.json",
+    "stage3_file": "puzzle_38_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 39,
+    "stage1_file": "puzzle_39_stage1_output.json",
+    "stage2_file": "puzzle_39_stage2_react_output.json",
+    "stage3_file": "puzzle_39_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 40,
+    "stage1_file": "puzzle_40_stage1_output.json",
+    "stage2_file": "puzzle_40_stage2_react_output.json",
+    "stage3_file": "puzzle_40_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 41,
+    "stage1_file": "puzzle_41_stage1_output.json",
+    "stage2_file": "puzzle_41_stage2_react_output.json",
+    "stage3_file": "puzzle_41_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 42,
+    "stage1_file": "puzzle_42_stage1_output.json",
+    "stage2_file": "puzzle_42_stage2_react_output.json",
+    "stage3_file": "puzzle_42_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 43,
+    "stage1_file": "puzzle_43_stage1_output.json",
+    "stage2_file": "puzzle_43_stage2_react_output.json",
+    "stage3_file": "puzzle_43_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 44,
+    "stage1_file": "puzzle_44_stage1_output.json",
+    "stage2_file": "puzzle_44_stage2_react_output.json",
+    "stage3_file": "puzzle_44_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 45,
+    "stage1_file": "puzzle_45_stage1_output.json",
+    "stage2_file": "puzzle_45_stage2_react_output.json",
+    "stage3_file": "puzzle_45_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 46,
+    "stage1_file": "puzzle_46_stage1_output.json",
+    "stage2_file": "puzzle_46_stage2_react_output.json",
+    "stage3_file": "puzzle_46_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 47,
+    "stage1_file": "puzzle_47_stage1_output.json",
+    "stage2_file": "puzzle_47_stage2_react_output.json",
+    "stage3_file": "puzzle_47_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 48,
+    "stage1_file": "puzzle_48_stage1_output.json",
+    "stage2_file": "puzzle_48_stage2_react_output.json",
+    "stage3_file": "puzzle_48_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 49,
+    "stage1_file": "puzzle_49_stage1_output.json",
+    "stage2_file": "puzzle_49_stage2_react_output.json",
+    "stage3_file": "puzzle_49_stage3_rcot_output.json"
+  },
+  {
+    "puzzle_id": 50,
+    "stage1_file": "puzzle_50_stage1_output.json",
+    "stage2_file": "puzzle_50_stage2_react_output.json",
+    "stage3_file": "puzzle_50_stage3_rcot_output.json"
+  }
+]

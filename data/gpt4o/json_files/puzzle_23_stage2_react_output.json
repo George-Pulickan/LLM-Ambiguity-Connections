@@ -1,0 +1,226 @@
+[
+  {
+    "group_number": 1,
+    "words": [
+      "Bass",
+      "Organ",
+      "Harp",
+      "Cello"
+    ],
+    "verification": [
+      {
+        "word": "Bass",
+        "sense_count": 9,
+        "definitions": [
+          "the lowest part of the musical range",
+          "the lowest part in polyphonic music",
+          "an adult male singer with the lowest voice",
+          "the lean flesh of a saltwater fish of the family Serranidae",
+          "any of various North American freshwater fish with lean flesh (especially of the genus Micropterus)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Organ",
+        "sense_count": 6,
+        "definitions": [
+          "a fully differentiated structural and functional unit in an animal that is specialized for some particular function",
+          "a government agency or instrument devoted to the performance of some specific function",
+          "(music) an electronic simulation of a pipe organ",
+          "a periodical that is published by a special interest group",
+          "wind instrument whose sound is produced by means of pipes arranged in sets supplied with air from a bellows and controlled from a large complex musical keyboard"
+        ],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "Harp",
+        "sense_count": 5,
+        "definitions": [
+          "a chordophone that has a triangular frame consisting of a sounding board and a pillar and a curved neck; the strings stretched between the neck and the soundbox are plucked with the fingers",
+          "a pair of curved vertical supports for a lampshade",
+          "a small rectangular free-reed instrument having a row of free reeds set back in air holes and played by blowing into the desired hole",
+          "come back to",
+          "play the harp"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Cello",
+        "sense_count": 1,
+        "definitions": [
+          "a large stringed instrument; seated player holds it upright while playing"
+        ],
+        "ambiguity_type": "polysemy"
+      }
+    ]
+  },
+  {
+    "group_number": 2,
+    "words": [
+      "bark",
+      "seal",
+      "well",
+      "leaves"
+    ],
+    "verification": [
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "seal",
+        "sense_count": 15,
+        "definitions": [
+          "fastener consisting of a resinous composition that is plastic when warm; used for sealing documents and parcels and letters",
+          "a device incised to make an impression; used to secure a closing or to authenticate documents",
+          "the pelt or fur (especially the underfur) of a seal",
+          "a member of a Naval Special Warfare unit who is trained for unconventional warfare",
+          "a stamp affixed to a document (as to attest to its authenticity or to seal it)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "well",
+        "sense_count": 22,
+        "definitions": [
+          "a deep hole or shaft dug or drilled to obtain water or oil or gas or brine",
+          "a cavity or vessel used to contain liquid",
+          "an abundant source",
+          "an open shaft through the floors of a building (as for a stairway)",
+          "an enclosed compartment in a ship or plane for holding something as e.g. fish or a plane's landing gear or for protecting something as e.g. a ship's pumps"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "leaves",
+        "sense_count": 20,
+        "definitions": [
+          "the main organ of photosynthesis and transpiration in higher plants",
+          "a sheet of any written or printed material (especially in a manuscript or book)",
+          "hinged or detachable flat section (as of a table or door)",
+          "the period of time during which you are absent from work or duty",
+          "permission to do something"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 3,
+    "words": [
+      "bark",
+      "ring",
+      "seal",
+      "bark"
+    ],
+    "verification": [
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "ring",
+        "sense_count": 15,
+        "definitions": [
+          "a characteristic sound",
+          "a toroidal shape",
+          "a rigid circular band of metal or wood or other material used for holding or fastening or hanging or pulling",
+          "(chemistry) a chain of atoms in a molecule that forms a closed loop",
+          "an association of criminals"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "seal",
+        "sense_count": 15,
+        "definitions": [
+          "fastener consisting of a resinous composition that is plastic when warm; used for sealing documents and parcels and letters",
+          "a device incised to make an impression; used to secure a closing or to authenticate documents",
+          "the pelt or fur (especially the underfur) of a seal",
+          "a member of a Naval Special Warfare unit who is trained for unconventional warfare",
+          "a stamp affixed to a document (as to attest to its authenticity or to seal it)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 4,
+    "words": [
+      "bark",
+      "draw",
+      "break the bank",
+      "flying planes can be dangerous"
+    ],
+    "verification": [
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "draw",
+        "sense_count": 45,
+        "definitions": [
+          "a gully that is shallower than a ravine",
+          "an entertainer who attracts large audiences",
+          "the finish of a contest in which the score is tied and the winner is undecided",
+          "anything (straws or pebbles etc.) taken or chosen at random",
+          "a playing card or cards dealt or taken from the pack"
+        ],
+        "ambiguity_type": "figurative"
+      },
+      {
+        "word": "break the bank",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "flying planes can be dangerous",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      }
+    ]
+  }
+]

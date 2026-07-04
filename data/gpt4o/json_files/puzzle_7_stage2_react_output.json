@@ -1,0 +1,226 @@
+[
+  {
+    "group_number": 1,
+    "words": [
+      "Hammer",
+      "Saw",
+      "Drill",
+      "Level"
+    ],
+    "verification": [
+      {
+        "word": "Hammer",
+        "sense_count": 10,
+        "definitions": [
+          "the part of a gunlock that strikes the percussion cap when the trigger is pulled",
+          "a hand tool with a heavy rigid head and a handle; used to deliver an impulsive force by striking",
+          "the ossicle attached to the eardrum",
+          "a light drumstick with a rounded head that is used to strike such percussion instruments as chimes, kettledrums, marimbas, glockenspiels, etc.",
+          "a heavy metal sphere attached to a flexible wire; used in the hammer throw"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Saw",
+        "sense_count": 28,
+        "definitions": [
+          "a condensed but memorable saying embodying some important fact of experience that is taken as true by many people",
+          "hand tool having a toothed blade for cutting",
+          "a power tool for cutting wood",
+          "cut with a saw",
+          "perceive by sight or have the power to perceive by sight"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Drill",
+        "sense_count": 9,
+        "definitions": [
+          "a tool with a sharp point and cutting edges for making holes in hard materials (usually rotating rapidly or by repeated blows)",
+          "similar to the mandrill but smaller and less brightly colored",
+          "systematic training by multiple repetitions",
+          "(military) the training of soldiers to march (as in ceremonial parades) or to perform the manual of arms",
+          "make a hole, especially with a pointed power or hand tool"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Level",
+        "sense_count": 19,
+        "definitions": [
+          "a position on a scale of intensity or amount or quality",
+          "a relative position or degree of value in a graded group",
+          "a specific identifiable position in a continuum or series or especially in a process",
+          "height above ground",
+          "indicator that establishes the horizontal when a bubble is centered in a tube of liquid"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 2,
+    "words": [
+      "bark",
+      "spring",
+      "light",
+      "bat"
+    ],
+    "verification": [
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "spring",
+        "sense_count": 11,
+        "definitions": [
+          "the season of growth",
+          "a metal elastic device that returns to its shape or position when pushed or pulled or pressed",
+          "a natural flow of ground water",
+          "a point at which water issues forth",
+          "the elasticity of something that can be stretched and returns to its original length"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "bat",
+        "sense_count": 10,
+        "definitions": [
+          "nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate",
+          "(baseball) a turn trying to get a hit",
+          "a small racket with a long handle used for playing squash",
+          "the club used in playing cricket",
+          "a club used for hitting a ball in various games"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 3,
+    "words": [
+      "bark",
+      "seal",
+      "pitch",
+      "light"
+    ],
+    "verification": [
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "seal",
+        "sense_count": 15,
+        "definitions": [
+          "fastener consisting of a resinous composition that is plastic when warm; used for sealing documents and parcels and letters",
+          "a device incised to make an impression; used to secure a closing or to authenticate documents",
+          "the pelt or fur (especially the underfur) of a seal",
+          "a member of a Naval Special Warfare unit who is trained for unconventional warfare",
+          "a stamp affixed to a document (as to attest to its authenticity or to seal it)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "pitch",
+        "sense_count": 22,
+        "definitions": [
+          "the property of sound that varies with variation in the frequency of vibration",
+          "(baseball) the act of throwing a baseball by a pitcher to a batter",
+          "a vendor's position (especially on the sidewalk)",
+          "promotion by means of an argument and demonstration",
+          "degree of deviation from a horizontal plane"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 4,
+    "words": [
+      "Kick the bucket",
+      "Bite the bullet",
+      "Flying planes can be dangerous",
+      "Light"
+    ],
+    "verification": [
+      {
+        "word": "Kick the bucket",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Bite the bullet",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Flying planes can be dangerous",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  }
+]

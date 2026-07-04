@@ -1,0 +1,208 @@
+[
+  {
+    "group_number": 1,
+    "words": [
+      "Hammer",
+      "Saw",
+      "Screwdriver",
+      "Drill"
+    ],
+    "verification": [
+      {
+        "word": "Hammer",
+        "sense_count": 10,
+        "definitions": [
+          "the part of a gunlock that strikes the percussion cap when the trigger is pulled",
+          "a hand tool with a heavy rigid head and a handle; used to deliver an impulsive force by striking",
+          "the ossicle attached to the eardrum",
+          "a light drumstick with a rounded head that is used to strike such percussion instruments as chimes, kettledrums, marimbas, glockenspiels, etc.",
+          "a heavy metal sphere attached to a flexible wire; used in the hammer throw"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Saw",
+        "sense_count": 28,
+        "definitions": [
+          "a condensed but memorable saying embodying some important fact of experience that is taken as true by many people",
+          "hand tool having a toothed blade for cutting",
+          "a power tool for cutting wood",
+          "cut with a saw",
+          "perceive by sight or have the power to perceive by sight"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Screwdriver",
+        "sense_count": 2,
+        "definitions": [
+          "a hand tool for driving screws; has a tip that fits into the head of a screw",
+          "a cocktail made with vodka and orange juice"
+        ],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "Drill",
+        "sense_count": 9,
+        "definitions": [
+          "a tool with a sharp point and cutting edges for making holes in hard materials (usually rotating rapidly or by repeated blows)",
+          "similar to the mandrill but smaller and less brightly colored",
+          "systematic training by multiple repetitions",
+          "(military) the training of soldiers to march (as in ceremonial parades) or to perform the manual of arms",
+          "make a hole, especially with a pointed power or hand tool"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 2,
+    "words": [
+      "hammer",
+      "saw",
+      "drill",
+      "wrench"
+    ],
+    "verification": [
+      {
+        "word": "hammer",
+        "sense_count": 10,
+        "definitions": [
+          "the part of a gunlock that strikes the percussion cap when the trigger is pulled",
+          "a hand tool with a heavy rigid head and a handle; used to deliver an impulsive force by striking",
+          "the ossicle attached to the eardrum",
+          "a light drumstick with a rounded head that is used to strike such percussion instruments as chimes, kettledrums, marimbas, glockenspiels, etc.",
+          "a heavy metal sphere attached to a flexible wire; used in the hammer throw"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "saw",
+        "sense_count": 28,
+        "definitions": [
+          "a condensed but memorable saying embodying some important fact of experience that is taken as true by many people",
+          "hand tool having a toothed blade for cutting",
+          "a power tool for cutting wood",
+          "cut with a saw",
+          "perceive by sight or have the power to perceive by sight"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "drill",
+        "sense_count": 9,
+        "definitions": [
+          "a tool with a sharp point and cutting edges for making holes in hard materials (usually rotating rapidly or by repeated blows)",
+          "similar to the mandrill but smaller and less brightly colored",
+          "systematic training by multiple repetitions",
+          "(military) the training of soldiers to march (as in ceremonial parades) or to perform the manual of arms",
+          "make a hole, especially with a pointed power or hand tool"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "wrench",
+        "sense_count": 7,
+        "definitions": [
+          "a sharp strain on muscles or ligaments",
+          "a jerky pulling movement",
+          "a hand tool that is used to hold or twist a nut or bolt",
+          "twist or pull violently or suddenly, especially so as to remove (something) from that to which it is attached or from where it originates",
+          "make a sudden twisting motion"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 3,
+    "words": [
+      "bark",
+      "seal",
+      "crane",
+      "leaves"
+    ],
+    "verification": [
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "seal",
+        "sense_count": 15,
+        "definitions": [
+          "fastener consisting of a resinous composition that is plastic when warm; used for sealing documents and parcels and letters",
+          "a device incised to make an impression; used to secure a closing or to authenticate documents",
+          "the pelt or fur (especially the underfur) of a seal",
+          "a member of a Naval Special Warfare unit who is trained for unconventional warfare",
+          "a stamp affixed to a document (as to attest to its authenticity or to seal it)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "crane",
+        "sense_count": 6,
+        "definitions": [
+          "United States writer (1871-1900)",
+          "United States poet (1899-1932)",
+          "a small constellation in the southern hemisphere near Phoenix",
+          "lifts and moves heavy objects; lifting tackle is suspended from a pivoted boom that rotates around a vertical axis",
+          "large long-necked wading bird of marshes and plains in many parts of the world"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "leaves",
+        "sense_count": 20,
+        "definitions": [
+          "the main organ of photosynthesis and transpiration in higher plants",
+          "a sheet of any written or printed material (especially in a manuscript or book)",
+          "hinged or detachable flat section (as of a table or door)",
+          "the period of time during which you are absent from work or duty",
+          "permission to do something"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 4,
+    "words": [
+      "\"Kick the bucket\":",
+      "\"Duck\":",
+      "\"Time flies\":"
+    ],
+    "verification": [
+      {
+        "word": "\"Kick the bucket\":",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "\"Duck\":",
+        "sense_count": 0,
+        "definitions": [],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "\"Time flies\":",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      }
+    ]
+  }
+]

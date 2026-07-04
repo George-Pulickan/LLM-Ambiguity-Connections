@@ -1,0 +1,225 @@
+[
+  {
+    "group_number": 1,
+    "words": [
+      "Bass",
+      "Drum",
+      "Harp",
+      "Flute"
+    ],
+    "verification": [
+      {
+        "word": "Bass",
+        "sense_count": 9,
+        "definitions": [
+          "the lowest part of the musical range",
+          "the lowest part in polyphonic music",
+          "an adult male singer with the lowest voice",
+          "the lean flesh of a saltwater fish of the family Serranidae",
+          "any of various North American freshwater fish with lean flesh (especially of the genus Micropterus)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Drum",
+        "sense_count": 9,
+        "definitions": [
+          "a musical percussion instrument; usually consists of a hollow cylinder with a membrane stretched across each end",
+          "the sound of a drum",
+          "a bulging cylindrical shape; hollow with flat ends",
+          "a cylindrical metal container used for shipping or storage of liquids",
+          "a hollow cast-iron cylinder attached to the wheel that forms part of the brakes"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Harp",
+        "sense_count": 5,
+        "definitions": [
+          "a chordophone that has a triangular frame consisting of a sounding board and a pillar and a curved neck; the strings stretched between the neck and the soundbox are plucked with the fingers",
+          "a pair of curved vertical supports for a lampshade",
+          "a small rectangular free-reed instrument having a row of free reeds set back in air holes and played by blowing into the desired hole",
+          "come back to",
+          "play the harp"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Flute",
+        "sense_count": 4,
+        "definitions": [
+          "a high-pitched woodwind instrument; a slender tube closed at one end with finger holes on one end and an opening near the closed end across which the breath is blown",
+          "a tall narrow wineglass",
+          "a groove or furrow in cloth etc (particularly a shallow concave groove on the shaft of a column)",
+          "form flutes in"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 2,
+    "words": [
+      "Bark",
+      "Bat",
+      "Break the ice",
+      "Star"
+    ],
+    "verification": [
+      {
+        "word": "Bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Bat",
+        "sense_count": 10,
+        "definitions": [
+          "nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate",
+          "(baseball) a turn trying to get a hit",
+          "a small racket with a long handle used for playing squash",
+          "the club used in playing cricket",
+          "a club used for hitting a ball in various games"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Break the ice",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Star",
+        "sense_count": 12,
+        "definitions": [
+          "(astronomy) a celestial body of hot gases that radiates energy derived from thermonuclear reactions in the interior",
+          "someone who is dazzlingly skilled in any field",
+          "any celestial body visible (as a point of light) from the Earth at night",
+          "an actor who plays a principal role",
+          "a plane figure with 5 or more points; often used as an emblem"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 3,
+    "words": [
+      "Crane",
+      "Bark",
+      "Leaves",
+      "Date"
+    ],
+    "verification": [
+      {
+        "word": "Crane",
+        "sense_count": 6,
+        "definitions": [
+          "United States writer (1871-1900)",
+          "United States poet (1899-1932)",
+          "a small constellation in the southern hemisphere near Phoenix",
+          "lifts and moves heavy objects; lifting tackle is suspended from a pivoted boom that rotates around a vertical axis",
+          "large long-necked wading bird of marshes and plains in many parts of the world"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Leaves",
+        "sense_count": 20,
+        "definitions": [
+          "the main organ of photosynthesis and transpiration in higher plants",
+          "a sheet of any written or printed material (especially in a manuscript or book)",
+          "hinged or detachable flat section (as of a table or door)",
+          "the period of time during which you are absent from work or duty",
+          "permission to do something"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Date",
+        "sense_count": 13,
+        "definitions": [
+          "the specified day of the month",
+          "a participant in a date",
+          "a meeting arranged in advance",
+          "a particular but unspecified point in time",
+          "the present"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 4,
+    "words": [
+      "Break the ice",
+      "Bank",
+      "Duck",
+      "He saw the man with a telescope"
+    ],
+    "verification": [
+      {
+        "word": "Break the ice",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Bank",
+        "sense_count": 18,
+        "definitions": [
+          "sloping land (especially the slope beside a body of water)",
+          "a financial institution that accepts deposits and channels the money into lending activities",
+          "a long ridge or pile",
+          "an arrangement of similar objects in a row or in tiers",
+          "a supply or stock held in reserve for future use (especially in emergencies)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Duck",
+        "sense_count": 8,
+        "definitions": [
+          "small wild or domesticated web-footed broad-billed swimming bird usually having a depressed body and short legs",
+          "(cricket) a score of nothing by a batsman",
+          "flesh of a duck (domestic or wild)",
+          "a heavy cotton fabric of plain weave; used for clothing and tents",
+          "to move (the head or body) quickly downwards or away"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "He saw the man with a telescope",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      }
+    ]
+  }
+]

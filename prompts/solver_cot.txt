@@ -1,0 +1,12 @@
+You are solving a New York Times Connections puzzle. You are given 16 words. Group them into exactly 4 groups of 4 words, where each group shares a common theme or connection.
+
+Words: {words}
+
+Think step by step:
+1. For each word, list its possible meanings, including less common senses, idiomatic uses, and wordplay (homophones, hidden words, words-before/after a common word).
+2. Propose candidate themes and tentatively assign words to them.
+3. Check for conflicts — a word that fits two themes must be resolved by finding which theme has exactly four members.
+4. Iterate until you have exactly 4 disjoint groups of 4.
+
+After your reasoning, output your final answer as a JSON object of the form:
+{{"groups": [{{"theme": "...", "words": ["w1", "w2", "w3", "w4"]}}, ...]}}

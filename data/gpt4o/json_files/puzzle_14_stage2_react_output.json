@@ -1,0 +1,221 @@
+[
+  {
+    "group_number": 1,
+    "words": [
+      "Cloud",
+      "Storm",
+      "Hail",
+      "Blizzard"
+    ],
+    "verification": [
+      {
+        "word": "Cloud",
+        "sense_count": 14,
+        "definitions": [
+          "any collection of particles (e.g., smoke or dust) or gases that is visible",
+          "a visible mass of water or ice particles suspended at a considerable altitude",
+          "out of touch with reality",
+          "a cause of worry or gloom or trouble",
+          "suspicion affecting your reputation"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Storm",
+        "sense_count": 8,
+        "definitions": [
+          "a violent weather condition with winds 64-72 knots (11 on the Beaufort scale) and precipitation and thunder and lightning",
+          "a violent commotion or disturbance",
+          "a direct and violent assault on a stronghold",
+          "behave violently, as if in state of a great anger",
+          "take by force"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Hail",
+        "sense_count": 8,
+        "definitions": [
+          "precipitation of ice pellets when there are strong rising air currents",
+          "many objects thrown forcefully through the air",
+          "enthusiastic greeting",
+          "praise vociferously",
+          "be a native of"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Blizzard",
+        "sense_count": 2,
+        "definitions": [
+          "a storm with widespread snowfall accompanied by strong winds",
+          "a series of unexpected and unpleasant occurrences"
+        ],
+        "ambiguity_type": "polysemy"
+      }
+    ]
+  },
+  {
+    "group_number": 2,
+    "words": [
+      "Chair",
+      "Table",
+      "Bench",
+      "Cabinet"
+    ],
+    "verification": [
+      {
+        "word": "Chair",
+        "sense_count": 7,
+        "definitions": [
+          "a seat for one person, with a support for the back",
+          "the position of professor",
+          "the officer who presides at the meetings of an organization",
+          "an instrument of execution by electrocution; resembles an ordinary seat for one person",
+          "a particular seat in an orchestra"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Table",
+        "sense_count": 8,
+        "definitions": [
+          "a set of data arranged in rows and columns",
+          "a piece of furniture having a smooth flat top that is usually supported by one or more vertical legs",
+          "a piece of furniture with tableware for a meal laid out on it",
+          "flat tableland with steep edges",
+          "a company of people assembled at a table for a meal or game"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Bench",
+        "sense_count": 9,
+        "definitions": [
+          "a long seat for more than one person",
+          "a level shelf of land interrupting a declivity (with steep slopes above and below)",
+          "persons who administer justice",
+          "a strong worktable for a carpenter or mechanic",
+          "the magistrate or judge or judges sitting in court in judicial capacity to compose the court collectively"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Cabinet",
+        "sense_count": 4,
+        "definitions": [
+          "a piece of furniture resembling a cupboard with doors and shelves and drawers; for storage or display",
+          "persons appointed by a head of state to head executive departments of government and act as official advisers",
+          "a storage compartment for clothes and valuables; usually it has a lock",
+          "housing for electronic instruments, as radio or television"
+        ],
+        "ambiguity_type": "polysemy"
+      }
+    ]
+  },
+  {
+    "group_number": 3,
+    "words": [
+      "bark",
+      "seal",
+      "current",
+      "crane"
+    ],
+    "verification": [
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "seal",
+        "sense_count": 15,
+        "definitions": [
+          "fastener consisting of a resinous composition that is plastic when warm; used for sealing documents and parcels and letters",
+          "a device incised to make an impression; used to secure a closing or to authenticate documents",
+          "the pelt or fur (especially the underfur) of a seal",
+          "a member of a Naval Special Warfare unit who is trained for unconventional warfare",
+          "a stamp affixed to a document (as to attest to its authenticity or to seal it)"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "current",
+        "sense_count": 4,
+        "definitions": [
+          "a flow of electricity through a conductor",
+          "a steady flow of a fluid (usually from natural causes)",
+          "dominant course (suggestive of running water) of successive events or ideas",
+          "occurring in or belonging to the present time"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "crane",
+        "sense_count": 6,
+        "definitions": [
+          "United States writer (1871-1900)",
+          "United States poet (1899-1932)",
+          "a small constellation in the southern hemisphere near Phoenix",
+          "lifts and moves heavy objects; lifting tackle is suspended from a pivoted boom that rotates around a vertical axis",
+          "large long-necked wading bird of marshes and plains in many parts of the world"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 4,
+    "words": [
+      "Kick the bucket",
+      "Flying planes can be dangerous",
+      "The light was bright",
+      "Bat"
+    ],
+    "verification": [
+      {
+        "word": "Kick the bucket",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Flying planes can be dangerous",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "The light was bright",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Bat",
+        "sense_count": 10,
+        "definitions": [
+          "nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate",
+          "(baseball) a turn trying to get a hit",
+          "a small racket with a long handle used for playing squash",
+          "the club used in playing cricket",
+          "a club used for hitting a ball in various games"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  }
+]

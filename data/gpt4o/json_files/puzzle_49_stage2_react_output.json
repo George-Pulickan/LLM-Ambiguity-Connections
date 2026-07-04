@@ -1,0 +1,228 @@
+[
+  {
+    "group_number": 1,
+    "words": [
+      "apple",
+      "orange",
+      "pear",
+      "date"
+    ],
+    "verification": [
+      {
+        "word": "apple",
+        "sense_count": 2,
+        "definitions": [
+          "fruit with red or yellow or green skin and sweet to tart crisp whitish flesh",
+          "native Eurasian tree widely cultivated in many varieties for its firm rounded edible fruits"
+        ],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "orange",
+        "sense_count": 6,
+        "definitions": [
+          "round yellow to orange fruit of any of several citrus trees",
+          "orange color or pigment; any of a range of colors between red and yellow",
+          "any citrus tree bearing oranges",
+          "any pigment producing the orange color",
+          "a river in South Africa that flows generally westward to the Atlantic Ocean"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "pear",
+        "sense_count": 2,
+        "definitions": [
+          "sweet juicy gritty-textured fruit available in many varieties",
+          "Old World tree having sweet gritty-textured juicy fruit; widely cultivated in many varieties"
+        ],
+        "ambiguity_type": "polysemy"
+      },
+      {
+        "word": "date",
+        "sense_count": 13,
+        "definitions": [
+          "the specified day of the month",
+          "a participant in a date",
+          "a meeting arranged in advance",
+          "a particular but unspecified point in time",
+          "the present"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 2,
+    "words": [
+      "Hammer",
+      "Drill",
+      "Saw",
+      "Wrench"
+    ],
+    "verification": [
+      {
+        "word": "Hammer",
+        "sense_count": 10,
+        "definitions": [
+          "the part of a gunlock that strikes the percussion cap when the trigger is pulled",
+          "a hand tool with a heavy rigid head and a handle; used to deliver an impulsive force by striking",
+          "the ossicle attached to the eardrum",
+          "a light drumstick with a rounded head that is used to strike such percussion instruments as chimes, kettledrums, marimbas, glockenspiels, etc.",
+          "a heavy metal sphere attached to a flexible wire; used in the hammer throw"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Drill",
+        "sense_count": 9,
+        "definitions": [
+          "a tool with a sharp point and cutting edges for making holes in hard materials (usually rotating rapidly or by repeated blows)",
+          "similar to the mandrill but smaller and less brightly colored",
+          "systematic training by multiple repetitions",
+          "(military) the training of soldiers to march (as in ceremonial parades) or to perform the manual of arms",
+          "make a hole, especially with a pointed power or hand tool"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Saw",
+        "sense_count": 28,
+        "definitions": [
+          "a condensed but memorable saying embodying some important fact of experience that is taken as true by many people",
+          "hand tool having a toothed blade for cutting",
+          "a power tool for cutting wood",
+          "cut with a saw",
+          "perceive by sight or have the power to perceive by sight"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Wrench",
+        "sense_count": 7,
+        "definitions": [
+          "a sharp strain on muscles or ligaments",
+          "a jerky pulling movement",
+          "a hand tool that is used to hold or twist a nut or bolt",
+          "twist or pull violently or suddenly, especially so as to remove (something) from that to which it is attached or from where it originates",
+          "make a sudden twisting motion"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 3,
+    "words": [
+      "bark",
+      "bat",
+      "foot",
+      "light"
+    ],
+    "verification": [
+      {
+        "word": "bark",
+        "sense_count": 9,
+        "definitions": [
+          "tough protective covering of the woody stems and roots of trees and other woody plants",
+          "a noise resembling the bark of a dog",
+          "a sailing ship with 3 (or more) masts",
+          "the sound made by a dog",
+          "speak in an unfriendly tone"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "bat",
+        "sense_count": 10,
+        "definitions": [
+          "nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate",
+          "(baseball) a turn trying to get a hit",
+          "a small racket with a long handle used for playing squash",
+          "the club used in playing cricket",
+          "a club used for hitting a ball in various games"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "foot",
+        "sense_count": 14,
+        "definitions": [
+          "the part of the leg of a human being below the ankle joint",
+          "a linear unit of length equal to 12 inches or a third of a yard",
+          "the lower part of anything",
+          "the pedal extremity of vertebrates other than human beings",
+          "lowest support of a structure"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  },
+  {
+    "group_number": 4,
+    "words": [
+      "Break the ice",
+      "Saw",
+      "Light",
+      "Bank"
+    ],
+    "verification": [
+      {
+        "word": "Break the ice",
+        "sense_count": 0,
+        "definitions": [
+          "Idiomatic phrase, non-literal meaning"
+        ],
+        "ambiguity_type": "idiomatic"
+      },
+      {
+        "word": "Saw",
+        "sense_count": 28,
+        "definitions": [
+          "a condensed but memorable saying embodying some important fact of experience that is taken as true by many people",
+          "hand tool having a toothed blade for cutting",
+          "a power tool for cutting wood",
+          "cut with a saw",
+          "perceive by sight or have the power to perceive by sight"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Light",
+        "sense_count": 47,
+        "definitions": [
+          "(physics) electromagnetic radiation that can produce a visual sensation",
+          "any device serving as a source of illumination",
+          "a particular perspective or aspect of a situation",
+          "the quality of being luminous; emitting or reflecting light",
+          "an illuminated area"
+        ],
+        "ambiguity_type": "homonymy"
+      },
+      {
+        "word": "Bank",
+        "sense_count": 18,
+        "definitions": [
+          "sloping land (especially the slope beside a body of water)",
+          "a financial institution that accepts deposits and channels the money into lending activities",
+          "a long ridge or pile",
+          "an arrangement of similar objects in a row or in tiers",
+          "a supply or stock held in reserve for future use (especially in emergencies)"
+        ],
+        "ambiguity_type": "homonymy"
+      }
+    ]
+  }
+]
